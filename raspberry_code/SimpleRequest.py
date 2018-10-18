@@ -60,6 +60,9 @@ def parse_args():
     parser.add_argument('--timestep_send', type=float, default=3)
     parser.add_argument('--max_time', type=float, default=9)
     parser.add_argument('--verbose', type=bool, default=True)
+    parser.add_argument('--label', type=str, default='')
+    parser.add_argument('--meta', type=str, default='')
+    parser.add_argument('--peopleId', type=str, default='')
     return parser.parse_args()
 
 
