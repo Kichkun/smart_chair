@@ -29,7 +29,7 @@ class SimpleRequest:
 
     def collectAccelerometer(self, ax, ay, az, label, metainfo, peopleId, typeSensor):
         req = {
-            'dateCreated':datetime.now().date().isoformat(),
+            'dateCreated':datetime.now().isoformat(),
             'label':label,
             'metaInfo':metainfo,
             'peopleId':peopleId,
@@ -37,7 +37,7 @@ class SimpleRequest:
             'ax':ax,
             'ay':ay,
             'az':az,
-            'time': datetime.now().time().strftime(TIME_FORMAT),
+            # 'time': datetime.now().time().strftime(TIME_FORMAT),
             # 'timestep_detect': timestep_detect
         }
         self.dataAccelerometer.append(req)
@@ -47,12 +47,12 @@ class SimpleRequest:
             'x':x,
             'y':y,
             'z':z,
-            'dateCreated':datetime.now().date().isoformat(),
+            'dateCreated':datetime.now().isoformat(),
             'label':label,
             'metaInfo':metainfo,
             'peopleId':peopleId,
             'typeSensor':typeSensor,
-            'time': datetime.now().time().strftime(TIME_FORMAT),
+            # 'time': datetime.now().time().strftime(TIME_FORMAT),
         }
         self.dataMagnetometer.append(req)
 
