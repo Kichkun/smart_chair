@@ -30,15 +30,15 @@ class SimpleRequest:
                'typeSensor':typeSensor,'ax':ax,'ay':ay,'az':az}
         self.dataAccelerometer.append(req)
 
-    def collectMagnetometer(self, ax, ay, az, label, metainfo, peopleId, typeSensor):
-        req = {'linX':0.0,'linY':0.0,'linZ':0.0,
+    def collectMagnetometer(self, x, y, z, label, metainfo, peopleId, typeSensor):
+        req = {'x':x,'y':y,'z':z,
                'dateCreated':datetime.now().date().isoformat(),'label':label,'metaInfo':metainfo,'peopleId':peopleId,
-               'typeSensor':typeSensor,'ax':ax,'ay':ay,'az':az}
+               'typeSensor':typeSensor}
         self.dataMagnetometer.append(req)
 
     def sendData(self):
         response = requests.post(url=self.url + "/api/accelerometer", data=json.dumps(self.dataAccelerometer), headers={'content-type': 'application/json', 'Accept-Charset': 'UTF-8'})
-        print(response.content)
+        print("Acc Responce: " + response.content.decode("utf-8"))
         if (response.ok == False):
             print("an error occupied by you")
 
@@ -46,7 +46,8 @@ class SimpleRequest:
         self.dataAccelerometer = []
 
         response = requests.post(url=self.url + "/api/magnetometer", data=json.dumps(self.dataMagnetometer), headers={'content-type': 'application/json', 'Accept-Charset': 'UTF-8'})
-        print(response.content)
+        print(json.dumps(self.dataMagnetometer))
+        print("Mag Responce: " + response.content.decode("utf-8"))
         if (response.ok == False):
             print("an error occurred in you")
 
@@ -56,9 +57,9 @@ class SimpleRequest:
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--timestep_detect', type=float, default=0.1)
-    parser.add_argument('--timestep_send', type=float, default=1)
-    parser.add_argument('--max_time', type=float, default=10)
+    parser.add_argument('--timestep_detect', type=float, default=1)
+    parser.add_argument('--timestep_send', type=float, default=3)
+    parser.add_argument('--max_time', type=float, default=9)
     parser.add_argument('--verbose', type=bool, default=True)
     parser.add_argument('--label', type=str, default='')
     parser.add_argument('--meta', type=str, default='')
@@ -92,10 +93,10 @@ if __name__ == '__main__':
                 print('Accelerometer data: ', data_accelerometer)
 
             ax, ay, az = data_magnetometer
-            simple_request.collectMagnetometer(ax, ay, az, 'LaBeL', 'meta-meta', 'peopleID', 'magnetometer')
+            simple_request.collectMagnetometer(ax, ay, az, 'MagLaBeL', 'meta-meta', 'peopleID', 'magnetometer')
 
             ax, ay, az = data_accelerometer
-            simple_request.collectAccelerometer(ax, ay, az, 'LaBeL', 'meta-meta', 'peopleID', 'accelerometer')
+            simple_request.collectAccelerometer(ax, ay, az, 'AccLaBeL', 'meta-meta', 'peopleID', 'accelerometer')
 
             time.sleep(timestep_detect)
 
