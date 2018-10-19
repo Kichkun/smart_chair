@@ -11,6 +11,8 @@ sys.path.append('../')
 from accel import LIS331DLH
 from magnet import LIS3MDL
 
+TIME_FORMAT = '%H:%M:%S'
+
 class TroykaIMU(object):
     def __init__(self):
         self.magnetometer = LIS3MDL()
@@ -26,14 +28,32 @@ class SimpleRequest:
         self.url = url
 
     def collectAccelerometer(self, ax, ay, az, label, metainfo, peopleId, typeSensor):
-        req = {'dateCreated':datetime.now().date().isoformat(),'label':label,'metaInfo':metainfo,'peopleId':peopleId,
-               'typeSensor':typeSensor,'ax':ax,'ay':ay,'az':az}
+        req = {
+            'dateCreated':datetime.now().date().isoformat(),
+            'label':label,
+            'metaInfo':metainfo,
+            'peopleId':peopleId,
+            'typeSensor':typeSensor,
+            'ax':ax,
+            'ay':ay,
+            'az':az,
+            'time': datetime.now().time().strftime(TIME_FORMAT),
+            # 'timestep_detect': timestep_detect
+        }
         self.dataAccelerometer.append(req)
 
     def collectMagnetometer(self, x, y, z, label, metainfo, peopleId, typeSensor):
-        req = {'x':x,'y':y,'z':z,
-               'dateCreated':datetime.now().date().isoformat(),'label':label,'metaInfo':metainfo,'peopleId':peopleId,
-               'typeSensor':typeSensor}
+        req = {
+            'x':x,
+            'y':y,
+            'z':z,
+            'dateCreated':datetime.now().date().isoformat(),
+            'label':label,
+            'metaInfo':metainfo,
+            'peopleId':peopleId,
+            'typeSensor':typeSensor,
+            'time': datetime.now().time().strftime(TIME_FORMAT),
+        }
         self.dataMagnetometer.append(req)
 
     def sendData(self):
@@ -61,6 +81,7 @@ def parse_args():
     parser.add_argument('--timestep_send', type=float, default=10)
     parser.add_argument('--max_time', type=float, default=60)
     parser.add_argument('--verbose', type=bool, default=True)
+    parser.add_argument('--send_data', type=bool, default=True)
     parser.add_argument('--label', type=str, default='')
     parser.add_argument('--meta', type=str, default='')
     parser.add_argument('--peopleId', type=str, default='')
@@ -77,6 +98,7 @@ if __name__ == '__main__':
     label = args.label
     peopleId = args.peopleId
     meta = args.meta
+    send_data = args.send_data
 
     batch_size = int(timestep_send / timestep_detect)  # Количество измерений в одной отправке
     n_batches = int(max_time / timestep_send) # Количество отправок
@@ -95,11 +117,12 @@ if __name__ == '__main__':
                 print('Magnetometer data: ', data_magnetometer)
                 print('Accelerometer data: ', data_accelerometer)
 
-            ax, ay, az = data_magnetometer
-            simple_request.collectMagnetometer(ax, ay, az, label, meta, peopleId, 'magnetometer')
+            if send_data:
+                ax, ay, az = data_magnetometer
+                simple_request.collectMagnetometer(ax, ay, az, label, meta, peopleId, 'magnetometer')
 
-            ax, ay, az = data_accelerometer
-            simple_request.collectAccelerometer(ax, ay, az, label, meta, peopleId, 'accelerometer')
+                ax, ay, az = data_accelerometer
+                simple_request.collectAccelerometer(ax, ay, az, label, meta, peopleId, 'accelerometer')
 
             time.sleep(timestep_detect)
 
