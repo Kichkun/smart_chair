@@ -56,9 +56,9 @@ class SimpleRequest:
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--timestep_detect', type=int, default=1)
-    parser.add_argument('--timestep_send', type=float, default=3)
-    parser.add_argument('--max_time', type=float, default=9)
+    parser.add_argument('--timestep_detect', type=float, default=0.1)
+    parser.add_argument('--timestep_send', type=float, default=1)
+    parser.add_argument('--max_time', type=float, default=10)
     parser.add_argument('--verbose', type=bool, default=True)
     parser.add_argument('--label', type=str, default='')
     parser.add_argument('--meta', type=str, default='')
@@ -74,8 +74,8 @@ if __name__ == '__main__':
     max_time = args.max_time #  30 * 60  # total time of measurement
     verbose = args.verbose
 
-    batch_size = timestep_send // timestep_detect  # Количество измерений в одной отправке
-    n_batches = max_time // timestep_send  # Количество отправок
+    batch_size = int(timestep_send / timestep_detect)  # Количество измерений в одной отправке
+    n_batches = int(max_time / timestep_send) # Количество отправок
 
     imu = TroykaIMU()  # Troyka card
 
