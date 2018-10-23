@@ -1,0 +1,1001 @@
+id,date_created,label,meta_info,people_id,type_sensor,x,y,z
+10581,"2018-10-19 17:13:10","work, talking, tired, angry",,nastya,magnetometer,-752,-6212,5275
+10582,"2018-10-19 17:13:10","work, talking, tired, angry",,nastya,magnetometer,-827,-6254,5312
+10583,"2018-10-19 17:13:11","work, talking, tired, angry",,nastya,magnetometer,-827,-6281,5312
+10584,"2018-10-19 17:13:11","work, talking, tired, angry",,nastya,magnetometer,-804,-6278,5329
+10585,"2018-10-19 17:13:12","work, talking, tired, angry",,nastya,magnetometer,-803,-6262,5343
+10586,"2018-10-19 17:13:12","work, talking, tired, angry",,nastya,magnetometer,-801,-6258,5308
+10587,"2018-10-19 17:13:13","work, talking, tired, angry",,nastya,magnetometer,-775,-6288,5323
+10588,"2018-10-19 17:13:13","work, talking, tired, angry",,nastya,magnetometer,-804,-6263,5270
+10589,"2018-10-19 17:13:14","work, talking, tired, angry",,nastya,magnetometer,-782,-6262,5302
+10590,"2018-10-19 17:13:14","work, talking, tired, angry",,nastya,magnetometer,-830,-6265,5333
+10591,"2018-10-19 17:13:15","work, talking, tired, angry",,nastya,magnetometer,-808,-6248,5266
+10592,"2018-10-19 17:13:15","work, talking, tired, angry",,nastya,magnetometer,-775,-6287,5294
+10593,"2018-10-19 17:13:16","work, talking, tired, angry",,nastya,magnetometer,-785,-6260,5281
+10594,"2018-10-19 17:13:16","work, talking, tired, angry",,nastya,magnetometer,-799,-6277,5273
+10595,"2018-10-19 17:13:17","work, talking, tired, angry",,nastya,magnetometer,-792,-6270,5317
+10596,"2018-10-19 17:13:17","work, talking, tired, angry",,nastya,magnetometer,-822,-6279,5312
+10597,"2018-10-19 17:13:18","work, talking, tired, angry",,nastya,magnetometer,-788,-6307,5346
+10598,"2018-10-19 17:13:18","work, talking, tired, angry",,nastya,magnetometer,-808,-6281,5328
+10599,"2018-10-19 17:13:19","work, talking, tired, angry",,nastya,magnetometer,-816,-6304,5340
+10600,"2018-10-19 17:13:19","work, talking, tired, angry",,nastya,magnetometer,-789,-6290,5300
+10601,"2018-10-19 17:13:21","work, talking, tired, angry",,nastya,magnetometer,-778,-6313,5292
+10602,"2018-10-19 17:13:21","work, talking, tired, angry",,nastya,magnetometer,-811,-6315,5265
+10603,"2018-10-19 17:13:22","work, talking, tired, angry",,nastya,magnetometer,-819,-6295,5235
+10604,"2018-10-19 17:13:22","work, talking, tired, angry",,nastya,magnetometer,-801,-6292,5273
+10605,"2018-10-19 17:13:23","work, talking, tired, angry",,nastya,magnetometer,-804,-6291,5318
+10606,"2018-10-19 17:13:23","work, talking, tired, angry",,nastya,magnetometer,-830,-6322,5275
+10607,"2018-10-19 17:13:24","work, talking, tired, angry",,nastya,magnetometer,-835,-6303,5304
+10608,"2018-10-19 17:13:24","work, talking, tired, angry",,nastya,magnetometer,-823,-6312,5302
+10609,"2018-10-19 17:13:25","work, talking, tired, angry",,nastya,magnetometer,-823,-6297,5271
+10610,"2018-10-19 17:13:25","work, talking, tired, angry",,nastya,magnetometer,-831,-6300,5302
+10611,"2018-10-19 17:13:26","work, talking, tired, angry",,nastya,magnetometer,-779,-6265,5328
+10612,"2018-10-19 17:13:26","work, talking, tired, angry",,nastya,magnetometer,-792,-6307,5257
+10613,"2018-10-19 17:13:27","work, talking, tired, angry",,nastya,magnetometer,-818,-6276,5234
+10614,"2018-10-19 17:13:27","work, talking, tired, angry",,nastya,magnetometer,-801,-6265,5225
+10615,"2018-10-19 17:13:28","work, talking, tired, angry",,nastya,magnetometer,-829,-6299,5286
+10616,"2018-10-19 17:13:28","work, talking, tired, angry",,nastya,magnetometer,-795,-6267,5261
+10617,"2018-10-19 17:13:29","work, talking, tired, angry",,nastya,magnetometer,-745,-6312,5250
+10618,"2018-10-19 17:13:29","work, talking, tired, angry",,nastya,magnetometer,-759,-6301,5277
+10619,"2018-10-19 17:13:30","work, talking, tired, angry",,nastya,magnetometer,-791,-6290,5301
+10620,"2018-10-19 17:13:30","work, talking, tired, angry",,nastya,magnetometer,-790,-6284,5264
+10621,"2018-10-19 17:13:32","work, talking, tired, angry",,nastya,magnetometer,-770,-6286,5238
+10622,"2018-10-19 17:13:32","work, talking, tired, angry",,nastya,magnetometer,-710,-6348,5119
+10623,"2018-10-19 17:13:33","work, talking, tired, angry",,nastya,magnetometer,-643,-6544,5018
+10624,"2018-10-19 17:13:33","work, talking, tired, angry",,nastya,magnetometer,-545,-6809,4998
+10625,"2018-10-19 17:13:34","work, talking, tired, angry",,nastya,magnetometer,-545,-6754,4985
+10626,"2018-10-19 17:13:34","work, talking, tired, angry",,nastya,magnetometer,-522,-6733,4982
+10627,"2018-10-19 17:13:35","work, talking, tired, angry",,nastya,magnetometer,-519,-6875,4971
+10628,"2018-10-19 17:13:35","work, talking, tired, angry",,nastya,magnetometer,-436,-7014,5024
+10629,"2018-10-19 17:13:36","work, talking, tired, angry",,nastya,magnetometer,-486,-6822,4946
+10630,"2018-10-19 17:13:36","work, talking, tired, angry",,nastya,magnetometer,-717,-6624,5055
+10631,"2018-10-19 17:13:37","work, talking, tired, angry",,nastya,magnetometer,-731,-6750,4919
+10632,"2018-10-19 17:13:37","work, talking, tired, angry",,nastya,magnetometer,-658,-6990,4847
+10633,"2018-10-19 17:13:38","work, talking, tired, angry",,nastya,magnetometer,-630,-6973,4886
+10634,"2018-10-19 17:13:38","work, talking, tired, angry",,nastya,magnetometer,-628,-6810,4948
+10635,"2018-10-19 17:13:39","work, talking, tired, angry",,nastya,magnetometer,-735,-6709,5054
+10636,"2018-10-19 17:13:39","work, talking, tired, angry",,nastya,magnetometer,-841,-6306,5064
+10637,"2018-10-19 17:13:40","work, talking, tired, angry",,nastya,magnetometer,-947,-5763,5030
+10638,"2018-10-19 17:13:40","work, talking, tired, angry",,nastya,magnetometer,-951,-5440,5036
+10639,"2018-10-19 17:13:41","work, talking, tired, angry",,nastya,magnetometer,-829,-6048,5030
+10640,"2018-10-19 17:13:41","work, talking, tired, angry",,nastya,magnetometer,-889,-6005,4961
+10641,"2018-10-19 17:13:43","work, talking, tired, angry",,nastya,magnetometer,-1000,-5768,5068
+10642,"2018-10-19 17:13:44","work, talking, tired, angry",,nastya,magnetometer,-1011,-5758,5027
+10643,"2018-10-19 17:13:44","work, talking, tired, angry",,nastya,magnetometer,-995,-5730,5014
+10644,"2018-10-19 17:13:45","work, talking, tired, angry",,nastya,magnetometer,-979,-5810,5053
+10645,"2018-10-19 17:13:45","work, talking, tired, angry",,nastya,magnetometer,-946,-5817,5056
+10646,"2018-10-19 17:13:46","work, talking, tired, angry",,nastya,magnetometer,-945,-5878,5032
+10647,"2018-10-19 17:13:46","work, talking, tired, angry",,nastya,magnetometer,-947,-5841,5086
+10648,"2018-10-19 17:13:47","work, talking, tired, angry",,nastya,magnetometer,-957,-5839,5088
+10649,"2018-10-19 17:13:47","work, talking, tired, angry",,nastya,magnetometer,-913,-5901,5100
+10650,"2018-10-19 17:13:48","work, talking, tired, angry",,nastya,magnetometer,-901,-5972,5059
+10651,"2018-10-19 17:13:48","work, talking, tired, angry",,nastya,magnetometer,-964,-5855,5071
+10652,"2018-10-19 17:13:49","work, talking, tired, angry",,nastya,magnetometer,-916,-5803,5025
+10653,"2018-10-19 17:13:49","work, talking, tired, angry",,nastya,magnetometer,-926,-5861,5028
+10654,"2018-10-19 17:13:50","work, talking, tired, angry",,nastya,magnetometer,-940,-5740,5118
+10655,"2018-10-19 17:13:50","work, talking, tired, angry",,nastya,magnetometer,-951,-5741,5111
+10656,"2018-10-19 17:13:51","work, talking, tired, angry",,nastya,magnetometer,-852,-6146,5057
+10657,"2018-10-19 17:13:51","work, talking, tired, angry",,nastya,magnetometer,-814,-6412,5041
+10658,"2018-10-19 17:13:52","work, talking, tired, angry",,nastya,magnetometer,-844,-6259,5044
+10659,"2018-10-19 17:13:52","work, talking, tired, angry",,nastya,magnetometer,-822,-6281,5070
+10660,"2018-10-19 17:13:53","work, talking, tired, angry",,nastya,magnetometer,-838,-6300,5049
+10661,"2018-10-19 17:13:54","work, talking, tired, angry",,nastya,magnetometer,-937,-5852,5078
+10662,"2018-10-19 17:13:55","work, talking, tired, angry",,nastya,magnetometer,-925,-5864,5037
+10663,"2018-10-19 17:13:55","work, talking, tired, angry",,nastya,magnetometer,-905,-5991,4983
+10664,"2018-10-19 17:13:56","work, talking, tired, angry",,nastya,magnetometer,-882,-5979,4966
+10665,"2018-10-19 17:13:56","work, talking, tired, angry",,nastya,magnetometer,-867,-6079,5024
+10666,"2018-10-19 17:13:57","work, talking, tired, angry",,nastya,magnetometer,-833,-6123,4982
+10667,"2018-10-19 17:13:57","work, talking, tired, angry",,nastya,magnetometer,-862,-6092,4988
+10668,"2018-10-19 17:13:58","work, talking, tired, angry",,nastya,magnetometer,-854,-6121,5024
+10669,"2018-10-19 17:13:58","work, talking, tired, angry",,nastya,magnetometer,-864,-6074,4961
+10670,"2018-10-19 17:13:59","work, talking, tired, angry",,nastya,magnetometer,-848,-5965,5002
+10671,"2018-10-19 17:13:59","work, talking, tired, angry",,nastya,magnetometer,-848,-6017,5023
+10672,"2018-10-19 17:14:00","work, talking, tired, angry",,nastya,magnetometer,-837,-6102,5027
+10673,"2018-10-19 17:14:00","work, talking, tired, angry",,nastya,magnetometer,-835,-6135,5006
+10674,"2018-10-19 17:14:01","work, talking, tired, angry",,nastya,magnetometer,-859,-6030,4970
+10675,"2018-10-19 17:14:01","work, talking, tired, angry",,nastya,magnetometer,-877,-5994,4998
+10676,"2018-10-19 17:14:02","work, talking, tired, angry",,nastya,magnetometer,-876,-6043,4976
+10677,"2018-10-19 17:14:02","work, talking, tired, angry",,nastya,magnetometer,-866,-6073,5010
+10678,"2018-10-19 17:14:03","work, talking, tired, angry",,nastya,magnetometer,-839,-6060,5020
+10679,"2018-10-19 17:14:03","work, talking, tired, angry",,nastya,magnetometer,-843,-6079,4988
+10680,"2018-10-19 17:14:04","work, talking, tired, angry",,nastya,magnetometer,-823,-6118,5024
+10681,"2018-10-19 17:14:05","work, talking, tired, angry",,nastya,magnetometer,-851,-6115,5018
+10682,"2018-10-19 17:14:06","work, talking, tired, angry",,nastya,magnetometer,-848,-6091,5056
+10683,"2018-10-19 17:14:06","work, talking, tired, angry",,nastya,magnetometer,-904,-5943,5072
+10684,"2018-10-19 17:14:07","work, talking, tired, angry",,nastya,magnetometer,-879,-6025,5051
+10685,"2018-10-19 17:14:07","work, talking, tired, angry",,nastya,magnetometer,-869,-6046,5047
+10686,"2018-10-19 17:14:08","work, talking, tired, angry",,nastya,magnetometer,-877,-6051,5057
+10687,"2018-10-19 17:14:08","work, talking, tired, angry",,nastya,magnetometer,-854,-6033,5026
+10688,"2018-10-19 17:14:09","work, talking, tired, angry",,nastya,magnetometer,-876,-6075,5055
+10689,"2018-10-19 17:14:09","work, talking, tired, angry",,nastya,magnetometer,-863,-6052,5091
+10690,"2018-10-19 17:14:10","work, talking, tired, angry",,nastya,magnetometer,-850,-6085,5050
+10691,"2018-10-19 17:14:10","work, talking, tired, angry",,nastya,magnetometer,-855,-5993,5040
+10692,"2018-10-19 17:14:11","work, talking, tired, angry",,nastya,magnetometer,-869,-5957,5018
+10693,"2018-10-19 17:14:11","work, talking, tired, angry",,nastya,magnetometer,-880,-6002,5028
+10694,"2018-10-19 17:14:12","work, talking, tired, angry",,nastya,magnetometer,-875,-6040,4989
+10695,"2018-10-19 17:14:12","work, talking, tired, angry",,nastya,magnetometer,-844,-6014,5047
+10696,"2018-10-19 17:14:13","work, talking, tired, angry",,nastya,magnetometer,-840,-6032,5053
+10697,"2018-10-19 17:14:13","work, talking, tired, angry",,nastya,magnetometer,-852,-6091,5033
+10698,"2018-10-19 17:14:14","work, talking, tired, angry",,nastya,magnetometer,-738,-6541,5091
+10699,"2018-10-19 17:14:14","work, talking, tired, angry",,nastya,magnetometer,-725,-6820,5111
+10700,"2018-10-19 17:14:15","work, talking, tired, angry",,nastya,magnetometer,-777,-6672,5125
+10701,"2018-10-19 17:24:58","work, talking, tired",,nastya,magnetometer,-870,-5976,4998
+10702,"2018-10-19 17:24:59","work, talking, tired",,nastya,magnetometer,-884,-5958,5085
+10703,"2018-10-19 17:24:59","work, talking, tired",,nastya,magnetometer,-875,-5976,5056
+10704,"2018-10-19 17:25:00","work, talking, tired",,nastya,magnetometer,-906,-6019,5036
+10705,"2018-10-19 17:25:00","work, talking, tired",,nastya,magnetometer,-901,-6002,5020
+10706,"2018-10-19 17:25:01","work, talking, tired",,nastya,magnetometer,-907,-6026,5025
+10707,"2018-10-19 17:25:01","work, talking, tired",,nastya,magnetometer,-917,-6003,5037
+10708,"2018-10-19 17:25:02","work, talking, tired",,nastya,magnetometer,-912,-5965,5042
+10709,"2018-10-19 17:25:02","work, talking, tired",,nastya,magnetometer,-933,-5953,5011
+10710,"2018-10-19 17:25:03","work, talking, tired",,nastya,magnetometer,-924,-6005,5005
+10711,"2018-10-19 17:25:03","work, talking, tired",,nastya,magnetometer,-933,-5969,5032
+10712,"2018-10-19 17:25:04","work, talking, tired",,nastya,magnetometer,-907,-5920,5018
+10713,"2018-10-19 17:25:05","work, talking, tired",,nastya,magnetometer,-887,-6002,4997
+10714,"2018-10-19 17:25:05","work, talking, tired",,nastya,magnetometer,-894,-5960,5066
+10715,"2018-10-19 17:25:06","work, talking, tired",,nastya,magnetometer,-934,-6011,4995
+10716,"2018-10-19 17:25:06","work, talking, tired",,nastya,magnetometer,-922,-5996,5003
+10717,"2018-10-19 17:25:07","work, talking, tired",,nastya,magnetometer,-898,-6014,5019
+10718,"2018-10-19 17:25:07","work, talking, tired",,nastya,magnetometer,-927,-5970,4982
+10719,"2018-10-19 17:25:08","work, talking, tired",,nastya,magnetometer,-897,-5983,5014
+10720,"2018-10-19 17:25:08","work, talking, tired",,nastya,magnetometer,-906,-5967,5012
+10721,"2018-10-19 17:25:10","work, talking, tired",,nastya,magnetometer,-910,-5986,5074
+10722,"2018-10-19 17:25:10","work, talking, tired",,nastya,magnetometer,-877,-5986,4973
+10723,"2018-10-19 17:25:11","work, talking, tired",,nastya,magnetometer,-901,-5994,4950
+10724,"2018-10-19 17:25:11","work, talking, tired",,nastya,magnetometer,-883,-5943,5033
+10725,"2018-10-19 17:25:12","work, talking, tired",,nastya,magnetometer,-882,-5960,5023
+10726,"2018-10-19 17:25:12","work, talking, tired",,nastya,magnetometer,-904,-5990,4944
+10727,"2018-10-19 17:25:13","work, talking, tired",,nastya,magnetometer,-933,-5987,4980
+10728,"2018-10-19 17:25:13","work, talking, tired",,nastya,magnetometer,-911,-5990,4989
+10729,"2018-10-19 17:25:14","work, talking, tired",,nastya,magnetometer,-940,-5947,4995
+10730,"2018-10-19 17:25:14","work, talking, tired",,nastya,magnetometer,-911,-5967,4986
+10731,"2018-10-19 17:25:15","work, talking, tired",,nastya,magnetometer,-896,-5945,4990
+10732,"2018-10-19 17:25:15","work, talking, tired",,nastya,magnetometer,-900,-5984,4969
+10733,"2018-10-19 17:25:16","work, talking, tired",,nastya,magnetometer,-856,-5988,4971
+10734,"2018-10-19 17:25:16","work, talking, tired",,nastya,magnetometer,-880,-6008,5055
+10735,"2018-10-19 17:25:17","work, talking, tired",,nastya,magnetometer,-915,-5966,4978
+10736,"2018-10-19 17:25:17","work, talking, tired",,nastya,magnetometer,-885,-5998,5006
+10737,"2018-10-19 17:25:18","work, talking, tired",,nastya,magnetometer,-895,-5963,4980
+10738,"2018-10-19 17:25:18","work, talking, tired",,nastya,magnetometer,-879,-6002,4990
+10739,"2018-10-19 17:25:19","work, talking, tired",,nastya,magnetometer,-918,-6022,4994
+10740,"2018-10-19 17:25:19","work, talking, tired",,nastya,magnetometer,-897,-5971,4963
+10741,"2018-10-19 17:25:21","work, talking, tired",,nastya,magnetometer,-872,-6006,5042
+10742,"2018-10-19 17:25:21","work, talking, tired",,nastya,magnetometer,-914,-5975,5011
+10743,"2018-10-19 17:25:22","work, talking, tired",,nastya,magnetometer,-926,-5978,4987
+10744,"2018-10-19 17:25:22","work, talking, tired",,nastya,magnetometer,-894,-5979,4998
+10745,"2018-10-19 17:25:23","work, talking, tired",,nastya,magnetometer,-859,-5999,5041
+10746,"2018-10-19 17:25:23","work, talking, tired",,nastya,magnetometer,-888,-6001,5016
+10747,"2018-10-19 17:25:24","work, talking, tired",,nastya,magnetometer,-923,-5979,5042
+10748,"2018-10-19 17:25:24","work, talking, tired",,nastya,magnetometer,-925,-6015,4997
+10749,"2018-10-19 17:25:25","work, talking, tired",,nastya,magnetometer,-905,-6011,5037
+10750,"2018-10-19 17:25:25","work, talking, tired",,nastya,magnetometer,-867,-6003,5012
+10751,"2018-10-19 17:25:26","work, talking, tired",,nastya,magnetometer,-907,-5992,4986
+10752,"2018-10-19 17:25:26","work, talking, tired",,nastya,magnetometer,-900,-6025,4964
+10753,"2018-10-19 17:25:27","work, talking, tired",,nastya,magnetometer,-881,-6009,5007
+10754,"2018-10-19 17:25:27","work, talking, tired",,nastya,magnetometer,-873,-6000,4996
+10755,"2018-10-19 17:25:28","work, talking, tired",,nastya,magnetometer,-882,-5987,5018
+10756,"2018-10-19 17:25:28","work, talking, tired",,nastya,magnetometer,-915,-6007,5013
+10757,"2018-10-19 17:25:29","work, talking, tired",,nastya,magnetometer,-883,-5997,5017
+10758,"2018-10-19 17:25:29","work, talking, tired",,nastya,magnetometer,-876,-6025,4980
+10759,"2018-10-19 17:25:30","work, talking, tired",,nastya,magnetometer,-855,-6024,5051
+10760,"2018-10-19 17:25:30","work, talking, tired",,nastya,magnetometer,-888,-5981,4976
+10761,"2018-10-19 17:25:32","work, talking, tired",,nastya,magnetometer,-875,-6003,5045
+10762,"2018-10-19 17:25:32","work, talking, tired",,nastya,magnetometer,-872,-6003,5028
+10763,"2018-10-19 17:25:33","work, talking, tired",,nastya,magnetometer,-897,-6008,5027
+10764,"2018-10-19 17:25:33","work, talking, tired",,nastya,magnetometer,-907,-5997,4960
+10765,"2018-10-19 17:25:34","work, talking, tired",,nastya,magnetometer,-899,-6006,4982
+10766,"2018-10-19 17:25:34","work, talking, tired",,nastya,magnetometer,-878,-5965,5007
+10767,"2018-10-19 17:25:35","work, talking, tired",,nastya,magnetometer,-885,-6010,5018
+10768,"2018-10-19 17:25:35","work, talking, tired",,nastya,magnetometer,-898,-5997,5036
+10769,"2018-10-19 17:25:36","work, talking, tired",,nastya,magnetometer,-939,-6012,5020
+10770,"2018-10-19 17:25:36","work, talking, tired",,nastya,magnetometer,-875,-6029,5017
+10771,"2018-10-19 17:25:37","work, talking, tired",,nastya,magnetometer,-874,-6015,5034
+10772,"2018-10-19 17:25:37","work, talking, tired",,nastya,magnetometer,-867,-5991,5006
+10773,"2018-10-19 17:25:38","work, talking, tired",,nastya,magnetometer,-885,-6031,5028
+10774,"2018-10-19 17:25:38","work, talking, tired",,nastya,magnetometer,-907,-5999,4991
+10775,"2018-10-19 17:25:39","work, talking, tired",,nastya,magnetometer,-886,-6024,4991
+10776,"2018-10-19 17:25:39","work, talking, tired",,nastya,magnetometer,-885,-6016,4992
+10777,"2018-10-19 17:25:40","work, talking, tired",,nastya,magnetometer,-894,-6052,4960
+10778,"2018-10-19 17:25:40","work, talking, tired",,nastya,magnetometer,-900,-6031,4945
+10779,"2018-10-19 17:25:41","work, talking, tired",,nastya,magnetometer,-904,-6007,4930
+10780,"2018-10-19 17:25:41","work, talking, tired",,nastya,magnetometer,-876,-6002,4958
+10781,"2018-10-19 17:25:43","work, talking, tired",,nastya,magnetometer,-871,-6000,4944
+10782,"2018-10-19 17:25:43","work, talking, tired",,nastya,magnetometer,-898,-6016,4974
+10783,"2018-10-19 17:25:44","work, talking, tired",,nastya,magnetometer,-896,-6003,4943
+10784,"2018-10-19 17:25:44","work, talking, tired",,nastya,magnetometer,-892,-6010,4991
+10785,"2018-10-19 17:25:45","work, talking, tired",,nastya,magnetometer,-890,-6025,4983
+10786,"2018-10-19 17:25:45","work, talking, tired",,nastya,magnetometer,-869,-5971,4961
+10787,"2018-10-19 17:25:46","work, talking, tired",,nastya,magnetometer,-898,-5986,4989
+10788,"2018-10-19 17:25:46","work, talking, tired",,nastya,magnetometer,-930,-5999,5005
+10789,"2018-10-19 17:25:47","work, talking, tired",,nastya,magnetometer,-939,-6002,4968
+10790,"2018-10-19 17:25:47","work, talking, tired",,nastya,magnetometer,-919,-6003,4972
+10791,"2018-10-19 17:25:48","work, talking, tired",,nastya,magnetometer,-933,-6018,4982
+10792,"2018-10-19 17:25:48","work, talking, tired",,nastya,magnetometer,-901,-5975,4976
+10793,"2018-10-19 17:25:49","work, talking, tired",,nastya,magnetometer,-902,-6029,5059
+10794,"2018-10-19 17:25:49","work, talking, tired",,nastya,magnetometer,-888,-5977,4995
+10795,"2018-10-19 17:25:50","work, talking, tired",,nastya,magnetometer,-908,-6017,4969
+10796,"2018-10-19 17:25:50","work, talking, tired",,nastya,magnetometer,-896,-6004,5028
+10797,"2018-10-19 17:25:51","work, talking, tired",,nastya,magnetometer,-902,-6001,5052
+10798,"2018-10-19 17:25:51","work, talking, tired",,nastya,magnetometer,-914,-5984,5102
+10799,"2018-10-19 17:25:52","work, talking, tired",,nastya,magnetometer,-911,-5978,5047
+10800,"2018-10-19 17:25:52","work, talking, tired",,nastya,magnetometer,-858,-5980,4992
+10801,"2018-10-19 17:25:54","work, talking, tired",,nastya,magnetometer,-886,-6035,5005
+10802,"2018-10-19 17:25:54","work, talking, tired",,nastya,magnetometer,-898,-6006,5015
+10803,"2018-10-19 17:25:55","work, talking, tired",,nastya,magnetometer,-904,-6031,4987
+10804,"2018-10-19 17:25:55","work, talking, tired",,nastya,magnetometer,-890,-6028,5009
+10805,"2018-10-19 17:25:56","work, talking, tired",,nastya,magnetometer,-924,-6043,5033
+10806,"2018-10-19 17:25:57","work, talking, tired",,nastya,magnetometer,-888,-6027,5048
+10807,"2018-10-19 17:25:57","work, talking, tired",,nastya,magnetometer,-872,-6012,5063
+10808,"2018-10-19 17:25:58","work, talking, tired",,nastya,magnetometer,-889,-6064,5018
+10809,"2018-10-19 17:25:58","work, talking, tired",,nastya,magnetometer,-905,-6046,4986
+10810,"2018-10-19 17:25:59","work, talking, tired",,nastya,magnetometer,-921,-6025,5078
+10811,"2018-10-19 17:25:59","work, talking, tired",,nastya,magnetometer,-887,-6021,5022
+10812,"2018-10-19 17:26:00","work, talking, tired",,nastya,magnetometer,-909,-6056,4991
+10813,"2018-10-19 17:26:00","work, talking, tired",,nastya,magnetometer,-881,-6037,5038
+10814,"2018-10-19 17:26:01","work, talking, tired",,nastya,magnetometer,-872,-6055,5059
+10815,"2018-10-19 17:26:01","work, talking, tired",,nastya,magnetometer,-897,-6015,5017
+10816,"2018-10-19 17:26:02","work, talking, tired",,nastya,magnetometer,-894,-6028,5025
+10817,"2018-10-19 17:26:02","work, talking, tired",,nastya,magnetometer,-894,-6013,5066
+10818,"2018-10-19 17:26:03","work, talking, tired",,nastya,magnetometer,-896,-5998,5004
+10819,"2018-10-19 17:26:03","work, talking, tired",,nastya,magnetometer,-918,-6006,5071
+10820,"2018-10-19 17:26:04","work, talking, tired",,nastya,magnetometer,-866,-6016,4952
+10821,"2018-10-19 17:41:30",100,,alexey,magnetometer,-210,-8390,4363
+10822,"2018-10-19 17:41:30",100,,alexey,magnetometer,-272,-8462,4274
+10823,"2018-10-19 17:41:30",100,,alexey,magnetometer,-286,-8469,4334
+10824,"2018-10-19 17:41:30",100,,alexey,magnetometer,-298,-8452,4302
+10825,"2018-10-19 17:41:30",100,,alexey,magnetometer,-288,-8443,4300
+10826,"2018-10-19 17:41:31",100,,alexey,magnetometer,-309,-8454,4330
+10827,"2018-10-19 17:41:31",100,,alexey,magnetometer,-266,-8455,4312
+10828,"2018-10-19 17:41:31",100,,alexey,magnetometer,-324,-8462,4292
+10829,"2018-10-19 17:41:31",100,,alexey,magnetometer,-283,-8455,4341
+10830,"2018-10-19 17:41:31",100,,alexey,magnetometer,-288,-8448,4273
+10831,"2018-10-19 17:41:31",100,,alexey,magnetometer,-284,-8440,4271
+10832,"2018-10-19 17:41:31",100,,alexey,magnetometer,-311,-8484,4310
+10833,"2018-10-19 17:41:31",100,,alexey,magnetometer,-309,-8432,4292
+10834,"2018-10-19 17:41:31",100,,alexey,magnetometer,-301,-8440,4326
+10835,"2018-10-19 17:41:32",100,,alexey,magnetometer,-308,-8455,4354
+10836,"2018-10-19 17:41:32",100,,alexey,magnetometer,-321,-8425,4331
+10837,"2018-10-19 17:41:32",100,,alexey,magnetometer,-305,-8444,4343
+10838,"2018-10-19 17:41:32",100,,alexey,magnetometer,-274,-8460,4327
+10839,"2018-10-19 17:41:32",100,,alexey,magnetometer,-302,-8478,4331
+10840,"2018-10-19 17:41:32",100,,alexey,magnetometer,-269,-8475,4331
+10841,"2018-10-19 17:41:32",100,,alexey,magnetometer,-313,-8479,4326
+10842,"2018-10-19 17:41:32",100,,alexey,magnetometer,-342,-8467,4308
+10843,"2018-10-19 17:41:32",100,,alexey,magnetometer,-310,-8475,4358
+10844,"2018-10-19 17:41:32",100,,alexey,magnetometer,-316,-8449,4327
+10845,"2018-10-19 17:41:33",100,,alexey,magnetometer,-325,-8476,4361
+10846,"2018-10-19 17:41:33",100,,alexey,magnetometer,-310,-8471,4324
+10847,"2018-10-19 17:41:33",100,,alexey,magnetometer,-291,-8476,4289
+10848,"2018-10-19 17:41:33",100,,alexey,magnetometer,-285,-8468,4323
+10849,"2018-10-19 17:41:33",100,,alexey,magnetometer,-297,-8476,4320
+10850,"2018-10-19 17:41:33",100,,alexey,magnetometer,-269,-8471,4283
+10851,"2018-10-19 17:41:33",100,,alexey,magnetometer,-316,-8490,4320
+10852,"2018-10-19 17:41:33",100,,alexey,magnetometer,-328,-8463,4320
+10853,"2018-10-19 17:41:33",100,,alexey,magnetometer,-294,-8490,4311
+10854,"2018-10-19 17:41:33",100,,alexey,magnetometer,-308,-8491,4335
+10855,"2018-10-19 17:41:34",100,,alexey,magnetometer,-299,-8479,4310
+10856,"2018-10-19 17:41:34",100,,alexey,magnetometer,-304,-8494,4357
+10857,"2018-10-19 17:41:34",100,,alexey,magnetometer,-284,-8459,4314
+10858,"2018-10-19 17:41:34",100,,alexey,magnetometer,-310,-8498,4352
+10859,"2018-10-19 17:41:34",100,,alexey,magnetometer,-314,-8460,4318
+10860,"2018-10-19 17:41:34",100,,alexey,magnetometer,-269,-8472,4302
+10861,"2018-10-19 17:41:34",100,,alexey,magnetometer,-283,-8484,4300
+10862,"2018-10-19 17:41:34",100,,alexey,magnetometer,-278,-8476,4314
+10863,"2018-10-19 17:41:34",100,,alexey,magnetometer,-288,-8513,4313
+10864,"2018-10-19 17:41:34",100,,alexey,magnetometer,-274,-8523,4343
+10865,"2018-10-19 17:41:35",100,,alexey,magnetometer,-262,-8487,4338
+10866,"2018-10-19 17:41:35",100,,alexey,magnetometer,-272,-8494,4325
+10867,"2018-10-19 17:41:35",100,,alexey,magnetometer,-262,-8439,4316
+10868,"2018-10-19 17:41:35",100,,alexey,magnetometer,-275,-8491,4259
+10869,"2018-10-19 17:41:35",100,,alexey,magnetometer,-293,-8460,4298
+10870,"2018-10-19 17:41:35",100,,alexey,magnetometer,-287,-8463,4327
+10871,"2018-10-19 17:41:35",100,,alexey,magnetometer,-273,-8488,4305
+10872,"2018-10-19 17:41:35",100,,alexey,magnetometer,-282,-8502,4322
+10873,"2018-10-19 17:41:35",100,,alexey,magnetometer,-301,-8487,4312
+10874,"2018-10-19 17:41:36",100,,alexey,magnetometer,-283,-8452,4331
+10875,"2018-10-19 17:41:36",100,,alexey,magnetometer,-276,-8505,4281
+10876,"2018-10-19 17:41:36",100,,alexey,magnetometer,-287,-8499,4284
+10877,"2018-10-19 17:41:36",100,,alexey,magnetometer,-315,-8487,4291
+10878,"2018-10-19 17:41:36",100,,alexey,magnetometer,-299,-8504,4333
+10879,"2018-10-19 17:41:36",100,,alexey,magnetometer,-284,-8460,4263
+10880,"2018-10-19 17:41:36",100,,alexey,magnetometer,-303,-8485,4357
+10881,"2018-10-19 17:41:36",100,,alexey,magnetometer,-269,-8504,4345
+10882,"2018-10-19 17:41:36",100,,alexey,magnetometer,-314,-8515,4267
+10883,"2018-10-19 17:41:36",100,,alexey,magnetometer,-294,-8479,4310
+10884,"2018-10-19 17:41:37",100,,alexey,magnetometer,-292,-8448,4290
+10885,"2018-10-19 17:41:37",100,,alexey,magnetometer,-282,-8484,4292
+10886,"2018-10-19 17:41:37",100,,alexey,magnetometer,-291,-8472,4280
+10887,"2018-10-19 17:41:37",100,,alexey,magnetometer,-287,-8476,4310
+10888,"2018-10-19 17:41:37",100,,alexey,magnetometer,-303,-8477,4338
+10889,"2018-10-19 17:41:37",100,,alexey,magnetometer,-289,-8466,4335
+10890,"2018-10-19 17:41:37",100,,alexey,magnetometer,-286,-8476,4305
+10891,"2018-10-19 17:41:37",100,,alexey,magnetometer,-259,-8449,4367
+10892,"2018-10-19 17:41:37",100,,alexey,magnetometer,-296,-8466,4300
+10893,"2018-10-19 17:41:37",100,,alexey,magnetometer,-287,-8483,4291
+10894,"2018-10-19 17:41:38",100,,alexey,magnetometer,-295,-8492,4306
+10895,"2018-10-19 17:41:38",100,,alexey,magnetometer,-272,-8500,4344
+10896,"2018-10-19 17:41:38",100,,alexey,magnetometer,-294,-8481,4318
+10897,"2018-10-19 17:41:38",100,,alexey,magnetometer,-312,-8499,4315
+10898,"2018-10-19 17:41:38",100,,alexey,magnetometer,-289,-8462,4305
+10899,"2018-10-19 17:41:38",100,,alexey,magnetometer,-342,-8458,4310
+10900,"2018-10-19 17:41:38",100,,alexey,magnetometer,-286,-8498,4339
+10901,"2018-10-19 17:41:38",100,,alexey,magnetometer,-289,-8475,4345
+10902,"2018-10-19 17:41:38",100,,alexey,magnetometer,-290,-8526,4329
+10903,"2018-10-19 17:41:38",100,,alexey,magnetometer,-334,-8496,4318
+10904,"2018-10-19 17:41:39",100,,alexey,magnetometer,-289,-8514,4326
+10905,"2018-10-19 17:41:39",100,,alexey,magnetometer,-315,-8479,4348
+10906,"2018-10-19 17:41:39",100,,alexey,magnetometer,-302,-8492,4346
+10907,"2018-10-19 17:41:39",100,,alexey,magnetometer,-299,-8461,4352
+10908,"2018-10-19 17:41:39",100,,alexey,magnetometer,-305,-8461,4353
+10909,"2018-10-19 17:41:39",100,,alexey,magnetometer,-309,-8469,4333
+10910,"2018-10-19 17:41:39",100,,alexey,magnetometer,-283,-8464,4369
+10911,"2018-10-19 17:41:39",100,,alexey,magnetometer,-254,-8469,4349
+10912,"2018-10-19 17:41:39",100,,alexey,magnetometer,-293,-8455,4367
+10913,"2018-10-19 17:41:40",100,,alexey,magnetometer,-274,-8462,4352
+10914,"2018-10-19 17:41:40",100,,alexey,magnetometer,-284,-8487,4338
+10915,"2018-10-19 17:41:40",100,,alexey,magnetometer,-309,-8483,4335
+10916,"2018-10-19 17:41:40",100,,alexey,magnetometer,-274,-8466,4351
+10917,"2018-10-19 17:41:40",100,,alexey,magnetometer,-299,-8483,4309
+10918,"2018-10-19 17:41:40",100,,alexey,magnetometer,-273,-8503,4366
+10919,"2018-10-19 17:41:40",100,,alexey,magnetometer,-276,-8494,4336
+10920,"2018-10-19 17:41:40",100,,alexey,magnetometer,-287,-8522,4366
+10921,"2018-10-19 17:41:42",100,,alexey,magnetometer,-230,-8540,4339
+10922,"2018-10-19 17:41:42",100,,alexey,magnetometer,-224,-8520,4348
+10923,"2018-10-19 17:41:42",100,,alexey,magnetometer,-216,-8550,4301
+10924,"2018-10-19 17:41:42",100,,alexey,magnetometer,-231,-8545,4360
+10925,"2018-10-19 17:41:43",100,,alexey,magnetometer,-212,-8565,4344
+10926,"2018-10-19 17:41:43",100,,alexey,magnetometer,-201,-8549,4379
+10927,"2018-10-19 17:41:43",100,,alexey,magnetometer,-210,-8586,4317
+10928,"2018-10-19 17:41:43",100,,alexey,magnetometer,-182,-8585,4307
+10929,"2018-10-19 17:41:43",100,,alexey,magnetometer,-173,-8599,4372
+10930,"2018-10-19 17:41:43",100,,alexey,magnetometer,-198,-8582,4316
+10931,"2018-10-19 17:41:43",100,,alexey,magnetometer,-212,-8557,4285
+10932,"2018-10-19 17:41:43",100,,alexey,magnetometer,-202,-8549,4277
+10933,"2018-10-19 17:41:43",100,,alexey,magnetometer,-189,-8563,4349
+10934,"2018-10-19 17:41:43",100,,alexey,magnetometer,-231,-8527,4322
+10935,"2018-10-19 17:41:44",100,,alexey,magnetometer,-200,-8541,4302
+10936,"2018-10-19 17:41:44",100,,alexey,magnetometer,-205,-8549,4348
+10937,"2018-10-19 17:41:44",100,,alexey,magnetometer,-214,-8564,4386
+10938,"2018-10-19 17:41:44",100,,alexey,magnetometer,-256,-8557,4367
+10939,"2018-10-19 17:41:44",100,,alexey,magnetometer,-220,-8560,4353
+10940,"2018-10-19 17:41:44",100,,alexey,magnetometer,-226,-8574,4368
+10941,"2018-10-19 17:41:44",100,,alexey,magnetometer,-226,-8560,4344
+10942,"2018-10-19 17:41:44",100,,alexey,magnetometer,-208,-8535,4335
+10943,"2018-10-19 17:41:44",100,,alexey,magnetometer,-228,-8537,4328
+10944,"2018-10-19 17:41:45",100,,alexey,magnetometer,-223,-8538,4329
+10945,"2018-10-19 17:41:45",100,,alexey,magnetometer,-243,-8567,4333
+10946,"2018-10-19 17:41:45",100,,alexey,magnetometer,-221,-8569,4356
+10947,"2018-10-19 17:41:45",100,,alexey,magnetometer,-212,-8577,4307
+10948,"2018-10-19 17:41:45",100,,alexey,magnetometer,-199,-8550,4326
+10949,"2018-10-19 17:41:45",100,,alexey,magnetometer,-244,-8572,4347
+10950,"2018-10-19 17:41:45",100,,alexey,magnetometer,-234,-8549,4278
+10951,"2018-10-19 17:41:45",100,,alexey,magnetometer,-241,-8563,4273
+10952,"2018-10-19 17:41:45",100,,alexey,magnetometer,-245,-8547,4348
+10953,"2018-10-19 17:41:45",100,,alexey,magnetometer,-217,-8566,4277
+10954,"2018-10-19 17:41:46",100,,alexey,magnetometer,-225,-8568,4307
+10955,"2018-10-19 17:41:46",100,,alexey,magnetometer,-235,-8541,4314
+10956,"2018-10-19 17:41:46",100,,alexey,magnetometer,-224,-8574,4317
+10957,"2018-10-19 17:41:46",100,,alexey,magnetometer,-218,-8561,4285
+10958,"2018-10-19 17:41:46",100,,alexey,magnetometer,-239,-8557,4342
+10959,"2018-10-19 17:41:46",100,,alexey,magnetometer,-251,-8562,4341
+10960,"2018-10-19 17:41:46",100,,alexey,magnetometer,-243,-8561,4400
+10961,"2018-10-19 17:41:46",100,,alexey,magnetometer,-235,-8550,4323
+10962,"2018-10-19 17:41:46",100,,alexey,magnetometer,-189,-8552,4329
+10963,"2018-10-19 17:41:46",100,,alexey,magnetometer,-179,-8578,4323
+10964,"2018-10-19 17:41:47",100,,alexey,magnetometer,-190,-8594,4353
+10965,"2018-10-19 17:41:47",100,,alexey,magnetometer,-211,-8622,4329
+10966,"2018-10-19 17:41:47",100,,alexey,magnetometer,-126,-8633,4605
+10967,"2018-10-19 17:41:47",100,,alexey,magnetometer,-97,-8658,4322
+10968,"2018-10-19 17:41:47",100,,alexey,magnetometer,-122,-8682,4327
+10969,"2018-10-19 17:41:47",100,,alexey,magnetometer,-131,-8678,4293
+10970,"2018-10-19 17:41:47",100,,alexey,magnetometer,-108,-8706,4353
+10971,"2018-10-19 17:41:47",100,,alexey,magnetometer,-137,-8659,4341
+10972,"2018-10-19 17:41:47",100,,alexey,magnetometer,-99,-8659,4346
+10973,"2018-10-19 17:41:48",100,,alexey,magnetometer,-132,-8653,4322
+10974,"2018-10-19 17:41:48",100,,alexey,magnetometer,-100,-8614,4301
+10975,"2018-10-19 17:41:48",100,,alexey,magnetometer,-150,-8584,4344
+10976,"2018-10-19 17:41:48",100,,alexey,magnetometer,-157,-8584,4316
+10977,"2018-10-19 17:41:48",100,,alexey,magnetometer,-191,-8589,4294
+10978,"2018-10-19 17:41:48",100,,alexey,magnetometer,-154,-8586,4333
+10979,"2018-10-19 17:41:48",100,,alexey,magnetometer,-184,-8564,4311
+10980,"2018-10-19 17:41:48",100,,alexey,magnetometer,-169,-8537,4343
+10981,"2018-10-19 17:41:48",100,,alexey,magnetometer,-159,-8565,4279
+10982,"2018-10-19 17:41:48",100,,alexey,magnetometer,-159,-8565,4285
+10983,"2018-10-19 17:41:49",100,,alexey,magnetometer,-168,-8584,4324
+10984,"2018-10-19 17:41:49",100,,alexey,magnetometer,-157,-8590,4348
+10985,"2018-10-19 17:41:49",100,,alexey,magnetometer,-160,-8566,4317
+10986,"2018-10-19 17:41:49",100,,alexey,magnetometer,-173,-8593,4334
+10987,"2018-10-19 17:41:49",100,,alexey,magnetometer,-178,-8619,4339
+10988,"2018-10-19 17:41:49",100,,alexey,magnetometer,-179,-8634,4353
+10989,"2018-10-19 17:41:49",100,,alexey,magnetometer,-177,-8608,4349
+10990,"2018-10-19 17:41:49",100,,alexey,magnetometer,-201,-8617,4292
+10991,"2018-10-19 17:41:49",100,,alexey,magnetometer,-153,-8604,4290
+10992,"2018-10-19 17:41:49",100,,alexey,magnetometer,-157,-8610,4355
+10993,"2018-10-19 17:41:50",100,,alexey,magnetometer,-142,-8578,4355
+10994,"2018-10-19 17:41:50",100,,alexey,magnetometer,-162,-8588,4346
+10995,"2018-10-19 17:41:50",100,,alexey,magnetometer,-148,-8620,4365
+10996,"2018-10-19 17:41:50",100,,alexey,magnetometer,-177,-8626,4363
+10997,"2018-10-19 17:41:50",100,,alexey,magnetometer,-163,-8610,4356
+10998,"2018-10-19 17:41:50",100,,alexey,magnetometer,-165,-8628,4338
+10999,"2018-10-19 17:41:50",100,,alexey,magnetometer,-147,-8617,4364
+11000,"2018-10-19 17:41:50",100,,alexey,magnetometer,-113,-8636,4340
+11001,"2018-10-19 17:41:50",100,,alexey,magnetometer,-142,-8624,4340
+11002,"2018-10-19 17:41:50",100,,alexey,magnetometer,-166,-8646,4335
+11003,"2018-10-19 17:41:51",100,,alexey,magnetometer,-163,-8602,4282
+11004,"2018-10-19 17:41:51",100,,alexey,magnetometer,-180,-8610,4295
+11005,"2018-10-19 17:41:51",100,,alexey,magnetometer,-174,-8617,4298
+11006,"2018-10-19 17:41:51",100,,alexey,magnetometer,-199,-8610,4304
+11007,"2018-10-19 17:41:51",100,,alexey,magnetometer,-180,-8658,4292
+11008,"2018-10-19 17:41:51",100,,alexey,magnetometer,-151,-8626,4325
+11009,"2018-10-19 17:41:51",100,,alexey,magnetometer,-163,-8617,4337
+11010,"2018-10-19 17:41:51",100,,alexey,magnetometer,-156,-8634,4349
+11011,"2018-10-19 17:41:51",100,,alexey,magnetometer,-154,-8601,4380
+11012,"2018-10-19 17:41:52",100,,alexey,magnetometer,-136,-8608,4384
+11013,"2018-10-19 17:41:52",100,,alexey,magnetometer,-123,-8653,4320
+11014,"2018-10-19 17:41:52",100,,alexey,magnetometer,-145,-8643,4250
+11015,"2018-10-19 17:41:52",100,,alexey,magnetometer,-141,-8617,4347
+11016,"2018-10-19 17:41:52",100,,alexey,magnetometer,-150,-8606,4351
+11017,"2018-10-19 17:41:52",100,,alexey,magnetometer,-150,-8625,4377
+11018,"2018-10-19 17:41:52",100,,alexey,magnetometer,-167,-8601,4327
+11019,"2018-10-19 17:41:52",100,,alexey,magnetometer,-145,-8644,4348
+11020,"2018-10-19 17:41:52",100,,alexey,magnetometer,-137,-8601,4329
+11021,"2018-10-19 17:41:54",100,,alexey,magnetometer,-140,-8596,4351
+11022,"2018-10-19 17:41:54",100,,alexey,magnetometer,-159,-8618,4358
+11023,"2018-10-19 17:41:54",100,,alexey,magnetometer,-163,-8605,4381
+11024,"2018-10-19 17:41:54",100,,alexey,magnetometer,-153,-8574,4343
+11025,"2018-10-19 17:41:55",100,,alexey,magnetometer,-180,-8600,4340
+11026,"2018-10-19 17:41:55",100,,alexey,magnetometer,-153,-8606,4305
+11027,"2018-10-19 17:41:55",100,,alexey,magnetometer,-172,-8586,4319
+11028,"2018-10-19 17:41:55",100,,alexey,magnetometer,-146,-8587,4365
+11029,"2018-10-19 17:41:55",100,,alexey,magnetometer,-157,-8594,4360
+11030,"2018-10-19 17:41:55",100,,alexey,magnetometer,-192,-8617,4355
+11031,"2018-10-19 17:41:55",100,,alexey,magnetometer,-158,-8582,4343
+11032,"2018-10-19 17:41:55",100,,alexey,magnetometer,-165,-8605,4333
+11033,"2018-10-19 17:41:55",100,,alexey,magnetometer,-156,-8610,4377
+11034,"2018-10-19 17:41:55",100,,alexey,magnetometer,-177,-8613,4353
+11035,"2018-10-19 17:41:56",100,,alexey,magnetometer,-168,-8606,4344
+11036,"2018-10-19 17:41:56",100,,alexey,magnetometer,-182,-8616,4345
+11037,"2018-10-19 17:41:56",100,,alexey,magnetometer,-175,-8598,4355
+11038,"2018-10-19 17:41:56",100,,alexey,magnetometer,-184,-8591,4320
+11039,"2018-10-19 17:41:56",100,,alexey,magnetometer,-181,-8587,4381
+11040,"2018-10-19 17:41:56",100,,alexey,magnetometer,-144,-8570,4362
+11041,"2018-10-19 17:41:56",100,,alexey,magnetometer,-159,-8602,4377
+11042,"2018-10-19 17:41:56",100,,alexey,magnetometer,-116,-8539,4354
+11043,"2018-10-19 17:41:56",100,,alexey,magnetometer,-179,-8586,4368
+11044,"2018-10-19 17:41:57",100,,alexey,magnetometer,-149,-8606,4338
+11045,"2018-10-19 17:41:57",100,,alexey,magnetometer,-163,-8576,4326
+11046,"2018-10-19 17:41:57",100,,alexey,magnetometer,-188,-8545,4329
+11047,"2018-10-19 17:41:57",100,,alexey,magnetometer,-167,-8590,4368
+11048,"2018-10-19 17:41:57",100,,alexey,magnetometer,-158,-8569,4361
+11049,"2018-10-19 17:41:57",100,,alexey,magnetometer,-153,-8598,4386
+11050,"2018-10-19 17:41:57",100,,alexey,magnetometer,-174,-8615,4358
+11051,"2018-10-19 17:41:57",100,,alexey,magnetometer,-190,-8610,4371
+11052,"2018-10-19 17:41:57",100,,alexey,magnetometer,-185,-8602,4380
+11053,"2018-10-19 17:41:57",100,,alexey,magnetometer,-194,-8578,4381
+11054,"2018-10-19 17:41:58",100,,alexey,magnetometer,-215,-8588,4357
+11055,"2018-10-19 17:41:58",100,,alexey,magnetometer,-209,-8590,4360
+11056,"2018-10-19 17:41:58",100,,alexey,magnetometer,-170,-8607,4387
+11057,"2018-10-19 17:41:58",100,,alexey,magnetometer,-190,-8587,4349
+11058,"2018-10-19 17:41:58",100,,alexey,magnetometer,-175,-8594,4396
+11059,"2018-10-19 17:41:58",100,,alexey,magnetometer,-158,-8612,4394
+11060,"2018-10-19 17:41:58",100,,alexey,magnetometer,-145,-8565,4433
+11061,"2018-10-19 17:41:58",100,,alexey,magnetometer,-129,-8606,4390
+11062,"2018-10-19 17:41:58",100,,alexey,magnetometer,-159,-8626,4345
+11063,"2018-10-19 17:41:58",100,,alexey,magnetometer,-155,-8591,4380
+11064,"2018-10-19 17:41:59",100,,alexey,magnetometer,-146,-8600,4394
+11065,"2018-10-19 17:41:59",100,,alexey,magnetometer,-175,-8608,4380
+11066,"2018-10-19 17:41:59",100,,alexey,magnetometer,-181,-8588,4388
+11067,"2018-10-19 17:41:59",100,,alexey,magnetometer,-156,-8568,4355
+11068,"2018-10-19 17:41:59",100,,alexey,magnetometer,-164,-8587,4369
+11069,"2018-10-19 17:41:59",100,,alexey,magnetometer,-170,-8564,4368
+11070,"2018-10-19 17:41:59",100,,alexey,magnetometer,-161,-8575,4391
+11071,"2018-10-19 17:41:59",100,,alexey,magnetometer,-172,-8614,4379
+11072,"2018-10-19 17:41:59",100,,alexey,magnetometer,-190,-8596,4366
+11073,"2018-10-19 17:41:59",100,,alexey,magnetometer,-172,-8625,4397
+11074,"2018-10-19 17:42:00",100,,alexey,magnetometer,-153,-8613,4391
+11075,"2018-10-19 17:42:00",100,,alexey,magnetometer,-166,-8610,4392
+11076,"2018-10-19 17:42:00",100,,alexey,magnetometer,-195,-8626,4390
+11077,"2018-10-19 17:42:00",100,,alexey,magnetometer,-163,-8632,4383
+11078,"2018-10-19 17:42:00",100,,alexey,magnetometer,-162,-8562,4378
+11079,"2018-10-19 17:42:00",100,,alexey,magnetometer,-171,-8577,4380
+11080,"2018-10-19 17:42:00",100,,alexey,magnetometer,-185,-8610,4377
+11081,"2018-10-19 17:42:00",100,,alexey,magnetometer,-177,-8591,4391
+11082,"2018-10-19 17:42:00",100,,alexey,magnetometer,-165,-8595,4390
+11083,"2018-10-19 17:42:01",100,,alexey,magnetometer,-174,-8632,4386
+11084,"2018-10-19 17:42:01",100,,alexey,magnetometer,-195,-8655,4319
+11085,"2018-10-19 17:42:01",100,,alexey,magnetometer,-186,-8645,4370
+11086,"2018-10-19 17:42:01",100,,alexey,magnetometer,-175,-8604,4330
+11087,"2018-10-19 17:42:01",100,,alexey,magnetometer,-146,-8617,4383
+11088,"2018-10-19 17:42:01",100,,alexey,magnetometer,-162,-8582,4369
+11089,"2018-10-19 17:42:01",100,,alexey,magnetometer,-171,-8587,4308
+11090,"2018-10-19 17:42:01",100,,alexey,magnetometer,-141,-8630,4331
+11091,"2018-10-19 17:42:01",100,,alexey,magnetometer,-160,-8582,4381
+11092,"2018-10-19 17:42:01",100,,alexey,magnetometer,-168,-8621,4388
+11093,"2018-10-19 17:42:02",100,,alexey,magnetometer,-196,-8637,4339
+11094,"2018-10-19 17:42:02",100,,alexey,magnetometer,-156,-8609,4349
+11095,"2018-10-19 17:42:02",100,,alexey,magnetometer,-152,-8601,4377
+11096,"2018-10-19 17:42:02",100,,alexey,magnetometer,-165,-8602,4370
+11097,"2018-10-19 17:42:02",100,,alexey,magnetometer,-173,-8645,4383
+11098,"2018-10-19 17:42:02",100,,alexey,magnetometer,-178,-8619,4374
+11099,"2018-10-19 17:42:02",100,,alexey,magnetometer,-180,-8606,4396
+11100,"2018-10-19 17:42:02",100,,alexey,magnetometer,-203,-8621,4370
+11101,"2018-10-19 17:42:02",100,,alexey,magnetometer,-186,-8617,4392
+11102,"2018-10-19 17:42:02",100,,alexey,magnetometer,-189,-8623,4377
+11103,"2018-10-19 17:42:03",100,,alexey,magnetometer,-175,-8627,4354
+11104,"2018-10-19 17:42:03",100,,alexey,magnetometer,-185,-8604,4353
+11105,"2018-10-19 17:42:03",100,,alexey,magnetometer,-172,-8601,4332
+11106,"2018-10-19 17:42:03",100,,alexey,magnetometer,-209,-8602,4591
+11107,"2018-10-19 17:42:03",100,,alexey,magnetometer,-187,-8599,4387
+11108,"2018-10-19 17:42:03",100,,alexey,magnetometer,-189,-8620,4391
+11109,"2018-10-19 17:42:03",100,,alexey,magnetometer,-172,-8626,4310
+11110,"2018-10-19 17:42:03",100,,alexey,magnetometer,-191,-8607,4436
+11111,"2018-10-19 17:42:03",100,,alexey,magnetometer,-182,-8613,4387
+11112,"2018-10-19 17:42:03",100,,alexey,magnetometer,-197,-8628,4362
+11113,"2018-10-19 17:42:04",100,,alexey,magnetometer,-206,-8627,4359
+11114,"2018-10-19 17:42:04",100,,alexey,magnetometer,-202,-8616,4342
+11115,"2018-10-19 17:42:04",100,,alexey,magnetometer,-176,-8630,4362
+11116,"2018-10-19 17:42:04",100,,alexey,magnetometer,-159,-8600,4310
+11117,"2018-10-19 17:42:04",100,,alexey,magnetometer,-142,-8613,4382
+11118,"2018-10-19 17:42:04",100,,alexey,magnetometer,-176,-8602,4400
+11119,"2018-10-19 17:42:04",100,,alexey,magnetometer,-169,-8620,4351
+11120,"2018-10-19 17:42:04",100,,alexey,magnetometer,-169,-8624,4322
+11121,"2018-10-19 17:42:06",100,,alexey,magnetometer,-165,-8613,4408
+11122,"2018-10-19 17:42:06",100,,alexey,magnetometer,-176,-8604,4340
+11123,"2018-10-19 17:42:06",100,,alexey,magnetometer,-189,-8634,4338
+11124,"2018-10-19 17:42:06",100,,alexey,magnetometer,-166,-8628,4341
+11125,"2018-10-19 17:42:06",100,,alexey,magnetometer,-213,-8624,4312
+11126,"2018-10-19 17:42:06",100,,alexey,magnetometer,-206,-8606,4319
+11127,"2018-10-19 17:42:07",100,,alexey,magnetometer,-195,-8581,4349
+11128,"2018-10-19 17:42:07",100,,alexey,magnetometer,-161,-8615,4353
+11129,"2018-10-19 17:42:07",100,,alexey,magnetometer,-188,-8603,4339
+11130,"2018-10-19 17:42:07",100,,alexey,magnetometer,-214,-8628,4346
+11131,"2018-10-19 17:42:07",100,,alexey,magnetometer,-231,-8616,4362
+11132,"2018-10-19 17:42:07",100,,alexey,magnetometer,-202,-8636,4333
+11133,"2018-10-19 17:42:07",100,,alexey,magnetometer,-213,-8614,4352
+11134,"2018-10-19 17:42:07",100,,alexey,magnetometer,-205,-8615,4340
+11135,"2018-10-19 17:42:07",100,,alexey,magnetometer,-193,-8619,4382
+11136,"2018-10-19 17:42:07",100,,alexey,magnetometer,-174,-8633,4363
+11137,"2018-10-19 17:42:08",100,,alexey,magnetometer,-194,-8610,4350
+11138,"2018-10-19 17:42:08",100,,alexey,magnetometer,-215,-8608,4361
+11139,"2018-10-19 17:42:08",100,,alexey,magnetometer,-193,-8602,4326
+11140,"2018-10-19 17:42:08",100,,alexey,magnetometer,-188,-8594,4386
+11141,"2018-10-19 17:42:08",100,,alexey,magnetometer,-190,-8638,4400
+11142,"2018-10-19 17:42:08",100,,alexey,magnetometer,-191,-8633,4374
+11143,"2018-10-19 17:42:08",100,,alexey,magnetometer,-221,-8604,4379
+11144,"2018-10-19 17:42:08",100,,alexey,magnetometer,-213,-8612,4392
+11145,"2018-10-19 17:42:08",100,,alexey,magnetometer,-191,-8585,4359
+11146,"2018-10-19 17:42:08",100,,alexey,magnetometer,-172,-8577,4387
+11147,"2018-10-19 17:42:09",100,,alexey,magnetometer,-182,-8586,4351
+11148,"2018-10-19 17:42:09",100,,alexey,magnetometer,-186,-8595,4295
+11149,"2018-10-19 17:42:09",100,,alexey,magnetometer,-186,-8614,4347
+11150,"2018-10-19 17:42:09",100,,alexey,magnetometer,-159,-8581,4323
+11151,"2018-10-19 17:42:09",100,,alexey,magnetometer,-194,-8570,4366
+11152,"2018-10-19 17:42:09",100,,alexey,magnetometer,-205,-8599,4325
+11153,"2018-10-19 17:42:09",100,,alexey,magnetometer,-205,-8592,4317
+11154,"2018-10-19 17:42:09",100,,alexey,magnetometer,-215,-8552,4325
+11155,"2018-10-19 17:42:09",100,,alexey,magnetometer,-229,-8579,4306
+11156,"2018-10-19 17:42:10",100,,alexey,magnetometer,-217,-8595,4333
+11157,"2018-10-19 17:42:10",100,,alexey,magnetometer,-189,-8550,4325
+11158,"2018-10-19 17:42:10",100,,alexey,magnetometer,-206,-8585,4344
+11159,"2018-10-19 17:42:10",100,,alexey,magnetometer,-181,-8571,4387
+11160,"2018-10-19 17:42:10",100,,alexey,magnetometer,-242,-8594,4355
+11161,"2018-10-19 17:42:10",100,,alexey,magnetometer,-228,-8563,4392
+11162,"2018-10-19 17:42:10",100,,alexey,magnetometer,-222,-8574,4413
+11163,"2018-10-19 17:42:10",100,,alexey,magnetometer,-218,-8562,4324
+11164,"2018-10-19 17:42:10",100,,alexey,magnetometer,-194,-8565,4339
+11165,"2018-10-19 17:42:10",100,,alexey,magnetometer,-183,-8578,4371
+11166,"2018-10-19 17:42:11",100,,alexey,magnetometer,-214,-8582,4389
+11167,"2018-10-19 17:42:11",100,,alexey,magnetometer,-201,-8607,4367
+11168,"2018-10-19 17:42:11",100,,alexey,magnetometer,-196,-8564,4331
+11169,"2018-10-19 17:42:11",100,,alexey,magnetometer,-221,-8592,4304
+11170,"2018-10-19 17:42:11",100,,alexey,magnetometer,-201,-8605,4327
+11171,"2018-10-19 17:42:11",100,,alexey,magnetometer,-210,-8565,4354
+11172,"2018-10-19 17:42:11",100,,alexey,magnetometer,-211,-8573,4343
+11173,"2018-10-19 17:42:11",100,,alexey,magnetometer,-216,-8586,4345
+11174,"2018-10-19 17:42:11",100,,alexey,magnetometer,-220,-8591,4336
+11175,"2018-10-19 17:42:11",100,,alexey,magnetometer,-209,-8579,4329
+11176,"2018-10-19 17:42:12",100,,alexey,magnetometer,-240,-8585,4312
+11177,"2018-10-19 17:42:12",100,,alexey,magnetometer,-224,-8607,4315
+11178,"2018-10-19 17:42:12",100,,alexey,magnetometer,-171,-8573,4333
+11179,"2018-10-19 17:42:12",100,,alexey,magnetometer,-181,-8578,4308
+11180,"2018-10-19 17:42:12",100,,alexey,magnetometer,-216,-8571,4301
+11181,"2018-10-19 17:42:12",100,,alexey,magnetometer,-221,-8585,4329
+11182,"2018-10-19 17:42:12",100,,alexey,magnetometer,-191,-8566,4324
+11183,"2018-10-19 17:42:12",100,,alexey,magnetometer,-179,-8605,4301
+11184,"2018-10-19 17:42:12",100,,alexey,magnetometer,-189,-8622,4299
+11185,"2018-10-19 17:42:12",100,,alexey,magnetometer,-179,-8605,4306
+11186,"2018-10-19 17:42:13",100,,alexey,magnetometer,-217,-8604,4325
+11187,"2018-10-19 17:42:13",100,,alexey,magnetometer,-148,-8588,4325
+11188,"2018-10-19 17:42:13",100,,alexey,magnetometer,-212,-8614,4341
+11189,"2018-10-19 17:42:13",100,,alexey,magnetometer,-178,-8597,4378
+11190,"2018-10-19 17:42:13",100,,alexey,magnetometer,-182,-8607,4344
+11191,"2018-10-19 17:42:13",100,,alexey,magnetometer,-172,-8599,4382
+11192,"2018-10-19 17:42:13",100,,alexey,magnetometer,-197,-8601,4347
+11193,"2018-10-19 17:42:13",100,,alexey,magnetometer,-195,-8569,4343
+11194,"2018-10-19 17:42:13",100,,alexey,magnetometer,-179,-8595,4352
+11195,"2018-10-19 17:42:13",100,,alexey,magnetometer,-169,-8603,4336
+11196,"2018-10-19 17:42:14",100,,alexey,magnetometer,-186,-8579,4402
+11197,"2018-10-19 17:42:14",100,,alexey,magnetometer,-191,-8596,4367
+11198,"2018-10-19 17:42:14",100,,alexey,magnetometer,-206,-8568,4382
+11199,"2018-10-19 17:42:14",100,,alexey,magnetometer,-190,-8578,4411
+11200,"2018-10-19 17:42:14",100,,alexey,magnetometer,-215,-8596,4401
+11201,"2018-10-19 17:42:14",100,,alexey,magnetometer,-188,-8581,4432
+11202,"2018-10-19 17:42:14",100,,alexey,magnetometer,-179,-8579,4413
+11203,"2018-10-19 17:42:14",100,,alexey,magnetometer,-157,-8573,4353
+11204,"2018-10-19 17:42:14",100,,alexey,magnetometer,-149,-8600,4369
+11205,"2018-10-19 17:42:15",100,,alexey,magnetometer,-138,-8574,4377
+11206,"2018-10-19 17:42:15",100,,alexey,magnetometer,-175,-8591,4358
+11207,"2018-10-19 17:42:15",100,,alexey,magnetometer,-207,-8578,4359
+11208,"2018-10-19 17:42:15",100,,alexey,magnetometer,-173,-8576,4344
+11209,"2018-10-19 17:42:15",100,,alexey,magnetometer,-159,-8589,4376
+11210,"2018-10-19 17:42:15",100,,alexey,magnetometer,-138,-8611,4339
+11211,"2018-10-19 17:42:15",100,,alexey,magnetometer,-161,-8570,4339
+11212,"2018-10-19 17:42:15",100,,alexey,magnetometer,-162,-8555,4307
+11213,"2018-10-19 17:42:15",100,,alexey,magnetometer,-189,-8556,4597
+11214,"2018-10-19 17:42:15",100,,alexey,magnetometer,-188,-8571,4321
+11215,"2018-10-19 17:42:16",100,,alexey,magnetometer,-172,-8588,4361
+11216,"2018-10-19 17:42:16",100,,alexey,magnetometer,-209,-8571,4390
+11217,"2018-10-19 17:42:16",100,,alexey,magnetometer,-171,-8584,4318
+11218,"2018-10-19 17:42:16",100,,alexey,magnetometer,-177,-8556,4346
+11219,"2018-10-19 17:42:16",100,,alexey,magnetometer,-202,-8598,4374
+11220,"2018-10-19 17:42:16",100,,alexey,magnetometer,-198,-8574,4435
+11221,"2018-10-19 17:42:18",100,,alexey,magnetometer,-218,-8578,4347
+11222,"2018-10-19 17:42:18",100,,alexey,magnetometer,-209,-8605,4380
+11223,"2018-10-19 17:42:18",100,,alexey,magnetometer,-171,-8595,4402
+11224,"2018-10-19 17:42:18",100,,alexey,magnetometer,-205,-8577,4354
+11225,"2018-10-19 17:42:18",100,,alexey,magnetometer,-184,-8586,4384
+11226,"2018-10-19 17:42:18",100,,alexey,magnetometer,-206,-8587,4417
+11227,"2018-10-19 17:42:18",100,,alexey,magnetometer,-174,-8624,4422
+11228,"2018-10-19 17:42:18",100,,alexey,magnetometer,-193,-8584,4371
+11229,"2018-10-19 17:42:18",100,,alexey,magnetometer,-199,-8582,4406
+11230,"2018-10-19 17:42:19",100,,alexey,magnetometer,-185,-8600,4448
+11231,"2018-10-19 17:42:19",100,,alexey,magnetometer,-195,-8624,4396
+11232,"2018-10-19 17:42:19",100,,alexey,magnetometer,-189,-8615,4368
+11233,"2018-10-19 17:42:19",100,,alexey,magnetometer,-184,-8631,4377
+11234,"2018-10-19 17:42:19",100,,alexey,magnetometer,-189,-8601,4370
+11235,"2018-10-19 17:42:19",100,,alexey,magnetometer,-172,-8586,4399
+11236,"2018-10-19 17:42:19",100,,alexey,magnetometer,-209,-8576,4379
+11237,"2018-10-19 17:42:19",100,,alexey,magnetometer,-183,-8576,4320
+11238,"2018-10-19 17:42:19",100,,alexey,magnetometer,-190,-8611,4374
+11239,"2018-10-19 17:42:20",100,,alexey,magnetometer,-222,-8620,4362
+11240,"2018-10-19 17:42:20",100,,alexey,magnetometer,-185,-8583,4334
+11241,"2018-10-19 17:42:20",100,,alexey,magnetometer,-145,-8601,4271
+11242,"2018-10-19 17:42:20",100,,alexey,magnetometer,-152,-8601,4308
+11243,"2018-10-19 17:42:20",100,,alexey,magnetometer,-151,-8626,4334
+11244,"2018-10-19 17:42:20",100,,alexey,magnetometer,-145,-8615,4349
+11245,"2018-10-19 17:42:20",100,,alexey,magnetometer,-188,-8607,4363
+11246,"2018-10-19 17:42:20",100,,alexey,magnetometer,-153,-8595,4357
+11247,"2018-10-19 17:42:20",100,,alexey,magnetometer,-158,-8591,4367
+11248,"2018-10-19 17:42:20",100,,alexey,magnetometer,-177,-8611,4324
+11249,"2018-10-19 17:42:21",100,,alexey,magnetometer,-172,-8595,4299
+11250,"2018-10-19 17:42:21",100,,alexey,magnetometer,-147,-8590,4383
+11251,"2018-10-19 17:42:21",100,,alexey,magnetometer,-185,-8616,4391
+11252,"2018-10-19 17:42:21",100,,alexey,magnetometer,-170,-8575,4375
+11253,"2018-10-19 17:42:21",100,,alexey,magnetometer,-161,-8565,4289
+11254,"2018-10-19 17:42:21",100,,alexey,magnetometer,-151,-8556,4306
+11255,"2018-10-19 17:42:21",100,,alexey,magnetometer,-170,-8626,4395
+11256,"2018-10-19 17:42:21",100,,alexey,magnetometer,-184,-8574,4370
+11257,"2018-10-19 17:42:21",100,,alexey,magnetometer,-169,-8595,4315
+11258,"2018-10-19 17:42:21",100,,alexey,magnetometer,-167,-8607,4384
+11259,"2018-10-19 17:42:22",100,,alexey,magnetometer,-169,-8589,4320
+11260,"2018-10-19 17:42:22",100,,alexey,magnetometer,-153,-8588,4384
+11261,"2018-10-19 17:42:22",100,,alexey,magnetometer,-199,-8585,4374
+11262,"2018-10-19 17:42:22",100,,alexey,magnetometer,-196,-8608,4421
+11263,"2018-10-19 17:42:22",100,,alexey,magnetometer,-206,-8572,4329
+11264,"2018-10-19 17:42:22",100,,alexey,magnetometer,-209,-8566,4386
+11265,"2018-10-19 17:42:22",100,,alexey,magnetometer,-216,-8567,4367
+11266,"2018-10-19 17:42:22",100,,alexey,magnetometer,-185,-8585,4379
+11267,"2018-10-19 17:42:22",100,,alexey,magnetometer,-218,-8564,4139
+11268,"2018-10-19 17:42:22",100,,alexey,magnetometer,-226,-8513,4327
+11269,"2018-10-19 17:42:23",100,,alexey,magnetometer,-214,-8522,4396
+11270,"2018-10-19 17:42:23",100,,alexey,magnetometer,-240,-8492,4387
+11271,"2018-10-19 17:42:23",100,,alexey,magnetometer,-275,-8497,4403
+11272,"2018-10-19 17:42:23",100,,alexey,magnetometer,-273,-8488,4391
+11273,"2018-10-19 17:42:23",100,,alexey,magnetometer,-305,-8412,4359
+11274,"2018-10-19 17:42:23",100,,alexey,magnetometer,-361,-8380,4381
+11275,"2018-10-19 17:42:23",100,,alexey,magnetometer,-349,-8386,4344
+11276,"2018-10-19 17:42:23",100,,alexey,magnetometer,-364,-8373,4369
+11277,"2018-10-19 17:42:23",100,,alexey,magnetometer,-375,-8368,4383
+11278,"2018-10-19 17:42:24",100,,alexey,magnetometer,-376,-8359,4373
+11279,"2018-10-19 17:42:24",100,,alexey,magnetometer,-357,-8406,4403
+11280,"2018-10-19 17:42:24",100,,alexey,magnetometer,-323,-8399,4379
+11281,"2018-10-19 17:42:24",100,,alexey,magnetometer,-304,-8441,4410
+11282,"2018-10-19 17:42:24",100,,alexey,magnetometer,-287,-8474,4367
+11283,"2018-10-19 17:42:24",100,,alexey,magnetometer,-249,-8514,4426
+11284,"2018-10-19 17:42:24",100,,alexey,magnetometer,-252,-8495,4393
+11285,"2018-10-19 17:42:24",100,,alexey,magnetometer,-237,-8517,4400
+11286,"2018-10-19 17:42:24",100,,alexey,magnetometer,-238,-8509,4403
+11287,"2018-10-19 17:42:24",100,,alexey,magnetometer,-290,-8509,4357
+11288,"2018-10-19 17:42:25",100,,alexey,magnetometer,-318,-8415,4381
+11289,"2018-10-19 17:42:25",100,,alexey,magnetometer,-322,-8424,4385
+11290,"2018-10-19 17:42:25",100,,alexey,magnetometer,-321,-8431,4408
+11291,"2018-10-19 17:42:25",100,,alexey,magnetometer,-352,-8425,4393
+11292,"2018-10-19 17:42:25",100,,alexey,magnetometer,-308,-8438,4392
+11293,"2018-10-19 17:42:25",100,,alexey,magnetometer,-293,-8434,4358
+11294,"2018-10-19 17:42:25",100,,alexey,magnetometer,-282,-8455,4359
+11295,"2018-10-19 17:42:25",100,,alexey,magnetometer,-278,-8485,4390
+11296,"2018-10-19 17:42:25",100,,alexey,magnetometer,-282,-8499,4355
+11297,"2018-10-19 17:42:25",100,,alexey,magnetometer,-244,-8521,4387
+11298,"2018-10-19 17:42:26",100,,alexey,magnetometer,-256,-8501,4430
+11299,"2018-10-19 17:42:26",100,,alexey,magnetometer,-255,-8486,4437
+11300,"2018-10-19 17:42:26",100,,alexey,magnetometer,-262,-8508,4394
+11301,"2018-10-19 17:42:26",100,,alexey,magnetometer,-268,-8493,4415
+11302,"2018-10-19 17:42:26",100,,alexey,magnetometer,-277,-8467,4428
+11303,"2018-10-19 17:42:26",100,,alexey,magnetometer,-276,-8475,4424
+11304,"2018-10-19 17:42:26",100,,alexey,magnetometer,-292,-8459,4436
+11305,"2018-10-19 17:42:26",100,,alexey,magnetometer,-309,-8448,4418
+11306,"2018-10-19 17:42:26",100,,alexey,magnetometer,-310,-8425,4430
+11307,"2018-10-19 17:42:26",100,,alexey,magnetometer,-336,-8429,4405
+11308,"2018-10-19 17:42:27",100,,alexey,magnetometer,-324,-8452,4442
+11309,"2018-10-19 17:42:27",100,,alexey,magnetometer,-288,-8442,4402
+11310,"2018-10-19 17:42:27",100,,alexey,magnetometer,-275,-8484,4406
+11311,"2018-10-19 17:42:27",100,,alexey,magnetometer,-259,-8496,4431
+11312,"2018-10-19 17:42:27",100,,alexey,magnetometer,-256,-8519,4401
+11313,"2018-10-19 17:42:27",100,,alexey,magnetometer,-256,-8522,4432
+11314,"2018-10-19 17:42:27",100,,alexey,magnetometer,-263,-8492,4382
+11315,"2018-10-19 17:42:27",100,,alexey,magnetometer,-275,-8480,4466
+11316,"2018-10-19 17:42:27",100,,alexey,magnetometer,-322,-8451,4379
+11317,"2018-10-19 17:42:28",100,,alexey,magnetometer,-316,-8465,4399
+11318,"2018-10-19 17:42:28",100,,alexey,magnetometer,-318,-8421,4427
+11319,"2018-10-19 17:42:28",100,,alexey,magnetometer,-340,-8425,4421
+11320,"2018-10-19 17:42:28",100,,alexey,magnetometer,-339,-8437,4434
+11321,"2018-10-19 17:42:29",100,,alexey,magnetometer,-258,-8481,4416
+11322,"2018-10-19 17:42:30",100,,alexey,magnetometer,-304,-8515,4392
+11323,"2018-10-19 17:42:30",100,,alexey,magnetometer,-298,-8497,4400
+11324,"2018-10-19 17:42:30",100,,alexey,magnetometer,-301,-8482,4454
+11325,"2018-10-19 17:42:30",100,,alexey,magnetometer,-321,-8453,4357
+11326,"2018-10-19 17:42:30",100,,alexey,magnetometer,-294,-8440,4349
+11327,"2018-10-19 17:42:30",100,,alexey,magnetometer,-353,-8451,4381
+11328,"2018-10-19 17:42:30",100,,alexey,magnetometer,-306,-8473,4423
+11329,"2018-10-19 17:42:30",100,,alexey,magnetometer,-337,-8467,4395
+11330,"2018-10-19 17:42:30",100,,alexey,magnetometer,-333,-8459,4389
+11331,"2018-10-19 17:42:30",100,,alexey,magnetometer,-361,-8467,4362
+11332,"2018-10-19 17:42:31",100,,alexey,magnetometer,-350,-8460,4411
+11333,"2018-10-19 17:42:31",100,,alexey,magnetometer,-353,-8432,4383
+11334,"2018-10-19 17:42:31",100,,alexey,magnetometer,-363,-8422,4359
+11335,"2018-10-19 17:42:31",100,,alexey,magnetometer,-329,-8440,4430
+11336,"2018-10-19 17:42:31",100,,alexey,magnetometer,-361,-8436,4389
+11337,"2018-10-19 17:42:31",100,,alexey,magnetometer,-341,-8459,4368
+11338,"2018-10-19 17:42:31",100,,alexey,magnetometer,-313,-8438,4395
+11339,"2018-10-19 17:42:31",100,,alexey,magnetometer,-309,-8499,4378
+11340,"2018-10-19 17:42:31",100,,alexey,magnetometer,-274,-8502,4376
+11341,"2018-10-19 17:42:32",100,,alexey,magnetometer,-290,-8506,4372
+11342,"2018-10-19 17:42:32",100,,alexey,magnetometer,-280,-8496,4415
+11343,"2018-10-19 17:42:32",100,,alexey,magnetometer,-278,-8469,4424
+11344,"2018-10-19 17:42:32",100,,alexey,magnetometer,-316,-8473,4368
+11345,"2018-10-19 17:42:32",100,,alexey,magnetometer,-336,-8439,4418
+11346,"2018-10-19 17:42:32",100,,alexey,magnetometer,-332,-8445,4404
+11347,"2018-10-19 17:42:32",100,,alexey,magnetometer,-349,-8439,4423
+11348,"2018-10-19 17:42:32",100,,alexey,magnetometer,-345,-8422,4408
+11349,"2018-10-19 17:42:32",100,,alexey,magnetometer,-342,-8465,4413
+11350,"2018-10-19 17:42:32",100,,alexey,magnetometer,-334,-8454,4412
+11351,"2018-10-19 17:42:33",100,,alexey,magnetometer,-355,-8427,4422
+11352,"2018-10-19 17:42:33",100,,alexey,magnetometer,-343,-8414,4357
+11353,"2018-10-19 17:42:33",100,,alexey,magnetometer,-365,-8442,4387
+11354,"2018-10-19 17:42:33",100,,alexey,magnetometer,-318,-8397,4370
+11355,"2018-10-19 17:42:33",100,,alexey,magnetometer,-345,-8443,4451
+11356,"2018-10-19 17:42:33",100,,alexey,magnetometer,-311,-8441,4382
+11357,"2018-10-19 17:42:33",100,,alexey,magnetometer,-310,-8425,4362
+11358,"2018-10-19 17:42:33",100,,alexey,magnetometer,-310,-8461,4400
+11359,"2018-10-19 17:42:33",100,,alexey,magnetometer,-319,-8465,4403
+11360,"2018-10-19 17:42:33",100,,alexey,magnetometer,-334,-8493,4396
+11361,"2018-10-19 17:42:34",100,,alexey,magnetometer,-328,-8453,4379
+11362,"2018-10-19 17:42:34",100,,alexey,magnetometer,-326,-8482,4366
+11363,"2018-10-19 17:42:34",100,,alexey,magnetometer,-339,-8464,4353
+11364,"2018-10-19 17:42:34",100,,alexey,magnetometer,-331,-8433,4437
+11365,"2018-10-19 17:42:34",100,,alexey,magnetometer,-332,-8437,4349
+11366,"2018-10-19 17:42:34",100,,alexey,magnetometer,-343,-8436,4377
+11367,"2018-10-19 17:42:34",100,,alexey,magnetometer,-345,-8441,4434
+11368,"2018-10-19 17:42:34",100,,alexey,magnetometer,-299,-8480,4418
+11369,"2018-10-19 17:42:34",100,,alexey,magnetometer,-292,-8513,4369
+11370,"2018-10-19 17:42:34",100,,alexey,magnetometer,-275,-8517,4360
+11371,"2018-10-19 17:42:35",100,,alexey,magnetometer,-234,-8556,4334
+11372,"2018-10-19 17:42:35",100,,alexey,magnetometer,-255,-8528,4375
+11373,"2018-10-19 17:42:35",100,,alexey,magnetometer,-267,-8523,4334
+11374,"2018-10-19 17:42:35",100,,alexey,magnetometer,-259,-8532,4389
+11375,"2018-10-19 17:42:35",100,,alexey,magnetometer,-291,-8483,4419
+11376,"2018-10-19 17:42:35",100,,alexey,magnetometer,-314,-8461,4370
+11377,"2018-10-19 17:42:35",100,,alexey,magnetometer,-372,-8419,4380
+11378,"2018-10-19 17:42:35",100,,alexey,magnetometer,-351,-8428,4384
+11379,"2018-10-19 17:42:35",100,,alexey,magnetometer,-346,-8444,4397
+11380,"2018-10-19 17:42:36",100,,alexey,magnetometer,-361,-8456,4367
+11381,"2018-10-19 17:42:36",100,,alexey,magnetometer,-337,-8485,4355
+11382,"2018-10-19 17:42:36",100,,alexey,magnetometer,-301,-8561,4323
+11383,"2018-10-19 17:42:36",100,,alexey,magnetometer,-284,-8539,4350
+11384,"2018-10-19 17:42:36",100,,alexey,magnetometer,-226,-8543,4352
+11385,"2018-10-19 17:42:36",100,,alexey,magnetometer,-230,-8564,4379
+11386,"2018-10-19 17:42:36",100,,alexey,magnetometer,-234,-8519,4382
+11387,"2018-10-19 17:42:36",100,,alexey,magnetometer,-238,-8513,4349
+11388,"2018-10-19 17:42:36",100,,alexey,magnetometer,-232,-8508,4402
+11389,"2018-10-19 17:42:36",100,,alexey,magnetometer,-264,-8510,4390
+11390,"2018-10-19 17:42:37",100,,alexey,magnetometer,-272,-8540,4370
+11391,"2018-10-19 17:42:37",100,,alexey,magnetometer,-269,-8536,4412
+11392,"2018-10-19 17:42:37",100,,alexey,magnetometer,-248,-8541,4375
+11393,"2018-10-19 17:42:37",100,,alexey,magnetometer,-233,-8538,4336
+11394,"2018-10-19 17:42:37",100,,alexey,magnetometer,-234,-8540,4409
+11395,"2018-10-19 17:42:37",100,,alexey,magnetometer,-212,-8528,4365
+11396,"2018-10-19 17:42:37",100,,alexey,magnetometer,-250,-8541,4382
+11397,"2018-10-19 17:42:37",100,,alexey,magnetometer,-232,-8564,4384
+11398,"2018-10-19 17:42:37",100,,alexey,magnetometer,-240,-8510,4365
+11399,"2018-10-19 17:42:37",100,,alexey,magnetometer,-216,-8506,4391
+11400,"2018-10-19 17:42:38",100,,alexey,magnetometer,-202,-8547,4374
+11401,"2018-10-19 17:42:38",100,,alexey,magnetometer,-218,-8554,4389
+11402,"2018-10-19 17:42:38",100,,alexey,magnetometer,-235,-8532,4392
+11403,"2018-10-19 17:42:38",100,,alexey,magnetometer,-241,-8524,4393
+11404,"2018-10-19 17:42:38",100,,alexey,magnetometer,-228,-8519,4394
+11405,"2018-10-19 17:42:38",100,,alexey,magnetometer,-271,-8506,4366
+11406,"2018-10-19 17:42:38",100,,alexey,magnetometer,-198,-8555,4356
+11407,"2018-10-19 17:42:38",100,,alexey,magnetometer,-240,-8578,4369
+11408,"2018-10-19 17:42:38",100,,alexey,magnetometer,-215,-8576,4347
+11409,"2018-10-19 17:42:38",100,,alexey,magnetometer,-223,-8575,4365
+11410,"2018-10-19 17:42:39",100,,alexey,magnetometer,-225,-8570,4319
+11411,"2018-10-19 17:42:39",100,,alexey,magnetometer,-215,-8585,4369
+11412,"2018-10-19 17:42:39",100,,alexey,magnetometer,-212,-8536,4348
+11413,"2018-10-19 17:42:39",100,,alexey,magnetometer,-235,-8550,4322
+11414,"2018-10-19 17:42:39",100,,alexey,magnetometer,-204,-8576,4329
+11415,"2018-10-19 17:42:39",100,,alexey,magnetometer,-211,-8570,4368
+11416,"2018-10-19 17:42:39",100,,alexey,magnetometer,-195,-8560,4321
+11417,"2018-10-19 17:42:39",100,,alexey,magnetometer,-226,-8579,4347
+11418,"2018-10-19 17:42:39",100,,alexey,magnetometer,-217,-8555,4348
+11419,"2018-10-19 17:42:40",100,,alexey,magnetometer,-217,-8578,4364
+11420,"2018-10-19 17:42:40",100,,alexey,magnetometer,-207,-8573,4329
+11421,"2018-10-19 17:42:41",100,,alexey,magnetometer,-283,-8501,4373
+11422,"2018-10-19 17:42:41",100,,alexey,magnetometer,-345,-8430,4391
+11423,"2018-10-19 17:42:41",100,,alexey,magnetometer,-419,-8374,4382
+11424,"2018-10-19 17:42:42",100,,alexey,magnetometer,-449,-8302,4402
+11425,"2018-10-19 17:42:42",100,,alexey,magnetometer,-533,-8190,4397
+11426,"2018-10-19 17:42:42",100,,alexey,magnetometer,-603,-8092,4436
+11427,"2018-10-19 17:42:42",100,,alexey,magnetometer,-619,-8035,4422
+11428,"2018-10-19 17:42:42",100,,alexey,magnetometer,-697,-7951,4457
+11429,"2018-10-19 17:42:42",100,,alexey,magnetometer,-742,-7903,4437
+11430,"2018-10-19 17:42:42",100,,alexey,magnetometer,-782,-7816,4421
+11431,"2018-10-19 17:42:42",100,,alexey,magnetometer,-795,-7749,4462
+11432,"2018-10-19 17:42:42",100,,alexey,magnetometer,-829,-7702,4482
+11433,"2018-10-19 17:42:42",100,,alexey,magnetometer,-861,-7672,4480
+11434,"2018-10-19 17:42:43",100,,alexey,magnetometer,-889,-7609,4463
+11435,"2018-10-19 17:42:43",100,,alexey,magnetometer,-905,-7603,4465
+11436,"2018-10-19 17:42:43",100,,alexey,magnetometer,-889,-7608,4422
+11437,"2018-10-19 17:42:43",100,,alexey,magnetometer,-888,-7656,4412
+11438,"2018-10-19 17:42:43",100,,alexey,magnetometer,-894,-7680,4425
+11439,"2018-10-19 17:42:43",100,,alexey,magnetometer,-836,-7741,4432
+11440,"2018-10-19 17:42:43",100,,alexey,magnetometer,-795,-7796,4452
+11441,"2018-10-19 17:42:43",100,,alexey,magnetometer,-757,-7858,4414
+11442,"2018-10-19 17:42:43",100,,alexey,magnetometer,-699,-7957,4401
+11443,"2018-10-19 17:42:44",100,,alexey,magnetometer,-605,-8090,4399
+11444,"2018-10-19 17:42:44",100,,alexey,magnetometer,-559,-8153,4381
+11445,"2018-10-19 17:42:44",100,,alexey,magnetometer,-514,-8238,4349
+11446,"2018-10-19 17:42:44",100,,alexey,magnetometer,-455,-8272,4390
+11447,"2018-10-19 17:42:44",100,,alexey,magnetometer,-405,-8341,4424
+11448,"2018-10-19 17:42:44",100,,alexey,magnetometer,-356,-8387,4364
+11449,"2018-10-19 17:42:44",100,,alexey,magnetometer,-321,-8442,4399
+11450,"2018-10-19 17:42:44",100,,alexey,magnetometer,-269,-8487,4343
+11451,"2018-10-19 17:42:44",100,,alexey,magnetometer,-202,-8579,4341
+11452,"2018-10-19 17:42:44",100,,alexey,magnetometer,-138,-8598,4372
+11453,"2018-10-19 17:42:45",100,,alexey,magnetometer,-122,-8627,4358
+11454,"2018-10-19 17:42:45",100,,alexey,magnetometer,-143,-8670,4310
+11455,"2018-10-19 17:42:45",100,,alexey,magnetometer,-86,-8658,4350
+11456,"2018-10-19 17:42:45",100,,alexey,magnetometer,-95,-8693,4330
+11457,"2018-10-19 17:42:45",100,,alexey,magnetometer,-109,-8691,4308
+11458,"2018-10-19 17:42:45",100,,alexey,magnetometer,-102,-8689,4342
+11459,"2018-10-19 17:42:45",100,,alexey,magnetometer,-130,-8622,4372
+11460,"2018-10-19 17:42:45",100,,alexey,magnetometer,-159,-8619,4368
+11461,"2018-10-19 17:42:45",100,,alexey,magnetometer,-148,-8593,4299
+11462,"2018-10-19 17:42:45",100,,alexey,magnetometer,-164,-8614,4290
+11463,"2018-10-19 17:42:46",100,,alexey,magnetometer,-171,-8606,4307
+11464,"2018-10-19 17:42:46",100,,alexey,magnetometer,-147,-8595,4326
+11465,"2018-10-19 17:42:46",100,,alexey,magnetometer,-146,-8572,4297
+11466,"2018-10-19 17:42:46",100,,alexey,magnetometer,-163,-8576,4321
+11467,"2018-10-19 17:42:46",100,,alexey,magnetometer,-169,-8570,4338
+11468,"2018-10-19 17:42:46",100,,alexey,magnetometer,-188,-8562,4296
+11469,"2018-10-19 17:42:46",100,,alexey,magnetometer,-168,-8601,4316
+11470,"2018-10-19 17:42:46",100,,alexey,magnetometer,-181,-8617,4262
+11471,"2018-10-19 17:42:46",100,,alexey,magnetometer,-171,-8570,4301
+11472,"2018-10-19 17:42:47",100,,alexey,magnetometer,-153,-8600,4225
+11473,"2018-10-19 17:42:47",100,,alexey,magnetometer,-127,-8613,4346
+11474,"2018-10-19 17:42:47",100,,alexey,magnetometer,-185,-8626,4286
+11475,"2018-10-19 17:42:47",100,,alexey,magnetometer,-172,-8578,4297
+11476,"2018-10-19 17:42:47",100,,alexey,magnetometer,-174,-8555,4306
+11477,"2018-10-19 17:42:47",100,,alexey,magnetometer,-139,-8603,4317
+11478,"2018-10-19 17:42:47",100,,alexey,magnetometer,-179,-8598,4318
+11479,"2018-10-19 17:42:47",100,,alexey,magnetometer,-168,-8613,4318
+11480,"2018-10-19 17:42:47",100,,alexey,magnetometer,-171,-8608,4278
+11481,"2018-10-19 17:42:47",100,,alexey,magnetometer,-162,-8634,4264
+11482,"2018-10-19 17:42:48",100,,alexey,magnetometer,-136,-8644,4334
+11483,"2018-10-19 17:42:48",100,,alexey,magnetometer,-126,-8612,4314
+11484,"2018-10-19 17:42:48",100,,alexey,magnetometer,-144,-8589,4306
+11485,"2018-10-19 17:42:48",100,,alexey,magnetometer,-165,-8612,4377
+11486,"2018-10-19 17:42:48",100,,alexey,magnetometer,-148,-8585,4322
+11487,"2018-10-19 17:42:48",100,,alexey,magnetometer,-125,-8597,4293
+11488,"2018-10-19 17:42:48",100,,alexey,magnetometer,-161,-8598,4321
+11489,"2018-10-19 17:42:48",100,,alexey,magnetometer,-145,-8612,4347
+11490,"2018-10-19 17:42:48",100,,alexey,magnetometer,-118,-8577,4359
+11491,"2018-10-19 17:42:48",100,,alexey,magnetometer,-135,-8585,4354
+11492,"2018-10-19 17:42:49",100,,alexey,magnetometer,-115,-8605,4303
+11493,"2018-10-19 17:42:49",100,,alexey,magnetometer,-135,-8599,4330
+11494,"2018-10-19 17:42:49",100,,alexey,magnetometer,-142,-8613,4286
+11495,"2018-10-19 17:42:49",100,,alexey,magnetometer,-144,-8592,4304
+11496,"2018-10-19 17:42:49",100,,alexey,magnetometer,-146,-8603,4343
+11497,"2018-10-19 17:42:49",100,,alexey,magnetometer,-131,-8587,4313
+11498,"2018-10-19 17:42:49",100,,alexey,magnetometer,-176,-8587,4267
+11499,"2018-10-19 17:42:49",100,,alexey,magnetometer,-149,-8591,4284
+11500,"2018-10-19 17:42:49",100,,alexey,magnetometer,-183,-8580,4326
+11501,"2018-10-19 17:42:49",100,,alexey,magnetometer,-137,-8548,4362
+11502,"2018-10-19 17:42:50",100,,alexey,magnetometer,-146,-8609,4305
+11503,"2018-10-19 17:42:50",100,,alexey,magnetometer,-163,-8615,4311
+11504,"2018-10-19 17:42:50",100,,alexey,magnetometer,-187,-8608,4304
+11505,"2018-10-19 17:42:50",100,,alexey,magnetometer,-165,-8627,4326
+11506,"2018-10-19 17:42:50",100,,alexey,magnetometer,-186,-8613,4292
+11507,"2018-10-19 17:42:50",100,,alexey,magnetometer,-157,-8621,4281
+11508,"2018-10-19 17:42:50",100,,alexey,magnetometer,-157,-8621,4344
+11509,"2018-10-19 17:42:50",100,,alexey,magnetometer,-178,-8622,4279
+11510,"2018-10-19 17:42:50",100,,alexey,magnetometer,-166,-8640,4317
+11511,"2018-10-19 17:42:51",100,,alexey,magnetometer,-181,-8609,4316
+11512,"2018-10-19 17:42:51",100,,alexey,magnetometer,-173,-8635,4302
+11513,"2018-10-19 17:42:51",100,,alexey,magnetometer,-177,-8638,4313
+11514,"2018-10-19 17:42:51",100,,alexey,magnetometer,-153,-8634,4284
+11515,"2018-10-19 17:42:51",100,,alexey,magnetometer,-179,-8615,4291
+11516,"2018-10-19 17:42:51",100,,alexey,magnetometer,-132,-8591,4293
+11517,"2018-10-19 17:42:51",100,,alexey,magnetometer,-132,-8615,4284
+11518,"2018-10-19 17:42:51",100,,alexey,magnetometer,-165,-8644,4325
+11519,"2018-10-19 17:42:51",100,,alexey,magnetometer,-151,-8611,4281
+11520,"2018-10-19 17:42:51",100,,alexey,magnetometer,-146,-8607,4333
+11521,"2018-10-19 17:42:54",100,,alexey,magnetometer,-155,-8624,4361
+11522,"2018-10-19 17:42:54",100,,alexey,magnetometer,-171,-8632,4408
+11523,"2018-10-19 17:42:54",100,,alexey,magnetometer,-153,-8639,4350
+11524,"2018-10-19 17:42:55",100,,alexey,magnetometer,-159,-8629,4328
+11525,"2018-10-19 17:42:55",100,,alexey,magnetometer,-153,-8614,4355
+11526,"2018-10-19 17:42:55",100,,alexey,magnetometer,-167,-8622,4377
+11527,"2018-10-19 17:42:55",100,,alexey,magnetometer,-218,-8614,4331
+11528,"2018-10-19 17:42:55",100,,alexey,magnetometer,-204,-8593,4328
+11529,"2018-10-19 17:42:55",100,,alexey,magnetometer,-258,-8553,4300
+11530,"2018-10-19 17:42:55",100,,alexey,magnetometer,-257,-8525,4346
+11531,"2018-10-19 17:42:55",100,,alexey,magnetometer,-287,-8534,4327
+11532,"2018-10-19 17:42:55",100,,alexey,magnetometer,-280,-8488,4313
+11533,"2018-10-19 17:42:55",100,,alexey,magnetometer,-323,-8477,4365
+11534,"2018-10-19 17:42:56",100,,alexey,magnetometer,-333,-8488,4276
+11535,"2018-10-19 17:42:56",100,,alexey,magnetometer,-319,-8483,4306
+11536,"2018-10-19 17:42:56",100,,alexey,magnetometer,-322,-8483,4286
+11537,"2018-10-19 17:42:56",100,,alexey,magnetometer,-255,-8568,4284
+11538,"2018-10-19 17:42:56",100,,alexey,magnetometer,-224,-8608,4328
+11539,"2018-10-19 17:42:56",100,,alexey,magnetometer,-140,-8631,4225
+11540,"2018-10-19 17:42:56",100,,alexey,magnetometer,-102,-8681,4341
+11541,"2018-10-19 17:42:56",100,,alexey,magnetometer,-97,-8733,4321
+11542,"2018-10-19 17:42:56",100,,alexey,magnetometer,-102,-8648,4284
+11543,"2018-10-19 17:42:56",100,,alexey,magnetometer,-176,-8648,4274
+11544,"2018-10-19 17:42:57",100,,alexey,magnetometer,-173,-8603,4296
+11545,"2018-10-19 17:42:57",100,,alexey,magnetometer,-218,-8570,4351
+11546,"2018-10-19 17:42:57",100,,alexey,magnetometer,-301,-8546,4330
+11547,"2018-10-19 17:42:57",100,,alexey,magnetometer,-291,-8468,4324
+11548,"2018-10-19 17:42:57",100,,alexey,magnetometer,-298,-8479,4313
+11549,"2018-10-19 17:42:57",100,,alexey,magnetometer,-265,-8490,4327
+11550,"2018-10-19 17:42:57",100,,alexey,magnetometer,-274,-8519,4369
+11551,"2018-10-19 17:42:57",100,,alexey,magnetometer,-256,-8546,4309
+11552,"2018-10-19 17:42:57",100,,alexey,magnetometer,-198,-8604,4335
+11553,"2018-10-19 17:42:58",100,,alexey,magnetometer,-177,-8615,4351
+11554,"2018-10-19 17:42:58",100,,alexey,magnetometer,-148,-8644,4364
+11555,"2018-10-19 17:42:58",100,,alexey,magnetometer,-159,-8636,4347
+11556,"2018-10-19 17:42:58",100,,alexey,magnetometer,-149,-8633,4329
+11557,"2018-10-19 17:42:58",100,,alexey,magnetometer,-189,-8575,4383
+11558,"2018-10-19 17:42:58",100,,alexey,magnetometer,-243,-8578,4296
+11559,"2018-10-19 17:42:58",100,,alexey,magnetometer,-257,-8488,4374
+11560,"2018-10-19 17:42:58",100,,alexey,magnetometer,-275,-8471,4384
+11561,"2018-10-19 17:42:58",100,,alexey,magnetometer,-315,-8449,4363
+11562,"2018-10-19 17:42:58",100,,alexey,magnetometer,-327,-8442,4353
+11563,"2018-10-19 17:42:59",100,,alexey,magnetometer,-305,-8475,4353
+11564,"2018-10-19 17:42:59",100,,alexey,magnetometer,-307,-8471,4347
+11565,"2018-10-19 17:42:59",100,,alexey,magnetometer,-270,-8515,4333
+11566,"2018-10-19 17:42:59",100,,alexey,magnetometer,-234,-8521,4335
+11567,"2018-10-19 17:42:59",100,,alexey,magnetometer,-225,-8535,4341
+11568,"2018-10-19 17:42:59",100,,alexey,magnetometer,-184,-8559,4323
+11569,"2018-10-19 17:42:59",100,,alexey,magnetometer,-203,-8552,4349
+11570,"2018-10-19 17:42:59",100,,alexey,magnetometer,-187,-8560,4371
+11571,"2018-10-19 17:42:59",100,,alexey,magnetometer,-229,-8558,4352
+11572,"2018-10-19 17:42:59",100,,alexey,magnetometer,-247,-8503,4366
+11573,"2018-10-19 17:43:00",100,,alexey,magnetometer,-265,-8505,4316
+11574,"2018-10-19 17:43:00",100,,alexey,magnetometer,-315,-8493,4338
+11575,"2018-10-19 17:43:00",100,,alexey,magnetometer,-289,-8487,4362
+11576,"2018-10-19 17:43:00",100,,alexey,magnetometer,-281,-8483,4344
+11577,"2018-10-19 17:43:00",100,,alexey,magnetometer,-271,-8536,4339
+11578,"2018-10-19 17:43:00",100,,alexey,magnetometer,-232,-8534,4340
+11579,"2018-10-19 17:43:00",100,,alexey,magnetometer,-233,-8551,4287
+11580,"2018-10-19 17:43:00",100,,alexey,magnetometer,-211,-8556,4344

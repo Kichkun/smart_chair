@@ -1,0 +1,1001 @@
+id,ax,ay,az,date_created,label,linx,liny,linz,meta_info,people_id,type_sensor
+10581,3472,976,16512,"2018-10-19 17:13:10","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10582,3536,912,16528,"2018-10-19 17:13:10","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10583,3472,928,16464,"2018-10-19 17:13:11","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10584,3408,928,16576,"2018-10-19 17:13:11","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10585,3456,880,16528,"2018-10-19 17:13:12","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10586,3440,928,16512,"2018-10-19 17:13:12","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10587,3488,912,16544,"2018-10-19 17:13:13","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10588,3456,944,16512,"2018-10-19 17:13:13","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10589,3472,944,16512,"2018-10-19 17:13:14","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10590,3520,928,16512,"2018-10-19 17:13:14","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10591,3488,944,16512,"2018-10-19 17:13:15","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10592,3440,928,16528,"2018-10-19 17:13:15","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10593,3552,912,16512,"2018-10-19 17:13:16","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10594,3520,944,16528,"2018-10-19 17:13:16","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10595,3440,976,16512,"2018-10-19 17:13:17","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10596,3440,928,16512,"2018-10-19 17:13:17","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10597,3456,912,16512,"2018-10-19 17:13:18","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10598,3488,992,16512,"2018-10-19 17:13:18","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10599,3504,928,16528,"2018-10-19 17:13:19","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10600,3504,928,16480,"2018-10-19 17:13:19","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10601,3472,928,16512,"2018-10-19 17:13:21","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10602,3488,880,16528,"2018-10-19 17:13:21","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10603,3472,928,16432,"2018-10-19 17:13:22","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10604,3488,960,16512,"2018-10-19 17:13:22","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10605,3456,912,16528,"2018-10-19 17:13:23","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10606,3552,928,16528,"2018-10-19 17:13:23","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10607,3520,880,16512,"2018-10-19 17:13:24","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10608,3488,928,16512,"2018-10-19 17:13:24","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10609,3456,944,16560,"2018-10-19 17:13:25","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10610,3488,960,16528,"2018-10-19 17:13:25","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10611,3520,928,16528,"2018-10-19 17:13:26","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10612,3504,928,16512,"2018-10-19 17:13:26","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10613,3488,864,16544,"2018-10-19 17:13:27","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10614,3504,944,16512,"2018-10-19 17:13:27","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10615,3504,960,16512,"2018-10-19 17:13:28","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10616,3472,928,16448,"2018-10-19 17:13:28","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10617,3504,944,16528,"2018-10-19 17:13:29","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10618,3584,976,16512,"2018-10-19 17:13:29","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10619,3472,928,16512,"2018-10-19 17:13:30","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10620,3504,960,16512,"2018-10-19 17:13:30","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10621,3296,928,16528,"2018-10-19 17:13:32","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10622,2400,896,16752,"2018-10-19 17:13:32","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10623,1600,848,16832,"2018-10-19 17:13:33","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10624,1136,592,17040,"2018-10-19 17:13:33","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10625,1296,896,16704,"2018-10-19 17:13:34","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10626,1248,608,16880,"2018-10-19 17:13:34","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10627,1728,624,16944,"2018-10-19 17:13:35","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10628,1312,992,16784,"2018-10-19 17:13:35","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10629,2816,-208,17104,"2018-10-19 17:13:36","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10630,2160,1552,16576,"2018-10-19 17:13:36","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10631,2816,704,16704,"2018-10-19 17:13:37","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10632,2144,1056,16624,"2018-10-19 17:13:37","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10633,2912,1504,16832,"2018-10-19 17:13:38","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10634,2032,752,16720,"2018-10-19 17:13:38","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10635,2512,1056,16624,"2018-10-19 17:13:39","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10636,2704,992,16672,"2018-10-19 17:13:39","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10637,2752,944,16768,"2018-10-19 17:13:40","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10638,2896,-144,16000,"2018-10-19 17:13:40","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10639,1552,1152,16704,"2018-10-19 17:13:41","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10640,1872,1056,16768,"2018-10-19 17:13:41","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10641,2624,992,16592,"2018-10-19 17:13:43","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10642,2672,976,16640,"2018-10-19 17:13:44","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10643,2816,960,16608,"2018-10-19 17:13:44","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10644,2864,976,16624,"2018-10-19 17:13:45","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10645,2848,960,16640,"2018-10-19 17:13:45","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10646,2816,1040,16592,"2018-10-19 17:13:46","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10647,2736,960,16640,"2018-10-19 17:13:46","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10648,2752,848,16672,"2018-10-19 17:13:47","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10649,2720,912,16592,"2018-10-19 17:13:47","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10650,2656,1072,16688,"2018-10-19 17:13:48","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10651,2640,880,16704,"2018-10-19 17:13:48","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10652,2400,1024,16688,"2018-10-19 17:13:49","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10653,2432,1024,16704,"2018-10-19 17:13:49","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10654,2608,992,16768,"2018-10-19 17:13:50","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10655,2816,944,16576,"2018-10-19 17:13:50","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10656,2512,816,16656,"2018-10-19 17:13:51","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10657,2448,1104,16592,"2018-10-19 17:13:51","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10658,2704,864,16640,"2018-10-19 17:13:52","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10659,2432,960,16640,"2018-10-19 17:13:52","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10660,2384,992,16688,"2018-10-19 17:13:53","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10661,2768,960,16640,"2018-10-19 17:13:54","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10662,2208,1024,16752,"2018-10-19 17:13:55","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10663,2368,1040,16704,"2018-10-19 17:13:55","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10664,2112,1008,16736,"2018-10-19 17:13:56","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10665,2224,992,16704,"2018-10-19 17:13:56","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10666,2208,992,16688,"2018-10-19 17:13:57","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10667,2208,1024,16688,"2018-10-19 17:13:57","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10668,2224,992,16768,"2018-10-19 17:13:58","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10669,2096,1088,16720,"2018-10-19 17:13:58","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10670,2208,960,16768,"2018-10-19 17:13:59","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10671,2160,992,16688,"2018-10-19 17:13:59","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10672,2176,960,16736,"2018-10-19 17:14:00","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10673,1904,1056,16768,"2018-10-19 17:14:00","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10674,2064,1024,16896,"2018-10-19 17:14:01","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10675,2304,992,16704,"2018-10-19 17:14:01","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10676,2176,976,16736,"2018-10-19 17:14:02","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10677,2096,1024,16736,"2018-10-19 17:14:02","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10678,2144,1008,16704,"2018-10-19 17:14:03","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10679,2160,992,16768,"2018-10-19 17:14:03","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10680,2128,1024,16704,"2018-10-19 17:14:04","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10681,2320,960,16720,"2018-10-19 17:14:05","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10682,2064,976,16784,"2018-10-19 17:14:06","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10683,2304,928,16704,"2018-10-19 17:14:06","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10684,2224,976,16720,"2018-10-19 17:14:07","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10685,2240,976,16704,"2018-10-19 17:14:07","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10686,2224,960,16688,"2018-10-19 17:14:08","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10687,2224,896,16704,"2018-10-19 17:14:08","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10688,2272,928,16720,"2018-10-19 17:14:09","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10689,2256,976,16688,"2018-10-19 17:14:09","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10690,2160,944,16720,"2018-10-19 17:14:10","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10691,2000,928,16832,"2018-10-19 17:14:10","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10692,2288,896,16688,"2018-10-19 17:14:11","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10693,2240,992,16672,"2018-10-19 17:14:11","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10694,2096,992,16800,"2018-10-19 17:14:12","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10695,2352,976,16720,"2018-10-19 17:14:12","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10696,2288,1008,16656,"2018-10-19 17:14:13","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10697,2464,1216,16432,"2018-10-19 17:14:13","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10698,2528,688,17024,"2018-10-19 17:14:14","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10699,2608,1168,16624,"2018-10-19 17:14:14","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10700,3216,832,16624,"2018-10-19 17:14:15","work, talking, tired, angry",0,0,0,,nastya,accelerometer
+10701,2576,1024,16688,"2018-10-19 17:24:58","work, talking, tired",0,0,0,,nastya,accelerometer
+10702,2480,976,16688,"2018-10-19 17:24:59","work, talking, tired",0,0,0,,nastya,accelerometer
+10703,2432,960,16720,"2018-10-19 17:24:59","work, talking, tired",0,0,0,,nastya,accelerometer
+10704,2544,960,16624,"2018-10-19 17:25:00","work, talking, tired",0,0,0,,nastya,accelerometer
+10705,2496,976,16704,"2018-10-19 17:25:00","work, talking, tired",0,0,0,,nastya,accelerometer
+10706,2464,1040,16704,"2018-10-19 17:25:01","work, talking, tired",0,0,0,,nastya,accelerometer
+10707,2512,1024,16672,"2018-10-19 17:25:01","work, talking, tired",0,0,0,,nastya,accelerometer
+10708,2384,1024,16752,"2018-10-19 17:25:02","work, talking, tired",0,0,0,,nastya,accelerometer
+10709,2432,1024,16672,"2018-10-19 17:25:02","work, talking, tired",0,0,0,,nastya,accelerometer
+10710,2464,1024,16704,"2018-10-19 17:25:03","work, talking, tired",0,0,0,,nastya,accelerometer
+10711,2400,992,16736,"2018-10-19 17:25:03","work, talking, tired",0,0,0,,nastya,accelerometer
+10712,2496,944,16688,"2018-10-19 17:25:04","work, talking, tired",0,0,0,,nastya,accelerometer
+10713,2480,1024,16768,"2018-10-19 17:25:05","work, talking, tired",0,0,0,,nastya,accelerometer
+10714,2512,976,16624,"2018-10-19 17:25:05","work, talking, tired",0,0,0,,nastya,accelerometer
+10715,2544,1040,16720,"2018-10-19 17:25:06","work, talking, tired",0,0,0,,nastya,accelerometer
+10716,2496,1024,16720,"2018-10-19 17:25:06","work, talking, tired",0,0,0,,nastya,accelerometer
+10717,2512,992,16720,"2018-10-19 17:25:07","work, talking, tired",0,0,0,,nastya,accelerometer
+10718,2496,1040,16656,"2018-10-19 17:25:07","work, talking, tired",0,0,0,,nastya,accelerometer
+10719,2496,976,16672,"2018-10-19 17:25:08","work, talking, tired",0,0,0,,nastya,accelerometer
+10720,2496,992,16720,"2018-10-19 17:25:08","work, talking, tired",0,0,0,,nastya,accelerometer
+10721,2480,944,16736,"2018-10-19 17:25:10","work, talking, tired",0,0,0,,nastya,accelerometer
+10722,2512,1024,16720,"2018-10-19 17:25:10","work, talking, tired",0,0,0,,nastya,accelerometer
+10723,2496,1024,16704,"2018-10-19 17:25:11","work, talking, tired",0,0,0,,nastya,accelerometer
+10724,2464,1024,16688,"2018-10-19 17:25:11","work, talking, tired",0,0,0,,nastya,accelerometer
+10725,2528,960,16688,"2018-10-19 17:25:12","work, talking, tired",0,0,0,,nastya,accelerometer
+10726,2496,1024,16688,"2018-10-19 17:25:12","work, talking, tired",0,0,0,,nastya,accelerometer
+10727,2448,1008,16848,"2018-10-19 17:25:13","work, talking, tired",0,0,0,,nastya,accelerometer
+10728,2480,992,16688,"2018-10-19 17:25:13","work, talking, tired",0,0,0,,nastya,accelerometer
+10729,2400,976,16720,"2018-10-19 17:25:14","work, talking, tired",0,0,0,,nastya,accelerometer
+10730,2480,1008,16656,"2018-10-19 17:25:14","work, talking, tired",0,0,0,,nastya,accelerometer
+10731,2464,1024,16688,"2018-10-19 17:25:15","work, talking, tired",0,0,0,,nastya,accelerometer
+10732,2464,976,16720,"2018-10-19 17:25:15","work, talking, tired",0,0,0,,nastya,accelerometer
+10733,2512,992,16704,"2018-10-19 17:25:16","work, talking, tired",0,0,0,,nastya,accelerometer
+10734,2480,976,16736,"2018-10-19 17:25:16","work, talking, tired",0,0,0,,nastya,accelerometer
+10735,2368,976,16720,"2018-10-19 17:25:17","work, talking, tired",0,0,0,,nastya,accelerometer
+10736,2560,992,16704,"2018-10-19 17:25:17","work, talking, tired",0,0,0,,nastya,accelerometer
+10737,2336,1024,16720,"2018-10-19 17:25:18","work, talking, tired",0,0,0,,nastya,accelerometer
+10738,2432,1024,16640,"2018-10-19 17:25:18","work, talking, tired",0,0,0,,nastya,accelerometer
+10739,2528,976,16688,"2018-10-19 17:25:19","work, talking, tired",0,0,0,,nastya,accelerometer
+10740,2512,1008,16720,"2018-10-19 17:25:19","work, talking, tired",0,0,0,,nastya,accelerometer
+10741,2544,976,16656,"2018-10-19 17:25:21","work, talking, tired",0,0,0,,nastya,accelerometer
+10742,2544,1024,16688,"2018-10-19 17:25:21","work, talking, tired",0,0,0,,nastya,accelerometer
+10743,2496,992,16656,"2018-10-19 17:25:22","work, talking, tired",0,0,0,,nastya,accelerometer
+10744,2464,1008,16720,"2018-10-19 17:25:22","work, talking, tired",0,0,0,,nastya,accelerometer
+10745,2448,1040,16720,"2018-10-19 17:25:23","work, talking, tired",0,0,0,,nastya,accelerometer
+10746,2448,992,16656,"2018-10-19 17:25:23","work, talking, tired",0,0,0,,nastya,accelerometer
+10747,2496,1024,16704,"2018-10-19 17:25:24","work, talking, tired",0,0,0,,nastya,accelerometer
+10748,2480,1024,16656,"2018-10-19 17:25:24","work, talking, tired",0,0,0,,nastya,accelerometer
+10749,2464,992,16688,"2018-10-19 17:25:25","work, talking, tired",0,0,0,,nastya,accelerometer
+10750,2480,992,16672,"2018-10-19 17:25:25","work, talking, tired",0,0,0,,nastya,accelerometer
+10751,2464,1008,16720,"2018-10-19 17:25:26","work, talking, tired",0,0,0,,nastya,accelerometer
+10752,2480,992,16688,"2018-10-19 17:25:26","work, talking, tired",0,0,0,,nastya,accelerometer
+10753,2448,992,16688,"2018-10-19 17:25:27","work, talking, tired",0,0,0,,nastya,accelerometer
+10754,2512,992,16704,"2018-10-19 17:25:27","work, talking, tired",0,0,0,,nastya,accelerometer
+10755,2496,976,16672,"2018-10-19 17:25:28","work, talking, tired",0,0,0,,nastya,accelerometer
+10756,2464,1056,16704,"2018-10-19 17:25:28","work, talking, tired",0,0,0,,nastya,accelerometer
+10757,2480,1008,16720,"2018-10-19 17:25:29","work, talking, tired",0,0,0,,nastya,accelerometer
+10758,2448,1024,16624,"2018-10-19 17:25:29","work, talking, tired",0,0,0,,nastya,accelerometer
+10759,2464,1024,16752,"2018-10-19 17:25:30","work, talking, tired",0,0,0,,nastya,accelerometer
+10760,2464,1008,16656,"2018-10-19 17:25:30","work, talking, tired",0,0,0,,nastya,accelerometer
+10761,2432,1008,16720,"2018-10-19 17:25:32","work, talking, tired",0,0,0,,nastya,accelerometer
+10762,2448,976,16704,"2018-10-19 17:25:32","work, talking, tired",0,0,0,,nastya,accelerometer
+10763,2480,1008,16672,"2018-10-19 17:25:33","work, talking, tired",0,0,0,,nastya,accelerometer
+10764,2448,1024,16704,"2018-10-19 17:25:33","work, talking, tired",0,0,0,,nastya,accelerometer
+10765,2512,1008,16704,"2018-10-19 17:25:34","work, talking, tired",0,0,0,,nastya,accelerometer
+10766,2496,992,16704,"2018-10-19 17:25:34","work, talking, tired",0,0,0,,nastya,accelerometer
+10767,2432,1024,16640,"2018-10-19 17:25:35","work, talking, tired",0,0,0,,nastya,accelerometer
+10768,2560,1008,16704,"2018-10-19 17:25:35","work, talking, tired",0,0,0,,nastya,accelerometer
+10769,2464,1024,16672,"2018-10-19 17:25:36","work, talking, tired",0,0,0,,nastya,accelerometer
+10770,2496,960,16688,"2018-10-19 17:25:36","work, talking, tired",0,0,0,,nastya,accelerometer
+10771,2496,1024,16688,"2018-10-19 17:25:37","work, talking, tired",0,0,0,,nastya,accelerometer
+10772,2464,976,16688,"2018-10-19 17:25:37","work, talking, tired",0,0,0,,nastya,accelerometer
+10773,2448,1008,16720,"2018-10-19 17:25:38","work, talking, tired",0,0,0,,nastya,accelerometer
+10774,2448,992,16656,"2018-10-19 17:25:38","work, talking, tired",0,0,0,,nastya,accelerometer
+10775,2448,976,16640,"2018-10-19 17:25:39","work, talking, tired",0,0,0,,nastya,accelerometer
+10776,2464,960,16656,"2018-10-19 17:25:39","work, talking, tired",0,0,0,,nastya,accelerometer
+10777,2480,944,16704,"2018-10-19 17:25:40","work, talking, tired",0,0,0,,nastya,accelerometer
+10778,2528,992,16688,"2018-10-19 17:25:40","work, talking, tired",0,0,0,,nastya,accelerometer
+10779,2480,1024,16720,"2018-10-19 17:25:41","work, talking, tired",0,0,0,,nastya,accelerometer
+10780,2480,1024,16656,"2018-10-19 17:25:41","work, talking, tired",0,0,0,,nastya,accelerometer
+10781,2432,976,16688,"2018-10-19 17:25:43","work, talking, tired",0,0,0,,nastya,accelerometer
+10782,2496,1024,16704,"2018-10-19 17:25:43","work, talking, tired",0,0,0,,nastya,accelerometer
+10783,2544,1040,16656,"2018-10-19 17:25:44","work, talking, tired",0,0,0,,nastya,accelerometer
+10784,2480,1024,16624,"2018-10-19 17:25:44","work, talking, tired",0,0,0,,nastya,accelerometer
+10785,2512,992,16672,"2018-10-19 17:25:45","work, talking, tired",0,0,0,,nastya,accelerometer
+10786,2528,992,16656,"2018-10-19 17:25:45","work, talking, tired",0,0,0,,nastya,accelerometer
+10787,2560,1024,16720,"2018-10-19 17:25:46","work, talking, tired",0,0,0,,nastya,accelerometer
+10788,2496,1024,16656,"2018-10-19 17:25:46","work, talking, tired",0,0,0,,nastya,accelerometer
+10789,2496,992,16656,"2018-10-19 17:25:47","work, talking, tired",0,0,0,,nastya,accelerometer
+10790,2512,1008,16720,"2018-10-19 17:25:47","work, talking, tired",0,0,0,,nastya,accelerometer
+10791,2480,1008,16736,"2018-10-19 17:25:48","work, talking, tired",0,0,0,,nastya,accelerometer
+10792,2448,1024,16720,"2018-10-19 17:25:48","work, talking, tired",0,0,0,,nastya,accelerometer
+10793,2480,976,16688,"2018-10-19 17:25:49","work, talking, tired",0,0,0,,nastya,accelerometer
+10794,2480,992,16672,"2018-10-19 17:25:49","work, talking, tired",0,0,0,,nastya,accelerometer
+10795,2496,1024,16768,"2018-10-19 17:25:50","work, talking, tired",0,0,0,,nastya,accelerometer
+10796,2480,976,16720,"2018-10-19 17:25:50","work, talking, tired",0,0,0,,nastya,accelerometer
+10797,2528,1008,16704,"2018-10-19 17:25:51","work, talking, tired",0,0,0,,nastya,accelerometer
+10798,2576,1024,16688,"2018-10-19 17:25:51","work, talking, tired",0,0,0,,nastya,accelerometer
+10799,2480,1024,16720,"2018-10-19 17:25:52","work, talking, tired",0,0,0,,nastya,accelerometer
+10800,2496,992,16688,"2018-10-19 17:25:52","work, talking, tired",0,0,0,,nastya,accelerometer
+10801,2480,1024,16704,"2018-10-19 17:25:54","work, talking, tired",0,0,0,,nastya,accelerometer
+10802,2496,976,16720,"2018-10-19 17:25:54","work, talking, tired",0,0,0,,nastya,accelerometer
+10803,2528,1024,16672,"2018-10-19 17:25:55","work, talking, tired",0,0,0,,nastya,accelerometer
+10804,2560,976,16688,"2018-10-19 17:25:55","work, talking, tired",0,0,0,,nastya,accelerometer
+10805,2512,1024,16656,"2018-10-19 17:25:56","work, talking, tired",0,0,0,,nastya,accelerometer
+10806,2496,992,16704,"2018-10-19 17:25:57","work, talking, tired",0,0,0,,nastya,accelerometer
+10807,2448,992,16720,"2018-10-19 17:25:57","work, talking, tired",0,0,0,,nastya,accelerometer
+10808,2464,960,16640,"2018-10-19 17:25:58","work, talking, tired",0,0,0,,nastya,accelerometer
+10809,2496,1040,16688,"2018-10-19 17:25:58","work, talking, tired",0,0,0,,nastya,accelerometer
+10810,2464,976,16736,"2018-10-19 17:25:59","work, talking, tired",0,0,0,,nastya,accelerometer
+10811,2512,992,16656,"2018-10-19 17:25:59","work, talking, tired",0,0,0,,nastya,accelerometer
+10812,2496,992,16720,"2018-10-19 17:26:00","work, talking, tired",0,0,0,,nastya,accelerometer
+10813,2512,976,16640,"2018-10-19 17:26:00","work, talking, tired",0,0,0,,nastya,accelerometer
+10814,2512,1024,16656,"2018-10-19 17:26:01","work, talking, tired",0,0,0,,nastya,accelerometer
+10815,2528,1008,16688,"2018-10-19 17:26:01","work, talking, tired",0,0,0,,nastya,accelerometer
+10816,2480,992,16656,"2018-10-19 17:26:02","work, talking, tired",0,0,0,,nastya,accelerometer
+10817,2496,1008,16640,"2018-10-19 17:26:02","work, talking, tired",0,0,0,,nastya,accelerometer
+10818,2528,944,16656,"2018-10-19 17:26:03","work, talking, tired",0,0,0,,nastya,accelerometer
+10819,2464,992,16672,"2018-10-19 17:26:03","work, talking, tired",0,0,0,,nastya,accelerometer
+10820,2464,1008,16720,"2018-10-19 17:26:04","work, talking, tired",0,0,0,,nastya,accelerometer
+10821,2384,768,16784,"2018-10-19 17:41:30",100,0,0,0,,alexey,accelerometer
+10822,2464,768,16720,"2018-10-19 17:41:30",100,0,0,0,,alexey,accelerometer
+10823,2448,784,16704,"2018-10-19 17:41:30",100,0,0,0,,alexey,accelerometer
+10824,2448,800,16688,"2018-10-19 17:41:30",100,0,0,0,,alexey,accelerometer
+10825,2400,752,16704,"2018-10-19 17:41:30",100,0,0,0,,alexey,accelerometer
+10826,2432,784,16704,"2018-10-19 17:41:31",100,0,0,0,,alexey,accelerometer
+10827,2432,720,16704,"2018-10-19 17:41:31",100,0,0,0,,alexey,accelerometer
+10828,2400,768,16672,"2018-10-19 17:41:31",100,0,0,0,,alexey,accelerometer
+10829,2416,768,16720,"2018-10-19 17:41:31",100,0,0,0,,alexey,accelerometer
+10830,2432,768,16688,"2018-10-19 17:41:31",100,0,0,0,,alexey,accelerometer
+10831,2400,800,16736,"2018-10-19 17:41:31",100,0,0,0,,alexey,accelerometer
+10832,2432,752,16704,"2018-10-19 17:41:31",100,0,0,0,,alexey,accelerometer
+10833,2352,784,16704,"2018-10-19 17:41:31",100,0,0,0,,alexey,accelerometer
+10834,2384,800,16720,"2018-10-19 17:41:31",100,0,0,0,,alexey,accelerometer
+10835,2368,784,16704,"2018-10-19 17:41:32",100,0,0,0,,alexey,accelerometer
+10836,2432,768,16672,"2018-10-19 17:41:32",100,0,0,0,,alexey,accelerometer
+10837,2400,800,16736,"2018-10-19 17:41:32",100,0,0,0,,alexey,accelerometer
+10838,2400,768,16704,"2018-10-19 17:41:32",100,0,0,0,,alexey,accelerometer
+10839,2416,768,16672,"2018-10-19 17:41:32",100,0,0,0,,alexey,accelerometer
+10840,2384,832,16720,"2018-10-19 17:41:32",100,0,0,0,,alexey,accelerometer
+10841,2400,784,16720,"2018-10-19 17:41:32",100,0,0,0,,alexey,accelerometer
+10842,2400,768,16768,"2018-10-19 17:41:32",100,0,0,0,,alexey,accelerometer
+10843,2448,768,16656,"2018-10-19 17:41:32",100,0,0,0,,alexey,accelerometer
+10844,2352,800,16704,"2018-10-19 17:41:32",100,0,0,0,,alexey,accelerometer
+10845,2368,784,16704,"2018-10-19 17:41:33",100,0,0,0,,alexey,accelerometer
+10846,2336,816,16688,"2018-10-19 17:41:33",100,0,0,0,,alexey,accelerometer
+10847,2432,800,16768,"2018-10-19 17:41:33",100,0,0,0,,alexey,accelerometer
+10848,2384,768,16768,"2018-10-19 17:41:33",100,0,0,0,,alexey,accelerometer
+10849,2368,816,16704,"2018-10-19 17:41:33",100,0,0,0,,alexey,accelerometer
+10850,2400,784,16704,"2018-10-19 17:41:33",100,0,0,0,,alexey,accelerometer
+10851,2400,736,16720,"2018-10-19 17:41:33",100,0,0,0,,alexey,accelerometer
+10852,2432,800,16656,"2018-10-19 17:41:33",100,0,0,0,,alexey,accelerometer
+10853,2368,768,16704,"2018-10-19 17:41:33",100,0,0,0,,alexey,accelerometer
+10854,2416,752,16704,"2018-10-19 17:41:33",100,0,0,0,,alexey,accelerometer
+10855,2368,768,16720,"2018-10-19 17:41:34",100,0,0,0,,alexey,accelerometer
+10856,2432,768,16672,"2018-10-19 17:41:34",100,0,0,0,,alexey,accelerometer
+10857,2400,784,16736,"2018-10-19 17:41:34",100,0,0,0,,alexey,accelerometer
+10858,2448,768,16656,"2018-10-19 17:41:34",100,0,0,0,,alexey,accelerometer
+10859,2448,768,16720,"2018-10-19 17:41:34",100,0,0,0,,alexey,accelerometer
+10860,2400,816,16688,"2018-10-19 17:41:34",100,0,0,0,,alexey,accelerometer
+10861,2384,752,16720,"2018-10-19 17:41:34",100,0,0,0,,alexey,accelerometer
+10862,2336,768,16768,"2018-10-19 17:41:34",100,0,0,0,,alexey,accelerometer
+10863,2432,784,16720,"2018-10-19 17:41:34",100,0,0,0,,alexey,accelerometer
+10864,2368,768,16688,"2018-10-19 17:41:34",100,0,0,0,,alexey,accelerometer
+10865,2368,784,16704,"2018-10-19 17:41:35",100,0,0,0,,alexey,accelerometer
+10866,2400,768,16704,"2018-10-19 17:41:35",100,0,0,0,,alexey,accelerometer
+10867,2416,752,16704,"2018-10-19 17:41:35",100,0,0,0,,alexey,accelerometer
+10868,2400,800,16704,"2018-10-19 17:41:35",100,0,0,0,,alexey,accelerometer
+10869,2432,800,16720,"2018-10-19 17:41:35",100,0,0,0,,alexey,accelerometer
+10870,2464,800,16720,"2018-10-19 17:41:35",100,0,0,0,,alexey,accelerometer
+10871,2448,752,16736,"2018-10-19 17:41:35",100,0,0,0,,alexey,accelerometer
+10872,2352,768,16720,"2018-10-19 17:41:35",100,0,0,0,,alexey,accelerometer
+10873,2368,784,16720,"2018-10-19 17:41:35",100,0,0,0,,alexey,accelerometer
+10874,2432,768,16672,"2018-10-19 17:41:36",100,0,0,0,,alexey,accelerometer
+10875,2432,784,16704,"2018-10-19 17:41:36",100,0,0,0,,alexey,accelerometer
+10876,2368,800,16736,"2018-10-19 17:41:36",100,0,0,0,,alexey,accelerometer
+10877,2432,768,16688,"2018-10-19 17:41:36",100,0,0,0,,alexey,accelerometer
+10878,2384,800,16736,"2018-10-19 17:41:36",100,0,0,0,,alexey,accelerometer
+10879,2368,768,16704,"2018-10-19 17:41:36",100,0,0,0,,alexey,accelerometer
+10880,2384,736,16768,"2018-10-19 17:41:36",100,0,0,0,,alexey,accelerometer
+10881,2368,784,16688,"2018-10-19 17:41:36",100,0,0,0,,alexey,accelerometer
+10882,2384,800,16720,"2018-10-19 17:41:36",100,0,0,0,,alexey,accelerometer
+10883,2432,784,16720,"2018-10-19 17:41:36",100,0,0,0,,alexey,accelerometer
+10884,2400,768,16704,"2018-10-19 17:41:37",100,0,0,0,,alexey,accelerometer
+10885,2400,768,16720,"2018-10-19 17:41:37",100,0,0,0,,alexey,accelerometer
+10886,2432,784,16688,"2018-10-19 17:41:37",100,0,0,0,,alexey,accelerometer
+10887,2352,768,16768,"2018-10-19 17:41:37",100,0,0,0,,alexey,accelerometer
+10888,2384,704,16704,"2018-10-19 17:41:37",100,0,0,0,,alexey,accelerometer
+10889,2448,752,16736,"2018-10-19 17:41:37",100,0,0,0,,alexey,accelerometer
+10890,2352,816,16736,"2018-10-19 17:41:37",100,0,0,0,,alexey,accelerometer
+10891,2416,768,16736,"2018-10-19 17:41:37",100,0,0,0,,alexey,accelerometer
+10892,2368,768,16784,"2018-10-19 17:41:37",100,0,0,0,,alexey,accelerometer
+10893,2368,784,16720,"2018-10-19 17:41:37",100,0,0,0,,alexey,accelerometer
+10894,2432,784,16736,"2018-10-19 17:41:38",100,0,0,0,,alexey,accelerometer
+10895,2400,816,16656,"2018-10-19 17:41:38",100,0,0,0,,alexey,accelerometer
+10896,2368,768,16704,"2018-10-19 17:41:38",100,0,0,0,,alexey,accelerometer
+10897,2400,784,16736,"2018-10-19 17:41:38",100,0,0,0,,alexey,accelerometer
+10898,2352,784,16704,"2018-10-19 17:41:38",100,0,0,0,,alexey,accelerometer
+10899,2432,784,16656,"2018-10-19 17:41:38",100,0,0,0,,alexey,accelerometer
+10900,2400,720,16720,"2018-10-19 17:41:38",100,0,0,0,,alexey,accelerometer
+10901,2368,752,16720,"2018-10-19 17:41:38",100,0,0,0,,alexey,accelerometer
+10902,2320,800,16720,"2018-10-19 17:41:38",100,0,0,0,,alexey,accelerometer
+10903,2400,768,16768,"2018-10-19 17:41:38",100,0,0,0,,alexey,accelerometer
+10904,2432,784,16784,"2018-10-19 17:41:39",100,0,0,0,,alexey,accelerometer
+10905,2368,816,16768,"2018-10-19 17:41:39",100,0,0,0,,alexey,accelerometer
+10906,2432,768,16704,"2018-10-19 17:41:39",100,0,0,0,,alexey,accelerometer
+10907,2320,816,16720,"2018-10-19 17:41:39",100,0,0,0,,alexey,accelerometer
+10908,2432,816,16656,"2018-10-19 17:41:39",100,0,0,0,,alexey,accelerometer
+10909,2352,816,16704,"2018-10-19 17:41:39",100,0,0,0,,alexey,accelerometer
+10910,2368,800,16720,"2018-10-19 17:41:39",100,0,0,0,,alexey,accelerometer
+10911,2352,784,16656,"2018-10-19 17:41:39",100,0,0,0,,alexey,accelerometer
+10912,2336,816,16800,"2018-10-19 17:41:39",100,0,0,0,,alexey,accelerometer
+10913,2320,816,16720,"2018-10-19 17:41:40",100,0,0,0,,alexey,accelerometer
+10914,2384,784,16704,"2018-10-19 17:41:40",100,0,0,0,,alexey,accelerometer
+10915,2352,800,16720,"2018-10-19 17:41:40",100,0,0,0,,alexey,accelerometer
+10916,2368,816,16720,"2018-10-19 17:41:40",100,0,0,0,,alexey,accelerometer
+10917,2368,752,16720,"2018-10-19 17:41:40",100,0,0,0,,alexey,accelerometer
+10918,2384,736,16768,"2018-10-19 17:41:40",100,0,0,0,,alexey,accelerometer
+10919,2464,800,16656,"2018-10-19 17:41:40",100,0,0,0,,alexey,accelerometer
+10920,2320,848,16640,"2018-10-19 17:41:40",100,0,0,0,,alexey,accelerometer
+10921,2448,656,16672,"2018-10-19 17:41:42",100,0,0,0,,alexey,accelerometer
+10922,2240,736,16736,"2018-10-19 17:41:42",100,0,0,0,,alexey,accelerometer
+10923,2512,752,16608,"2018-10-19 17:41:42",100,0,0,0,,alexey,accelerometer
+10924,2320,720,16768,"2018-10-19 17:41:42",100,0,0,0,,alexey,accelerometer
+10925,2560,768,16592,"2018-10-19 17:41:43",100,0,0,0,,alexey,accelerometer
+10926,2400,672,16832,"2018-10-19 17:41:43",100,0,0,0,,alexey,accelerometer
+10927,2512,848,16640,"2018-10-19 17:41:43",100,0,0,0,,alexey,accelerometer
+10928,2368,736,16720,"2018-10-19 17:41:43",100,0,0,0,,alexey,accelerometer
+10929,2448,816,16672,"2018-10-19 17:41:43",100,0,0,0,,alexey,accelerometer
+10930,2368,688,16720,"2018-10-19 17:41:43",100,0,0,0,,alexey,accelerometer
+10931,2288,816,16784,"2018-10-19 17:41:43",100,0,0,0,,alexey,accelerometer
+10932,2464,720,16720,"2018-10-19 17:41:43",100,0,0,0,,alexey,accelerometer
+10933,2320,720,16704,"2018-10-19 17:41:43",100,0,0,0,,alexey,accelerometer
+10934,2352,784,16672,"2018-10-19 17:41:43",100,0,0,0,,alexey,accelerometer
+10935,2336,752,16720,"2018-10-19 17:41:44",100,0,0,0,,alexey,accelerometer
+10936,2496,784,16640,"2018-10-19 17:41:44",100,0,0,0,,alexey,accelerometer
+10937,2384,672,16672,"2018-10-19 17:41:44",100,0,0,0,,alexey,accelerometer
+10938,2560,880,16608,"2018-10-19 17:41:44",100,0,0,0,,alexey,accelerometer
+10939,2368,736,16800,"2018-10-19 17:41:44",100,0,0,0,,alexey,accelerometer
+10940,2480,864,16624,"2018-10-19 17:41:44",100,0,0,0,,alexey,accelerometer
+10941,2416,736,16704,"2018-10-19 17:41:44",100,0,0,0,,alexey,accelerometer
+10942,2480,944,16720,"2018-10-19 17:41:44",100,0,0,0,,alexey,accelerometer
+10943,2400,688,16672,"2018-10-19 17:41:44",100,0,0,0,,alexey,accelerometer
+10944,2304,816,16736,"2018-10-19 17:41:45",100,0,0,0,,alexey,accelerometer
+10945,2368,768,16656,"2018-10-19 17:41:45",100,0,0,0,,alexey,accelerometer
+10946,2320,848,16832,"2018-10-19 17:41:45",100,0,0,0,,alexey,accelerometer
+10947,2496,784,16640,"2018-10-19 17:41:45",100,0,0,0,,alexey,accelerometer
+10948,2272,704,16736,"2018-10-19 17:41:45",100,0,0,0,,alexey,accelerometer
+10949,2512,784,16624,"2018-10-19 17:41:45",100,0,0,0,,alexey,accelerometer
+10950,2352,768,16720,"2018-10-19 17:41:45",100,0,0,0,,alexey,accelerometer
+10951,2464,768,16608,"2018-10-19 17:41:45",100,0,0,0,,alexey,accelerometer
+10952,2416,768,16768,"2018-10-19 17:41:45",100,0,0,0,,alexey,accelerometer
+10953,2528,896,16624,"2018-10-19 17:41:45",100,0,0,0,,alexey,accelerometer
+10954,2368,720,16720,"2018-10-19 17:41:46",100,0,0,0,,alexey,accelerometer
+10955,2528,848,16624,"2018-10-19 17:41:46",100,0,0,0,,alexey,accelerometer
+10956,2448,720,16816,"2018-10-19 17:41:46",100,0,0,0,,alexey,accelerometer
+10957,2336,864,16832,"2018-10-19 17:41:46",100,0,0,0,,alexey,accelerometer
+10958,2448,688,16736,"2018-10-19 17:41:46",100,0,0,0,,alexey,accelerometer
+10959,2304,848,16784,"2018-10-19 17:41:46",100,0,0,0,,alexey,accelerometer
+10960,2512,656,16672,"2018-10-19 17:41:46",100,0,0,0,,alexey,accelerometer
+10961,2336,896,16768,"2018-10-19 17:41:46",100,0,0,0,,alexey,accelerometer
+10962,2480,720,16672,"2018-10-19 17:41:46",100,0,0,0,,alexey,accelerometer
+10963,2256,880,16784,"2018-10-19 17:41:46",100,0,0,0,,alexey,accelerometer
+10964,2496,768,16688,"2018-10-19 17:41:47",100,0,0,0,,alexey,accelerometer
+10965,2304,880,16752,"2018-10-19 17:41:47",100,0,0,0,,alexey,accelerometer
+10966,2464,720,16688,"2018-10-19 17:41:47",100,0,0,0,,alexey,accelerometer
+10967,2288,800,16784,"2018-10-19 17:41:47",100,0,0,0,,alexey,accelerometer
+10968,2496,768,16704,"2018-10-19 17:41:47",100,0,0,0,,alexey,accelerometer
+10969,2256,832,16784,"2018-10-19 17:41:47",100,0,0,0,,alexey,accelerometer
+10970,2416,720,16688,"2018-10-19 17:41:47",100,0,0,0,,alexey,accelerometer
+10971,2192,816,16800,"2018-10-19 17:41:47",100,0,0,0,,alexey,accelerometer
+10972,2400,736,16688,"2018-10-19 17:41:47",100,0,0,0,,alexey,accelerometer
+10973,2288,832,16704,"2018-10-19 17:41:48",100,0,0,0,,alexey,accelerometer
+10974,2320,768,16768,"2018-10-19 17:41:48",100,0,0,0,,alexey,accelerometer
+10975,2336,768,16720,"2018-10-19 17:41:48",100,0,0,0,,alexey,accelerometer
+10976,2496,784,16640,"2018-10-19 17:41:48",100,0,0,0,,alexey,accelerometer
+10977,2432,736,16720,"2018-10-19 17:41:48",100,0,0,0,,alexey,accelerometer
+10978,2592,800,16592,"2018-10-19 17:41:48",100,0,0,0,,alexey,accelerometer
+10979,2352,752,16736,"2018-10-19 17:41:48",100,0,0,0,,alexey,accelerometer
+10980,2448,768,16672,"2018-10-19 17:41:48",100,0,0,0,,alexey,accelerometer
+10981,2352,768,16720,"2018-10-19 17:41:48",100,0,0,0,,alexey,accelerometer
+10982,2464,784,16704,"2018-10-19 17:41:48",100,0,0,0,,alexey,accelerometer
+10983,2336,752,16784,"2018-10-19 17:41:49",100,0,0,0,,alexey,accelerometer
+10984,2464,800,16672,"2018-10-19 17:41:49",100,0,0,0,,alexey,accelerometer
+10985,2432,736,16736,"2018-10-19 17:41:49",100,0,0,0,,alexey,accelerometer
+10986,2400,816,16720,"2018-10-19 17:41:49",100,0,0,0,,alexey,accelerometer
+10987,2464,720,16720,"2018-10-19 17:41:49",100,0,0,0,,alexey,accelerometer
+10988,2480,864,16656,"2018-10-19 17:41:49",100,0,0,0,,alexey,accelerometer
+10989,2480,768,16704,"2018-10-19 17:41:49",100,0,0,0,,alexey,accelerometer
+10990,2352,832,16800,"2018-10-19 17:41:49",100,0,0,0,,alexey,accelerometer
+10991,2416,688,16672,"2018-10-19 17:41:49",100,0,0,0,,alexey,accelerometer
+10992,2336,736,16656,"2018-10-19 17:41:49",100,0,0,0,,alexey,accelerometer
+10993,2496,816,16640,"2018-10-19 17:41:50",100,0,0,0,,alexey,accelerometer
+10994,2320,784,16800,"2018-10-19 17:41:50",100,0,0,0,,alexey,accelerometer
+10995,2528,736,16608,"2018-10-19 17:41:50",100,0,0,0,,alexey,accelerometer
+10996,2416,704,16752,"2018-10-19 17:41:50",100,0,0,0,,alexey,accelerometer
+10997,2560,832,16576,"2018-10-19 17:41:50",100,0,0,0,,alexey,accelerometer
+10998,2416,736,16704,"2018-10-19 17:41:50",100,0,0,0,,alexey,accelerometer
+10999,2624,832,16592,"2018-10-19 17:41:50",100,0,0,0,,alexey,accelerometer
+11000,2480,656,16720,"2018-10-19 17:41:50",100,0,0,0,,alexey,accelerometer
+11001,2576,864,16464,"2018-10-19 17:41:50",100,0,0,0,,alexey,accelerometer
+11002,2432,720,16784,"2018-10-19 17:41:50",100,0,0,0,,alexey,accelerometer
+11003,2560,864,16640,"2018-10-19 17:41:51",100,0,0,0,,alexey,accelerometer
+11004,2496,720,16768,"2018-10-19 17:41:51",100,0,0,0,,alexey,accelerometer
+11005,2624,832,16656,"2018-10-19 17:41:51",100,0,0,0,,alexey,accelerometer
+11006,2448,704,16720,"2018-10-19 17:41:51",100,0,0,0,,alexey,accelerometer
+11007,2496,784,16592,"2018-10-19 17:41:51",100,0,0,0,,alexey,accelerometer
+11008,2496,672,16816,"2018-10-19 17:41:51",100,0,0,0,,alexey,accelerometer
+11009,2512,896,16688,"2018-10-19 17:41:51",100,0,0,0,,alexey,accelerometer
+11010,2512,752,16688,"2018-10-19 17:41:51",100,0,0,0,,alexey,accelerometer
+11011,2560,848,16672,"2018-10-19 17:41:51",100,0,0,0,,alexey,accelerometer
+11012,2544,704,16720,"2018-10-19 17:41:52",100,0,0,0,,alexey,accelerometer
+11013,2368,896,16784,"2018-10-19 17:41:52",100,0,0,0,,alexey,accelerometer
+11014,2432,720,16672,"2018-10-19 17:41:52",100,0,0,0,,alexey,accelerometer
+11015,2256,816,16784,"2018-10-19 17:41:52",100,0,0,0,,alexey,accelerometer
+11016,2544,736,16656,"2018-10-19 17:41:52",100,0,0,0,,alexey,accelerometer
+11017,2272,816,16784,"2018-10-19 17:41:52",100,0,0,0,,alexey,accelerometer
+11018,2496,720,16688,"2018-10-19 17:41:52",100,0,0,0,,alexey,accelerometer
+11019,2288,800,16752,"2018-10-19 17:41:52",100,0,0,0,,alexey,accelerometer
+11020,2480,752,16656,"2018-10-19 17:41:52",100,0,0,0,,alexey,accelerometer
+11021,2528,816,16688,"2018-10-19 17:41:54",100,0,0,0,,alexey,accelerometer
+11022,2480,720,16736,"2018-10-19 17:41:54",100,0,0,0,,alexey,accelerometer
+11023,2672,800,16640,"2018-10-19 17:41:54",100,0,0,0,,alexey,accelerometer
+11024,2448,752,16720,"2018-10-19 17:41:54",100,0,0,0,,alexey,accelerometer
+11025,2592,800,16688,"2018-10-19 17:41:55",100,0,0,0,,alexey,accelerometer
+11026,2448,688,16832,"2018-10-19 17:41:55",100,0,0,0,,alexey,accelerometer
+11027,2576,832,16656,"2018-10-19 17:41:55",100,0,0,0,,alexey,accelerometer
+11028,2464,704,16768,"2018-10-19 17:41:55",100,0,0,0,,alexey,accelerometer
+11029,2560,800,16624,"2018-10-19 17:41:55",100,0,0,0,,alexey,accelerometer
+11030,2432,784,16768,"2018-10-19 17:41:55",100,0,0,0,,alexey,accelerometer
+11031,2544,784,16576,"2018-10-19 17:41:55",100,0,0,0,,alexey,accelerometer
+11032,2432,720,16752,"2018-10-19 17:41:55",100,0,0,0,,alexey,accelerometer
+11033,2528,832,16640,"2018-10-19 17:41:55",100,0,0,0,,alexey,accelerometer
+11034,2432,832,16720,"2018-10-19 17:41:55",100,0,0,0,,alexey,accelerometer
+11035,2528,800,16672,"2018-10-19 17:41:56",100,0,0,0,,alexey,accelerometer
+11036,2448,800,16704,"2018-10-19 17:41:56",100,0,0,0,,alexey,accelerometer
+11037,2512,800,16672,"2018-10-19 17:41:56",100,0,0,0,,alexey,accelerometer
+11038,2464,800,16800,"2018-10-19 17:41:56",100,0,0,0,,alexey,accelerometer
+11039,2512,768,16608,"2018-10-19 17:41:56",100,0,0,0,,alexey,accelerometer
+11040,2384,768,16752,"2018-10-19 17:41:56",100,0,0,0,,alexey,accelerometer
+11041,2480,736,16656,"2018-10-19 17:41:56",100,0,0,0,,alexey,accelerometer
+11042,2368,800,16736,"2018-10-19 17:41:56",100,0,0,0,,alexey,accelerometer
+11043,2528,704,16640,"2018-10-19 17:41:56",100,0,0,0,,alexey,accelerometer
+11044,2352,832,16736,"2018-10-19 17:41:57",100,0,0,0,,alexey,accelerometer
+11045,2560,768,16672,"2018-10-19 17:41:57",100,0,0,0,,alexey,accelerometer
+11046,2448,832,16768,"2018-10-19 17:41:57",100,0,0,0,,alexey,accelerometer
+11047,2512,688,16736,"2018-10-19 17:41:57",100,0,0,0,,alexey,accelerometer
+11048,2448,832,16768,"2018-10-19 17:41:57",100,0,0,0,,alexey,accelerometer
+11049,2464,688,16720,"2018-10-19 17:41:57",100,0,0,0,,alexey,accelerometer
+11050,2400,880,16672,"2018-10-19 17:41:57",100,0,0,0,,alexey,accelerometer
+11051,2448,800,16752,"2018-10-19 17:41:57",100,0,0,0,,alexey,accelerometer
+11052,2592,848,16656,"2018-10-19 17:41:57",100,0,0,0,,alexey,accelerometer
+11053,2464,704,16752,"2018-10-19 17:41:57",100,0,0,0,,alexey,accelerometer
+11054,2576,816,16624,"2018-10-19 17:41:58",100,0,0,0,,alexey,accelerometer
+11055,2384,736,16832,"2018-10-19 17:41:58",100,0,0,0,,alexey,accelerometer
+11056,2576,848,16672,"2018-10-19 17:41:58",100,0,0,0,,alexey,accelerometer
+11057,2496,752,16752,"2018-10-19 17:41:58",100,0,0,0,,alexey,accelerometer
+11058,2560,800,16624,"2018-10-19 17:41:58",100,0,0,0,,alexey,accelerometer
+11059,2496,768,16720,"2018-10-19 17:41:58",100,0,0,0,,alexey,accelerometer
+11060,2560,816,16624,"2018-10-19 17:41:58",100,0,0,0,,alexey,accelerometer
+11061,2464,752,16784,"2018-10-19 17:41:58",100,0,0,0,,alexey,accelerometer
+11062,2560,784,16624,"2018-10-19 17:41:58",100,0,0,0,,alexey,accelerometer
+11063,2448,784,16736,"2018-10-19 17:41:58",100,0,0,0,,alexey,accelerometer
+11064,2512,752,16672,"2018-10-19 17:41:59",100,0,0,0,,alexey,accelerometer
+11065,2448,784,16688,"2018-10-19 17:41:59",100,0,0,0,,alexey,accelerometer
+11066,2560,784,16656,"2018-10-19 17:41:59",100,0,0,0,,alexey,accelerometer
+11067,2448,848,16784,"2018-10-19 17:41:59",100,0,0,0,,alexey,accelerometer
+11068,2528,768,16640,"2018-10-19 17:41:59",100,0,0,0,,alexey,accelerometer
+11069,2464,864,16672,"2018-10-19 17:41:59",100,0,0,0,,alexey,accelerometer
+11070,2528,736,16656,"2018-10-19 17:41:59",100,0,0,0,,alexey,accelerometer
+11071,2464,848,16704,"2018-10-19 17:41:59",100,0,0,0,,alexey,accelerometer
+11072,2544,736,16688,"2018-10-19 17:41:59",100,0,0,0,,alexey,accelerometer
+11073,2560,816,16688,"2018-10-19 17:41:59",100,0,0,0,,alexey,accelerometer
+11074,2560,768,16704,"2018-10-19 17:42:00",100,0,0,0,,alexey,accelerometer
+11075,2608,832,16640,"2018-10-19 17:42:00",100,0,0,0,,alexey,accelerometer
+11076,2544,720,16688,"2018-10-19 17:42:00",100,0,0,0,,alexey,accelerometer
+11077,2544,864,16720,"2018-10-19 17:42:00",100,0,0,0,,alexey,accelerometer
+11078,2512,720,16704,"2018-10-19 17:42:00",100,0,0,0,,alexey,accelerometer
+11079,2640,832,16656,"2018-10-19 17:42:00",100,0,0,0,,alexey,accelerometer
+11080,2480,752,16720,"2018-10-19 17:42:00",100,0,0,0,,alexey,accelerometer
+11081,2592,752,16656,"2018-10-19 17:42:00",100,0,0,0,,alexey,accelerometer
+11082,2496,784,16672,"2018-10-19 17:42:00",100,0,0,0,,alexey,accelerometer
+11083,2576,784,16656,"2018-10-19 17:42:01",100,0,0,0,,alexey,accelerometer
+11084,2464,816,16720,"2018-10-19 17:42:01",100,0,0,0,,alexey,accelerometer
+11085,2560,784,16624,"2018-10-19 17:42:01",100,0,0,0,,alexey,accelerometer
+11086,2512,736,16736,"2018-10-19 17:42:01",100,0,0,0,,alexey,accelerometer
+11087,2528,752,16656,"2018-10-19 17:42:01",100,0,0,0,,alexey,accelerometer
+11088,2432,800,16720,"2018-10-19 17:42:01",100,0,0,0,,alexey,accelerometer
+11089,2528,720,16672,"2018-10-19 17:42:01",100,0,0,0,,alexey,accelerometer
+11090,2464,816,16704,"2018-10-19 17:42:01",100,0,0,0,,alexey,accelerometer
+11091,2496,736,16656,"2018-10-19 17:42:01",100,0,0,0,,alexey,accelerometer
+11092,2448,832,16720,"2018-10-19 17:42:01",100,0,0,0,,alexey,accelerometer
+11093,2608,768,16640,"2018-10-19 17:42:02",100,0,0,0,,alexey,accelerometer
+11094,2384,864,16720,"2018-10-19 17:42:02",100,0,0,0,,alexey,accelerometer
+11095,2528,768,16672,"2018-10-19 17:42:02",100,0,0,0,,alexey,accelerometer
+11096,2480,896,16720,"2018-10-19 17:42:02",100,0,0,0,,alexey,accelerometer
+11097,2528,720,16768,"2018-10-19 17:42:02",100,0,0,0,,alexey,accelerometer
+11098,2544,832,16656,"2018-10-19 17:42:02",100,0,0,0,,alexey,accelerometer
+11099,2544,704,16736,"2018-10-19 17:42:02",100,0,0,0,,alexey,accelerometer
+11100,2528,832,16656,"2018-10-19 17:42:02",100,0,0,0,,alexey,accelerometer
+11101,2512,672,16768,"2018-10-19 17:42:02",100,0,0,0,,alexey,accelerometer
+11102,2624,800,16624,"2018-10-19 17:42:02",100,0,0,0,,alexey,accelerometer
+11103,2480,736,16768,"2018-10-19 17:42:03",100,0,0,0,,alexey,accelerometer
+11104,2544,784,16592,"2018-10-19 17:42:03",100,0,0,0,,alexey,accelerometer
+11105,2512,752,16768,"2018-10-19 17:42:03",100,0,0,0,,alexey,accelerometer
+11106,2608,784,16624,"2018-10-19 17:42:03",100,0,0,0,,alexey,accelerometer
+11107,2544,832,16656,"2018-10-19 17:42:03",100,0,0,0,,alexey,accelerometer
+11108,2640,800,16608,"2018-10-19 17:42:03",100,0,0,0,,alexey,accelerometer
+11109,2432,848,16720,"2018-10-19 17:42:03",100,0,0,0,,alexey,accelerometer
+11110,2560,752,16672,"2018-10-19 17:42:03",100,0,0,0,,alexey,accelerometer
+11111,2496,864,16768,"2018-10-19 17:42:03",100,0,0,0,,alexey,accelerometer
+11112,2608,784,16640,"2018-10-19 17:42:03",100,0,0,0,,alexey,accelerometer
+11113,2544,800,16688,"2018-10-19 17:42:04",100,0,0,0,,alexey,accelerometer
+11114,2592,704,16704,"2018-10-19 17:42:04",100,0,0,0,,alexey,accelerometer
+11115,2528,880,16704,"2018-10-19 17:42:04",100,0,0,0,,alexey,accelerometer
+11116,2608,704,16688,"2018-10-19 17:42:04",100,0,0,0,,alexey,accelerometer
+11117,2512,928,16720,"2018-10-19 17:42:04",100,0,0,0,,alexey,accelerometer
+11118,2624,736,16768,"2018-10-19 17:42:04",100,0,0,0,,alexey,accelerometer
+11119,2608,800,16592,"2018-10-19 17:42:04",100,0,0,0,,alexey,accelerometer
+11120,2592,752,16704,"2018-10-19 17:42:04",100,0,0,0,,alexey,accelerometer
+11121,2512,832,16656,"2018-10-19 17:42:06",100,0,0,0,,alexey,accelerometer
+11122,2592,768,16672,"2018-10-19 17:42:06",100,0,0,0,,alexey,accelerometer
+11123,2560,848,16720,"2018-10-19 17:42:06",100,0,0,0,,alexey,accelerometer
+11124,2576,736,16688,"2018-10-19 17:42:06",100,0,0,0,,alexey,accelerometer
+11125,2544,848,16640,"2018-10-19 17:42:06",100,0,0,0,,alexey,accelerometer
+11126,2624,688,16688,"2018-10-19 17:42:06",100,0,0,0,,alexey,accelerometer
+11127,2672,784,16576,"2018-10-19 17:42:07",100,0,0,0,,alexey,accelerometer
+11128,2592,720,16688,"2018-10-19 17:42:07",100,0,0,0,,alexey,accelerometer
+11129,2672,768,16608,"2018-10-19 17:42:07",100,0,0,0,,alexey,accelerometer
+11130,2560,768,16768,"2018-10-19 17:42:07",100,0,0,0,,alexey,accelerometer
+11131,2640,768,16624,"2018-10-19 17:42:07",100,0,0,0,,alexey,accelerometer
+11132,2512,736,16688,"2018-10-19 17:42:07",100,0,0,0,,alexey,accelerometer
+11133,2592,768,16640,"2018-10-19 17:42:07",100,0,0,0,,alexey,accelerometer
+11134,2496,784,16720,"2018-10-19 17:42:07",100,0,0,0,,alexey,accelerometer
+11135,2608,752,16624,"2018-10-19 17:42:07",100,0,0,0,,alexey,accelerometer
+11136,2512,832,16688,"2018-10-19 17:42:07",100,0,0,0,,alexey,accelerometer
+11137,2608,736,16656,"2018-10-19 17:42:08",100,0,0,0,,alexey,accelerometer
+11138,2512,848,16784,"2018-10-19 17:42:08",100,0,0,0,,alexey,accelerometer
+11139,2624,720,16688,"2018-10-19 17:42:08",100,0,0,0,,alexey,accelerometer
+11140,2512,880,16720,"2018-10-19 17:42:08",100,0,0,0,,alexey,accelerometer
+11141,2608,752,16688,"2018-10-19 17:42:08",100,0,0,0,,alexey,accelerometer
+11142,2544,816,16720,"2018-10-19 17:42:08",100,0,0,0,,alexey,accelerometer
+11143,2656,736,16704,"2018-10-19 17:42:08",100,0,0,0,,alexey,accelerometer
+11144,2608,816,16688,"2018-10-19 17:42:08",100,0,0,0,,alexey,accelerometer
+11145,2576,752,16704,"2018-10-19 17:42:08",100,0,0,0,,alexey,accelerometer
+11146,2704,816,16624,"2018-10-19 17:42:08",100,0,0,0,,alexey,accelerometer
+11147,2480,672,16736,"2018-10-19 17:42:09",100,0,0,0,,alexey,accelerometer
+11148,2624,768,16624,"2018-10-19 17:42:09",100,0,0,0,,alexey,accelerometer
+11149,2528,752,16768,"2018-10-19 17:42:09",100,0,0,0,,alexey,accelerometer
+11150,2608,784,16640,"2018-10-19 17:42:09",100,0,0,0,,alexey,accelerometer
+11151,2512,800,16704,"2018-10-19 17:42:09",100,0,0,0,,alexey,accelerometer
+11152,2592,768,16624,"2018-10-19 17:42:09",100,0,0,0,,alexey,accelerometer
+11153,2560,784,16736,"2018-10-19 17:42:09",100,0,0,0,,alexey,accelerometer
+11154,2576,720,16624,"2018-10-19 17:42:09",100,0,0,0,,alexey,accelerometer
+11155,2592,784,16688,"2018-10-19 17:42:09",100,0,0,0,,alexey,accelerometer
+11156,2544,736,16704,"2018-10-19 17:42:10",100,0,0,0,,alexey,accelerometer
+11157,2464,832,16704,"2018-10-19 17:42:10",100,0,0,0,,alexey,accelerometer
+11158,2624,752,16656,"2018-10-19 17:42:10",100,0,0,0,,alexey,accelerometer
+11159,2448,816,16720,"2018-10-19 17:42:10",100,0,0,0,,alexey,accelerometer
+11160,2592,768,16704,"2018-10-19 17:42:10",100,0,0,0,,alexey,accelerometer
+11161,2512,880,16688,"2018-10-19 17:42:10",100,0,0,0,,alexey,accelerometer
+11162,2592,704,16688,"2018-10-19 17:42:10",100,0,0,0,,alexey,accelerometer
+11163,2528,816,16720,"2018-10-19 17:42:10",100,0,0,0,,alexey,accelerometer
+11164,2576,784,16656,"2018-10-19 17:42:10",100,0,0,0,,alexey,accelerometer
+11165,2480,832,16768,"2018-10-19 17:42:10",100,0,0,0,,alexey,accelerometer
+11166,2608,736,16672,"2018-10-19 17:42:11",100,0,0,0,,alexey,accelerometer
+11167,2544,864,16704,"2018-10-19 17:42:11",100,0,0,0,,alexey,accelerometer
+11168,2576,704,16704,"2018-10-19 17:42:11",100,0,0,0,,alexey,accelerometer
+11169,2528,864,16784,"2018-10-19 17:42:11",100,0,0,0,,alexey,accelerometer
+11170,2640,768,16704,"2018-10-19 17:42:11",100,0,0,0,,alexey,accelerometer
+11171,2576,864,16768,"2018-10-19 17:42:11",100,0,0,0,,alexey,accelerometer
+11172,2592,656,16720,"2018-10-19 17:42:11",100,0,0,0,,alexey,accelerometer
+11173,2560,832,16688,"2018-10-19 17:42:11",100,0,0,0,,alexey,accelerometer
+11174,2608,720,16704,"2018-10-19 17:42:11",100,0,0,0,,alexey,accelerometer
+11175,2496,880,16704,"2018-10-19 17:42:11",100,0,0,0,,alexey,accelerometer
+11176,2592,720,16720,"2018-10-19 17:42:12",100,0,0,0,,alexey,accelerometer
+11177,2560,816,16608,"2018-10-19 17:42:12",100,0,0,0,,alexey,accelerometer
+11178,2576,704,16752,"2018-10-19 17:42:12",100,0,0,0,,alexey,accelerometer
+11179,2656,800,16672,"2018-10-19 17:42:12",100,0,0,0,,alexey,accelerometer
+11180,2608,736,16736,"2018-10-19 17:42:12",100,0,0,0,,alexey,accelerometer
+11181,2608,800,16640,"2018-10-19 17:42:12",100,0,0,0,,alexey,accelerometer
+11182,2496,768,16768,"2018-10-19 17:42:12",100,0,0,0,,alexey,accelerometer
+11183,2624,768,16640,"2018-10-19 17:42:12",100,0,0,0,,alexey,accelerometer
+11184,2576,768,16752,"2018-10-19 17:42:12",100,0,0,0,,alexey,accelerometer
+11185,2592,752,16560,"2018-10-19 17:42:12",100,0,0,0,,alexey,accelerometer
+11186,2496,704,16752,"2018-10-19 17:42:13",100,0,0,0,,alexey,accelerometer
+11187,2592,736,16672,"2018-10-19 17:42:13",100,0,0,0,,alexey,accelerometer
+11188,2496,832,16656,"2018-10-19 17:42:13",100,0,0,0,,alexey,accelerometer
+11189,2576,752,16576,"2018-10-19 17:42:13",100,0,0,0,,alexey,accelerometer
+11190,2448,816,16736,"2018-10-19 17:42:13",100,0,0,0,,alexey,accelerometer
+11191,2592,688,16672,"2018-10-19 17:42:13",100,0,0,0,,alexey,accelerometer
+11192,2496,880,16720,"2018-10-19 17:42:13",100,0,0,0,,alexey,accelerometer
+11193,2640,736,16720,"2018-10-19 17:42:13",100,0,0,0,,alexey,accelerometer
+11194,2464,816,16752,"2018-10-19 17:42:13",100,0,0,0,,alexey,accelerometer
+11195,2624,736,16624,"2018-10-19 17:42:13",100,0,0,0,,alexey,accelerometer
+11196,2624,864,16672,"2018-10-19 17:42:14",100,0,0,0,,alexey,accelerometer
+11197,2528,704,16768,"2018-10-19 17:42:14",100,0,0,0,,alexey,accelerometer
+11198,2624,816,16576,"2018-10-19 17:42:14",100,0,0,0,,alexey,accelerometer
+11199,2544,720,16720,"2018-10-19 17:42:14",100,0,0,0,,alexey,accelerometer
+11200,2672,848,16640,"2018-10-19 17:42:14",100,0,0,0,,alexey,accelerometer
+11201,2608,720,16688,"2018-10-19 17:42:14",100,0,0,0,,alexey,accelerometer
+11202,2528,768,16720,"2018-10-19 17:42:14",100,0,0,0,,alexey,accelerometer
+11203,2528,784,16688,"2018-10-19 17:42:14",100,0,0,0,,alexey,accelerometer
+11204,2560,784,16608,"2018-10-19 17:42:14",100,0,0,0,,alexey,accelerometer
+11205,2592,848,16592,"2018-10-19 17:42:15",100,0,0,0,,alexey,accelerometer
+11206,2512,832,16688,"2018-10-19 17:42:15",100,0,0,0,,alexey,accelerometer
+11207,2480,832,16688,"2018-10-19 17:42:15",100,0,0,0,,alexey,accelerometer
+11208,2624,800,16560,"2018-10-19 17:42:15",100,0,0,0,,alexey,accelerometer
+11209,2480,784,16720,"2018-10-19 17:42:15",100,0,0,0,,alexey,accelerometer
+11210,2480,800,16688,"2018-10-19 17:42:15",100,0,0,0,,alexey,accelerometer
+11211,2480,848,16656,"2018-10-19 17:42:15",100,0,0,0,,alexey,accelerometer
+11212,2576,720,16688,"2018-10-19 17:42:15",100,0,0,0,,alexey,accelerometer
+11213,2512,816,16720,"2018-10-19 17:42:15",100,0,0,0,,alexey,accelerometer
+11214,2608,752,16624,"2018-10-19 17:42:15",100,0,0,0,,alexey,accelerometer
+11215,2480,848,16752,"2018-10-19 17:42:16",100,0,0,0,,alexey,accelerometer
+11216,2704,672,16704,"2018-10-19 17:42:16",100,0,0,0,,alexey,accelerometer
+11217,2480,880,16768,"2018-10-19 17:42:16",100,0,0,0,,alexey,accelerometer
+11218,2624,720,16704,"2018-10-19 17:42:16",100,0,0,0,,alexey,accelerometer
+11219,2496,864,16720,"2018-10-19 17:42:16",100,0,0,0,,alexey,accelerometer
+11220,2592,720,16704,"2018-10-19 17:42:16",100,0,0,0,,alexey,accelerometer
+11221,2576,816,16688,"2018-10-19 17:42:18",100,0,0,0,,alexey,accelerometer
+11222,2608,800,16592,"2018-10-19 17:42:18",100,0,0,0,,alexey,accelerometer
+11223,2512,784,16704,"2018-10-19 17:42:18",100,0,0,0,,alexey,accelerometer
+11224,2592,736,16624,"2018-10-19 17:42:18",100,0,0,0,,alexey,accelerometer
+11225,2464,864,16736,"2018-10-19 17:42:18",100,0,0,0,,alexey,accelerometer
+11226,2560,736,16656,"2018-10-19 17:42:18",100,0,0,0,,alexey,accelerometer
+11227,2576,816,16768,"2018-10-19 17:42:18",100,0,0,0,,alexey,accelerometer
+11228,2752,624,16688,"2018-10-19 17:42:18",100,0,0,0,,alexey,accelerometer
+11229,2576,832,16688,"2018-10-19 17:42:18",100,0,0,0,,alexey,accelerometer
+11230,2560,848,16656,"2018-10-19 17:42:19",100,0,0,0,,alexey,accelerometer
+11231,2672,944,16624,"2018-10-19 17:42:19",100,0,0,0,,alexey,accelerometer
+11232,2544,672,16784,"2018-10-19 17:42:19",100,0,0,0,,alexey,accelerometer
+11233,2448,928,16720,"2018-10-19 17:42:19",100,0,0,0,,alexey,accelerometer
+11234,2608,656,16688,"2018-10-19 17:42:19",100,0,0,0,,alexey,accelerometer
+11235,2624,800,16688,"2018-10-19 17:42:19",100,0,0,0,,alexey,accelerometer
+11236,2576,688,16768,"2018-10-19 17:42:19",100,0,0,0,,alexey,accelerometer
+11237,2656,912,16640,"2018-10-19 17:42:19",100,0,0,0,,alexey,accelerometer
+11238,2496,800,16672,"2018-10-19 17:42:19",100,0,0,0,,alexey,accelerometer
+11239,2704,928,16448,"2018-10-19 17:42:20",100,0,0,0,,alexey,accelerometer
+11240,1888,528,16720,"2018-10-19 17:42:20",100,0,0,0,,alexey,accelerometer
+11241,2656,864,16944,"2018-10-19 17:42:20",100,0,0,0,,alexey,accelerometer
+11242,1984,1376,16768,"2018-10-19 17:42:20",100,0,0,0,,alexey,accelerometer
+11243,1568,560,16688,"2018-10-19 17:42:20",100,0,0,0,,alexey,accelerometer
+11244,2688,448,16736,"2018-10-19 17:42:20",100,0,0,0,,alexey,accelerometer
+11245,2400,960,16432,"2018-10-19 17:42:20",100,0,0,0,,alexey,accelerometer
+11246,2544,768,16896,"2018-10-19 17:42:20",100,0,0,0,,alexey,accelerometer
+11247,2336,1072,16432,"2018-10-19 17:42:20",100,0,0,0,,alexey,accelerometer
+11248,2624,624,16848,"2018-10-19 17:42:20",100,0,0,0,,alexey,accelerometer
+11249,2384,1120,16624,"2018-10-19 17:42:21",100,0,0,0,,alexey,accelerometer
+11250,2672,704,16768,"2018-10-19 17:42:21",100,0,0,0,,alexey,accelerometer
+11251,2480,880,16640,"2018-10-19 17:42:21",100,0,0,0,,alexey,accelerometer
+11252,2528,736,16864,"2018-10-19 17:42:21",100,0,0,0,,alexey,accelerometer
+11253,2624,960,16528,"2018-10-19 17:42:21",100,0,0,0,,alexey,accelerometer
+11254,2480,672,17120,"2018-10-19 17:42:21",100,0,0,0,,alexey,accelerometer
+11255,2512,1024,16464,"2018-10-19 17:42:21",100,0,0,0,,alexey,accelerometer
+11256,2704,592,17024,"2018-10-19 17:42:21",100,0,0,0,,alexey,accelerometer
+11257,2592,976,16544,"2018-10-19 17:42:21",100,0,0,0,,alexey,accelerometer
+11258,2624,800,16800,"2018-10-19 17:42:21",100,0,0,0,,alexey,accelerometer
+11259,2688,880,16528,"2018-10-19 17:42:22",100,0,0,0,,alexey,accelerometer
+11260,2464,784,17072,"2018-10-19 17:42:22",100,0,0,0,,alexey,accelerometer
+11261,2592,1072,16336,"2018-10-19 17:42:22",100,0,0,0,,alexey,accelerometer
+11262,2560,768,16976,"2018-10-19 17:42:22",100,0,0,0,,alexey,accelerometer
+11263,2672,1008,16400,"2018-10-19 17:42:22",100,0,0,0,,alexey,accelerometer
+11264,2544,800,17056,"2018-10-19 17:42:22",100,0,0,0,,alexey,accelerometer
+11265,2784,992,16432,"2018-10-19 17:42:22",100,0,0,0,,alexey,accelerometer
+11266,2560,816,16816,"2018-10-19 17:42:22",100,0,0,0,,alexey,accelerometer
+11267,2656,880,16544,"2018-10-19 17:42:22",100,0,0,0,,alexey,accelerometer
+11268,2512,768,16896,"2018-10-19 17:42:22",100,0,0,0,,alexey,accelerometer
+11269,2624,1008,16512,"2018-10-19 17:42:23",100,0,0,0,,alexey,accelerometer
+11270,2720,640,17056,"2018-10-19 17:42:23",100,0,0,0,,alexey,accelerometer
+11271,2528,1024,16512,"2018-10-19 17:42:23",100,0,0,0,,alexey,accelerometer
+11272,2656,800,16832,"2018-10-19 17:42:23",100,0,0,0,,alexey,accelerometer
+11273,2640,800,16656,"2018-10-19 17:42:23",100,0,0,0,,alexey,accelerometer
+11274,2768,784,16720,"2018-10-19 17:42:23",100,0,0,0,,alexey,accelerometer
+11275,2704,784,16640,"2018-10-19 17:42:23",100,0,0,0,,alexey,accelerometer
+11276,2736,720,16656,"2018-10-19 17:42:23",100,0,0,0,,alexey,accelerometer
+11277,2592,928,16560,"2018-10-19 17:42:23",100,0,0,0,,alexey,accelerometer
+11278,2816,608,16960,"2018-10-19 17:42:24",100,0,0,0,,alexey,accelerometer
+11279,2496,992,16656,"2018-10-19 17:42:24",100,0,0,0,,alexey,accelerometer
+11280,2800,688,16832,"2018-10-19 17:42:24",100,0,0,0,,alexey,accelerometer
+11281,2672,976,16544,"2018-10-19 17:42:24",100,0,0,0,,alexey,accelerometer
+11282,2624,768,17024,"2018-10-19 17:42:24",100,0,0,0,,alexey,accelerometer
+11283,2688,960,16512,"2018-10-19 17:42:24",100,0,0,0,,alexey,accelerometer
+11284,2592,864,16752,"2018-10-19 17:42:24",100,0,0,0,,alexey,accelerometer
+11285,2560,960,16608,"2018-10-19 17:42:24",100,0,0,0,,alexey,accelerometer
+11286,2608,848,16816,"2018-10-19 17:42:24",100,0,0,0,,alexey,accelerometer
+11287,2672,928,16560,"2018-10-19 17:42:24",100,0,0,0,,alexey,accelerometer
+11288,2736,720,16784,"2018-10-19 17:42:25",100,0,0,0,,alexey,accelerometer
+11289,2656,880,16640,"2018-10-19 17:42:25",100,0,0,0,,alexey,accelerometer
+11290,2784,672,16768,"2018-10-19 17:42:25",100,0,0,0,,alexey,accelerometer
+11291,2592,960,16528,"2018-10-19 17:42:25",100,0,0,0,,alexey,accelerometer
+11292,2752,688,16912,"2018-10-19 17:42:25",100,0,0,0,,alexey,accelerometer
+11293,2640,960,16512,"2018-10-19 17:42:25",100,0,0,0,,alexey,accelerometer
+11294,2752,640,16960,"2018-10-19 17:42:25",100,0,0,0,,alexey,accelerometer
+11295,2576,960,16512,"2018-10-19 17:42:25",100,0,0,0,,alexey,accelerometer
+11296,2640,720,17008,"2018-10-19 17:42:25",100,0,0,0,,alexey,accelerometer
+11297,2608,944,16416,"2018-10-19 17:42:25",100,0,0,0,,alexey,accelerometer
+11298,2528,736,16912,"2018-10-19 17:42:26",100,0,0,0,,alexey,accelerometer
+11299,2512,1024,16528,"2018-10-19 17:42:26",100,0,0,0,,alexey,accelerometer
+11300,2592,848,16672,"2018-10-19 17:42:26",100,0,0,0,,alexey,accelerometer
+11301,2592,816,16720,"2018-10-19 17:42:26",100,0,0,0,,alexey,accelerometer
+11302,2592,928,16608,"2018-10-19 17:42:26",100,0,0,0,,alexey,accelerometer
+11303,2656,720,16688,"2018-10-19 17:42:26",100,0,0,0,,alexey,accelerometer
+11304,2624,832,16624,"2018-10-19 17:42:26",100,0,0,0,,alexey,accelerometer
+11305,2672,688,16848,"2018-10-19 17:42:26",100,0,0,0,,alexey,accelerometer
+11306,2640,928,16544,"2018-10-19 17:42:26",100,0,0,0,,alexey,accelerometer
+11307,2720,656,16912,"2018-10-19 17:42:26",100,0,0,0,,alexey,accelerometer
+11308,2576,944,16592,"2018-10-19 17:42:27",100,0,0,0,,alexey,accelerometer
+11309,2688,720,16912,"2018-10-19 17:42:27",100,0,0,0,,alexey,accelerometer
+11310,2608,928,16576,"2018-10-19 17:42:27",100,0,0,0,,alexey,accelerometer
+11311,2480,736,16960,"2018-10-19 17:42:27",100,0,0,0,,alexey,accelerometer
+11312,2560,1072,16464,"2018-10-19 17:42:27",100,0,0,0,,alexey,accelerometer
+11313,2608,736,16896,"2018-10-19 17:42:27",100,0,0,0,,alexey,accelerometer
+11314,2576,1040,16528,"2018-10-19 17:42:27",100,0,0,0,,alexey,accelerometer
+11315,2608,832,16704,"2018-10-19 17:42:27",100,0,0,0,,alexey,accelerometer
+11316,2624,784,16752,"2018-10-19 17:42:27",100,0,0,0,,alexey,accelerometer
+11317,2544,816,16736,"2018-10-19 17:42:28",100,0,0,0,,alexey,accelerometer
+11318,2704,656,16864,"2018-10-19 17:42:28",100,0,0,0,,alexey,accelerometer
+11319,2624,832,16544,"2018-10-19 17:42:28",100,0,0,0,,alexey,accelerometer
+11320,2672,672,16720,"2018-10-19 17:42:28",100,0,0,0,,alexey,accelerometer
+11321,2608,864,16704,"2018-10-19 17:42:29",100,0,0,0,,alexey,accelerometer
+11322,2624,848,16720,"2018-10-19 17:42:30",100,0,0,0,,alexey,accelerometer
+11323,2592,896,16528,"2018-10-19 17:42:30",100,0,0,0,,alexey,accelerometer
+11324,2640,816,16688,"2018-10-19 17:42:30",100,0,0,0,,alexey,accelerometer
+11325,2576,864,16704,"2018-10-19 17:42:30",100,0,0,0,,alexey,accelerometer
+11326,2640,848,16592,"2018-10-19 17:42:30",100,0,0,0,,alexey,accelerometer
+11327,2672,816,16672,"2018-10-19 17:42:30",100,0,0,0,,alexey,accelerometer
+11328,2560,880,16592,"2018-10-19 17:42:30",100,0,0,0,,alexey,accelerometer
+11329,2624,832,16688,"2018-10-19 17:42:30",100,0,0,0,,alexey,accelerometer
+11330,2640,800,16784,"2018-10-19 17:42:30",100,0,0,0,,alexey,accelerometer
+11331,2608,928,16640,"2018-10-19 17:42:30",100,0,0,0,,alexey,accelerometer
+11332,2688,784,16752,"2018-10-19 17:42:31",100,0,0,0,,alexey,accelerometer
+11333,2640,832,16624,"2018-10-19 17:42:31",100,0,0,0,,alexey,accelerometer
+11334,2720,768,16720,"2018-10-19 17:42:31",100,0,0,0,,alexey,accelerometer
+11335,2624,816,16656,"2018-10-19 17:42:31",100,0,0,0,,alexey,accelerometer
+11336,2720,800,16656,"2018-10-19 17:42:31",100,0,0,0,,alexey,accelerometer
+11337,2720,784,16736,"2018-10-19 17:42:31",100,0,0,0,,alexey,accelerometer
+11338,2624,816,16592,"2018-10-19 17:42:31",100,0,0,0,,alexey,accelerometer
+11339,2608,800,16720,"2018-10-19 17:42:31",100,0,0,0,,alexey,accelerometer
+11340,2544,944,16672,"2018-10-19 17:42:31",100,0,0,0,,alexey,accelerometer
+11341,2624,800,16688,"2018-10-19 17:42:32",100,0,0,0,,alexey,accelerometer
+11342,2608,800,16768,"2018-10-19 17:42:32",100,0,0,0,,alexey,accelerometer
+11343,2608,880,16656,"2018-10-19 17:42:32",100,0,0,0,,alexey,accelerometer
+11344,2640,752,16720,"2018-10-19 17:42:32",100,0,0,0,,alexey,accelerometer
+11345,2624,816,16640,"2018-10-19 17:42:32",100,0,0,0,,alexey,accelerometer
+11346,2704,800,16720,"2018-10-19 17:42:32",100,0,0,0,,alexey,accelerometer
+11347,2624,880,16576,"2018-10-19 17:42:32",100,0,0,0,,alexey,accelerometer
+11348,2656,720,16832,"2018-10-19 17:42:32",100,0,0,0,,alexey,accelerometer
+11349,2640,960,16448,"2018-10-19 17:42:32",100,0,0,0,,alexey,accelerometer
+11350,2688,848,16672,"2018-10-19 17:42:32",100,0,0,0,,alexey,accelerometer
+11351,2816,768,16768,"2018-10-19 17:42:33",100,0,0,0,,alexey,accelerometer
+11352,2560,944,16592,"2018-10-19 17:42:33",100,0,0,0,,alexey,accelerometer
+11353,2688,832,16640,"2018-10-19 17:42:33",100,0,0,0,,alexey,accelerometer
+11354,2576,912,16656,"2018-10-19 17:42:33",100,0,0,0,,alexey,accelerometer
+11355,2768,672,16848,"2018-10-19 17:42:33",100,0,0,0,,alexey,accelerometer
+11356,2576,912,16608,"2018-10-19 17:42:33",100,0,0,0,,alexey,accelerometer
+11357,2688,800,16832,"2018-10-19 17:42:33",100,0,0,0,,alexey,accelerometer
+11358,2576,992,16544,"2018-10-19 17:42:33",100,0,0,0,,alexey,accelerometer
+11359,2640,816,16720,"2018-10-19 17:42:33",100,0,0,0,,alexey,accelerometer
+11360,2640,912,16560,"2018-10-19 17:42:33",100,0,0,0,,alexey,accelerometer
+11361,2560,848,16768,"2018-10-19 17:42:34",100,0,0,0,,alexey,accelerometer
+11362,2720,880,16624,"2018-10-19 17:42:34",100,0,0,0,,alexey,accelerometer
+11363,2608,816,16736,"2018-10-19 17:42:34",100,0,0,0,,alexey,accelerometer
+11364,2640,880,16640,"2018-10-19 17:42:34",100,0,0,0,,alexey,accelerometer
+11365,2704,832,16624,"2018-10-19 17:42:34",100,0,0,0,,alexey,accelerometer
+11366,2736,768,16704,"2018-10-19 17:42:34",100,0,0,0,,alexey,accelerometer
+11367,2608,800,16688,"2018-10-19 17:42:34",100,0,0,0,,alexey,accelerometer
+11368,2752,800,16656,"2018-10-19 17:42:34",100,0,0,0,,alexey,accelerometer
+11369,2560,832,16640,"2018-10-19 17:42:34",100,0,0,0,,alexey,accelerometer
+11370,2576,816,16656,"2018-10-19 17:42:34",100,0,0,0,,alexey,accelerometer
+11371,2496,928,16672,"2018-10-19 17:42:35",100,0,0,0,,alexey,accelerometer
+11372,2576,912,16672,"2018-10-19 17:42:35",100,0,0,0,,alexey,accelerometer
+11373,2640,848,16720,"2018-10-19 17:42:35",100,0,0,0,,alexey,accelerometer
+11374,2576,880,16624,"2018-10-19 17:42:35",100,0,0,0,,alexey,accelerometer
+11375,2656,880,16656,"2018-10-19 17:42:35",100,0,0,0,,alexey,accelerometer
+11376,2768,800,16672,"2018-10-19 17:42:35",100,0,0,0,,alexey,accelerometer
+11377,2672,784,16608,"2018-10-19 17:42:35",100,0,0,0,,alexey,accelerometer
+11378,2736,752,16656,"2018-10-19 17:42:35",100,0,0,0,,alexey,accelerometer
+11379,2656,720,16736,"2018-10-19 17:42:35",100,0,0,0,,alexey,accelerometer
+11380,2688,848,16688,"2018-10-19 17:42:36",100,0,0,0,,alexey,accelerometer
+11381,2688,832,16688,"2018-10-19 17:42:36",100,0,0,0,,alexey,accelerometer
+11382,2608,864,16544,"2018-10-19 17:42:36",100,0,0,0,,alexey,accelerometer
+11383,2592,800,16848,"2018-10-19 17:42:36",100,0,0,0,,alexey,accelerometer
+11384,2592,1008,16592,"2018-10-19 17:42:36",100,0,0,0,,alexey,accelerometer
+11385,2672,864,16656,"2018-10-19 17:42:36",100,0,0,0,,alexey,accelerometer
+11386,2656,800,16704,"2018-10-19 17:42:36",100,0,0,0,,alexey,accelerometer
+11387,2704,816,16656,"2018-10-19 17:42:36",100,0,0,0,,alexey,accelerometer
+11388,2736,816,16592,"2018-10-19 17:42:36",100,0,0,0,,alexey,accelerometer
+11389,2624,784,16672,"2018-10-19 17:42:36",100,0,0,0,,alexey,accelerometer
+11390,2512,832,16720,"2018-10-19 17:42:37",100,0,0,0,,alexey,accelerometer
+11391,2592,864,16624,"2018-10-19 17:42:37",100,0,0,0,,alexey,accelerometer
+11392,2704,672,16848,"2018-10-19 17:42:37",100,0,0,0,,alexey,accelerometer
+11393,2528,864,16608,"2018-10-19 17:42:37",100,0,0,0,,alexey,accelerometer
+11394,2464,960,16720,"2018-10-19 17:42:37",100,0,0,0,,alexey,accelerometer
+11395,2608,704,16672,"2018-10-19 17:42:37",100,0,0,0,,alexey,accelerometer
+11396,2624,768,16784,"2018-10-19 17:42:37",100,0,0,0,,alexey,accelerometer
+11397,2496,880,16656,"2018-10-19 17:42:37",100,0,0,0,,alexey,accelerometer
+11398,2624,800,16560,"2018-10-19 17:42:37",100,0,0,0,,alexey,accelerometer
+11399,2656,672,16880,"2018-10-19 17:42:37",100,0,0,0,,alexey,accelerometer
+11400,2512,880,16656,"2018-10-19 17:42:38",100,0,0,0,,alexey,accelerometer
+11401,2480,1008,16768,"2018-10-19 17:42:38",100,0,0,0,,alexey,accelerometer
+11402,2720,656,16736,"2018-10-19 17:42:38",100,0,0,0,,alexey,accelerometer
+11403,2512,864,16592,"2018-10-19 17:42:38",100,0,0,0,,alexey,accelerometer
+11404,2480,848,16656,"2018-10-19 17:42:38",100,0,0,0,,alexey,accelerometer
+11405,2656,800,16608,"2018-10-19 17:42:38",100,0,0,0,,alexey,accelerometer
+11406,2432,912,16512,"2018-10-19 17:42:38",100,0,0,0,,alexey,accelerometer
+11407,2608,800,16768,"2018-10-19 17:42:38",100,0,0,0,,alexey,accelerometer
+11408,2592,912,16576,"2018-10-19 17:42:38",100,0,0,0,,alexey,accelerometer
+11409,2560,768,16928,"2018-10-19 17:42:38",100,0,0,0,,alexey,accelerometer
+11410,2384,1024,16576,"2018-10-19 17:42:39",100,0,0,0,,alexey,accelerometer
+11411,2560,832,16704,"2018-10-19 17:42:39",100,0,0,0,,alexey,accelerometer
+11412,2448,880,16640,"2018-10-19 17:42:39",100,0,0,0,,alexey,accelerometer
+11413,2352,688,16832,"2018-10-19 17:42:39",100,0,0,0,,alexey,accelerometer
+11414,2336,864,16592,"2018-10-19 17:42:39",100,0,0,0,,alexey,accelerometer
+11415,2256,800,16736,"2018-10-19 17:42:39",100,0,0,0,,alexey,accelerometer
+11416,2320,720,16848,"2018-10-19 17:42:39",100,0,0,0,,alexey,accelerometer
+11417,2272,704,16800,"2018-10-19 17:42:39",100,0,0,0,,alexey,accelerometer
+11418,2160,816,16672,"2018-10-19 17:42:39",100,0,0,0,,alexey,accelerometer
+11419,2208,736,16768,"2018-10-19 17:42:40",100,0,0,0,,alexey,accelerometer
+11420,2416,704,16848,"2018-10-19 17:42:40",100,0,0,0,,alexey,accelerometer
+11421,2560,848,16688,"2018-10-19 17:42:41",100,0,0,0,,alexey,accelerometer
+11422,2592,848,16656,"2018-10-19 17:42:41",100,0,0,0,,alexey,accelerometer
+11423,2672,816,16640,"2018-10-19 17:42:41",100,0,0,0,,alexey,accelerometer
+11424,2736,800,16640,"2018-10-19 17:42:42",100,0,0,0,,alexey,accelerometer
+11425,2800,768,16704,"2018-10-19 17:42:42",100,0,0,0,,alexey,accelerometer
+11426,2912,848,16576,"2018-10-19 17:42:42",100,0,0,0,,alexey,accelerometer
+11427,2896,752,16768,"2018-10-19 17:42:42",100,0,0,0,,alexey,accelerometer
+11428,2736,848,16592,"2018-10-19 17:42:42",100,0,0,0,,alexey,accelerometer
+11429,3072,848,16592,"2018-10-19 17:42:42",100,0,0,0,,alexey,accelerometer
+11430,3120,816,16576,"2018-10-19 17:42:42",100,0,0,0,,alexey,accelerometer
+11431,3024,768,16624,"2018-10-19 17:42:42",100,0,0,0,,alexey,accelerometer
+11432,3072,784,16592,"2018-10-19 17:42:42",100,0,0,0,,alexey,accelerometer
+11433,3104,736,16608,"2018-10-19 17:42:42",100,0,0,0,,alexey,accelerometer
+11434,3072,720,16592,"2018-10-19 17:42:43",100,0,0,0,,alexey,accelerometer
+11435,3072,800,16592,"2018-10-19 17:42:43",100,0,0,0,,alexey,accelerometer
+11436,2992,736,16592,"2018-10-19 17:42:43",100,0,0,0,,alexey,accelerometer
+11437,2864,848,16624,"2018-10-19 17:42:43",100,0,0,0,,alexey,accelerometer
+11438,2928,640,16672,"2018-10-19 17:42:43",100,0,0,0,,alexey,accelerometer
+11439,2976,800,16608,"2018-10-19 17:42:43",100,0,0,0,,alexey,accelerometer
+11440,2864,784,16608,"2018-10-19 17:42:43",100,0,0,0,,alexey,accelerometer
+11441,2720,864,16624,"2018-10-19 17:42:43",100,0,0,0,,alexey,accelerometer
+11442,2672,736,16656,"2018-10-19 17:42:43",100,0,0,0,,alexey,accelerometer
+11443,2560,752,16736,"2018-10-19 17:42:44",100,0,0,0,,alexey,accelerometer
+11444,2496,944,16592,"2018-10-19 17:42:44",100,0,0,0,,alexey,accelerometer
+11445,2256,1056,16768,"2018-10-19 17:42:44",100,0,0,0,,alexey,accelerometer
+11446,2144,1040,16768,"2018-10-19 17:42:44",100,0,0,0,,alexey,accelerometer
+11447,2304,944,16736,"2018-10-19 17:42:44",100,0,0,0,,alexey,accelerometer
+11448,2320,736,16848,"2018-10-19 17:42:44",100,0,0,0,,alexey,accelerometer
+11449,2496,768,16720,"2018-10-19 17:42:44",100,0,0,0,,alexey,accelerometer
+11450,2240,912,16768,"2018-10-19 17:42:44",100,0,0,0,,alexey,accelerometer
+11451,2064,1056,16656,"2018-10-19 17:42:44",100,0,0,0,,alexey,accelerometer
+11452,2256,720,16880,"2018-10-19 17:42:44",100,0,0,0,,alexey,accelerometer
+11453,2432,880,16656,"2018-10-19 17:42:45",100,0,0,0,,alexey,accelerometer
+11454,2336,784,16752,"2018-10-19 17:42:45",100,0,0,0,,alexey,accelerometer
+11455,2192,816,16800,"2018-10-19 17:42:45",100,0,0,0,,alexey,accelerometer
+11456,2208,864,16768,"2018-10-19 17:42:45",100,0,0,0,,alexey,accelerometer
+11457,2208,832,16720,"2018-10-19 17:42:45",100,0,0,0,,alexey,accelerometer
+11458,2096,928,16704,"2018-10-19 17:42:45",100,0,0,0,,alexey,accelerometer
+11459,2272,816,16656,"2018-10-19 17:42:45",100,0,0,0,,alexey,accelerometer
+11460,2304,752,16704,"2018-10-19 17:42:45",100,0,0,0,,alexey,accelerometer
+11461,2336,736,16656,"2018-10-19 17:42:45",100,0,0,0,,alexey,accelerometer
+11462,2288,736,16720,"2018-10-19 17:42:45",100,0,0,0,,alexey,accelerometer
+11463,2208,832,16656,"2018-10-19 17:42:46",100,0,0,0,,alexey,accelerometer
+11464,2336,864,16656,"2018-10-19 17:42:46",100,0,0,0,,alexey,accelerometer
+11465,2224,784,16768,"2018-10-19 17:42:46",100,0,0,0,,alexey,accelerometer
+11466,2224,784,16800,"2018-10-19 17:42:46",100,0,0,0,,alexey,accelerometer
+11467,2240,848,16672,"2018-10-19 17:42:46",100,0,0,0,,alexey,accelerometer
+11468,2208,864,16656,"2018-10-19 17:42:46",100,0,0,0,,alexey,accelerometer
+11469,2256,864,16704,"2018-10-19 17:42:46",100,0,0,0,,alexey,accelerometer
+11470,2336,720,16768,"2018-10-19 17:42:46",100,0,0,0,,alexey,accelerometer
+11471,2176,784,16800,"2018-10-19 17:42:46",100,0,0,0,,alexey,accelerometer
+11472,2288,848,16576,"2018-10-19 17:42:47",100,0,0,0,,alexey,accelerometer
+11473,2208,800,16720,"2018-10-19 17:42:47",100,0,0,0,,alexey,accelerometer
+11474,2240,768,16720,"2018-10-19 17:42:47",100,0,0,0,,alexey,accelerometer
+11475,2288,784,16736,"2018-10-19 17:42:47",100,0,0,0,,alexey,accelerometer
+11476,2160,720,16720,"2018-10-19 17:42:47",100,0,0,0,,alexey,accelerometer
+11477,2368,704,16784,"2018-10-19 17:42:47",100,0,0,0,,alexey,accelerometer
+11478,2224,784,16784,"2018-10-19 17:42:47",100,0,0,0,,alexey,accelerometer
+11479,2320,816,16688,"2018-10-19 17:42:47",100,0,0,0,,alexey,accelerometer
+11480,2448,832,16768,"2018-10-19 17:42:47",100,0,0,0,,alexey,accelerometer
+11481,2400,720,16800,"2018-10-19 17:42:47",100,0,0,0,,alexey,accelerometer
+11482,2368,720,16720,"2018-10-19 17:42:48",100,0,0,0,,alexey,accelerometer
+11483,2240,784,16704,"2018-10-19 17:42:48",100,0,0,0,,alexey,accelerometer
+11484,2256,832,16624,"2018-10-19 17:42:48",100,0,0,0,,alexey,accelerometer
+11485,2304,736,16624,"2018-10-19 17:42:48",100,0,0,0,,alexey,accelerometer
+11486,2320,704,16832,"2018-10-19 17:42:48",100,0,0,0,,alexey,accelerometer
+11487,2096,816,16656,"2018-10-19 17:42:48",100,0,0,0,,alexey,accelerometer
+11488,2224,880,16672,"2018-10-19 17:42:48",100,0,0,0,,alexey,accelerometer
+11489,2400,800,16768,"2018-10-19 17:42:48",100,0,0,0,,alexey,accelerometer
+11490,2288,768,16688,"2018-10-19 17:42:48",100,0,0,0,,alexey,accelerometer
+11491,2176,816,16640,"2018-10-19 17:42:48",100,0,0,0,,alexey,accelerometer
+11492,2176,880,16688,"2018-10-19 17:42:49",100,0,0,0,,alexey,accelerometer
+11493,2256,736,16752,"2018-10-19 17:42:49",100,0,0,0,,alexey,accelerometer
+11494,2272,720,16752,"2018-10-19 17:42:49",100,0,0,0,,alexey,accelerometer
+11495,2208,800,16704,"2018-10-19 17:42:49",100,0,0,0,,alexey,accelerometer
+11496,2272,832,16720,"2018-10-19 17:42:49",100,0,0,0,,alexey,accelerometer
+11497,2208,784,16704,"2018-10-19 17:42:49",100,0,0,0,,alexey,accelerometer
+11498,2304,800,16592,"2018-10-19 17:42:49",100,0,0,0,,alexey,accelerometer
+11499,2144,752,16768,"2018-10-19 17:42:49",100,0,0,0,,alexey,accelerometer
+11500,2320,784,16720,"2018-10-19 17:42:49",100,0,0,0,,alexey,accelerometer
+11501,2208,816,16768,"2018-10-19 17:42:49",100,0,0,0,,alexey,accelerometer
+11502,2160,864,16656,"2018-10-19 17:42:50",100,0,0,0,,alexey,accelerometer
+11503,2320,848,16720,"2018-10-19 17:42:50",100,0,0,0,,alexey,accelerometer
+11504,2192,768,16752,"2018-10-19 17:42:50",100,0,0,0,,alexey,accelerometer
+11505,2336,752,16768,"2018-10-19 17:42:50",100,0,0,0,,alexey,accelerometer
+11506,2192,800,16752,"2018-10-19 17:42:50",100,0,0,0,,alexey,accelerometer
+11507,2320,832,16720,"2018-10-19 17:42:50",100,0,0,0,,alexey,accelerometer
+11508,2240,768,16704,"2018-10-19 17:42:50",100,0,0,0,,alexey,accelerometer
+11509,2352,768,16736,"2018-10-19 17:42:50",100,0,0,0,,alexey,accelerometer
+11510,2352,768,16704,"2018-10-19 17:42:50",100,0,0,0,,alexey,accelerometer
+11511,2352,800,16656,"2018-10-19 17:42:51",100,0,0,0,,alexey,accelerometer
+11512,2400,704,16720,"2018-10-19 17:42:51",100,0,0,0,,alexey,accelerometer
+11513,2240,736,16784,"2018-10-19 17:42:51",100,0,0,0,,alexey,accelerometer
+11514,2336,832,16720,"2018-10-19 17:42:51",100,0,0,0,,alexey,accelerometer
+11515,2288,736,16720,"2018-10-19 17:42:51",100,0,0,0,,alexey,accelerometer
+11516,2304,800,16832,"2018-10-19 17:42:51",100,0,0,0,,alexey,accelerometer
+11517,2304,704,16768,"2018-10-19 17:42:51",100,0,0,0,,alexey,accelerometer
+11518,2368,816,16768,"2018-10-19 17:42:51",100,0,0,0,,alexey,accelerometer
+11519,2352,816,16688,"2018-10-19 17:42:51",100,0,0,0,,alexey,accelerometer
+11520,2384,784,16768,"2018-10-19 17:42:51",100,0,0,0,,alexey,accelerometer
+11521,2448,784,16688,"2018-10-19 17:42:54",100,0,0,0,,alexey,accelerometer
+11522,2432,848,16656,"2018-10-19 17:42:54",100,0,0,0,,alexey,accelerometer
+11523,2384,768,16720,"2018-10-19 17:42:54",100,0,0,0,,alexey,accelerometer
+11524,2432,768,16688,"2018-10-19 17:42:55",100,0,0,0,,alexey,accelerometer
+11525,2416,800,16640,"2018-10-19 17:42:55",100,0,0,0,,alexey,accelerometer
+11526,2448,800,16704,"2018-10-19 17:42:55",100,0,0,0,,alexey,accelerometer
+11527,2448,784,16704,"2018-10-19 17:42:55",100,0,0,0,,alexey,accelerometer
+11528,2400,832,16720,"2018-10-19 17:42:55",100,0,0,0,,alexey,accelerometer
+11529,2432,800,16736,"2018-10-19 17:42:55",100,0,0,0,,alexey,accelerometer
+11530,2496,800,16720,"2018-10-19 17:42:55",100,0,0,0,,alexey,accelerometer
+11531,2544,720,16704,"2018-10-19 17:42:55",100,0,0,0,,alexey,accelerometer
+11532,2544,736,16656,"2018-10-19 17:42:55",100,0,0,0,,alexey,accelerometer
+11533,2576,688,16720,"2018-10-19 17:42:55",100,0,0,0,,alexey,accelerometer
+11534,2576,768,16704,"2018-10-19 17:42:56",100,0,0,0,,alexey,accelerometer
+11535,2544,688,16768,"2018-10-19 17:42:56",100,0,0,0,,alexey,accelerometer
+11536,2560,720,16688,"2018-10-19 17:42:56",100,0,0,0,,alexey,accelerometer
+11537,2512,752,16688,"2018-10-19 17:42:56",100,0,0,0,,alexey,accelerometer
+11538,2400,784,16704,"2018-10-19 17:42:56",100,0,0,0,,alexey,accelerometer
+11539,2336,848,16688,"2018-10-19 17:42:56",100,0,0,0,,alexey,accelerometer
+11540,2304,864,16704,"2018-10-19 17:42:56",100,0,0,0,,alexey,accelerometer
+11541,2320,800,16704,"2018-10-19 17:42:56",100,0,0,0,,alexey,accelerometer
+11542,2368,816,16720,"2018-10-19 17:42:56",100,0,0,0,,alexey,accelerometer
+11543,2464,784,16688,"2018-10-19 17:42:56",100,0,0,0,,alexey,accelerometer
+11544,2464,800,16688,"2018-10-19 17:42:57",100,0,0,0,,alexey,accelerometer
+11545,2480,784,16656,"2018-10-19 17:42:57",100,0,0,0,,alexey,accelerometer
+11546,2608,736,16704,"2018-10-19 17:42:57",100,0,0,0,,alexey,accelerometer
+11547,2656,720,16672,"2018-10-19 17:42:57",100,0,0,0,,alexey,accelerometer
+11548,2752,672,16656,"2018-10-19 17:42:57",100,0,0,0,,alexey,accelerometer
+11549,2688,672,16720,"2018-10-19 17:42:57",100,0,0,0,,alexey,accelerometer
+11550,2592,688,16768,"2018-10-19 17:42:57",100,0,0,0,,alexey,accelerometer
+11551,2544,800,16640,"2018-10-19 17:42:57",100,0,0,0,,alexey,accelerometer
+11552,2464,784,16672,"2018-10-19 17:42:57",100,0,0,0,,alexey,accelerometer
+11553,2352,848,16688,"2018-10-19 17:42:58",100,0,0,0,,alexey,accelerometer
+11554,2368,864,16704,"2018-10-19 17:42:58",100,0,0,0,,alexey,accelerometer
+11555,2432,928,16688,"2018-10-19 17:42:58",100,0,0,0,,alexey,accelerometer
+11556,2432,848,16688,"2018-10-19 17:42:58",100,0,0,0,,alexey,accelerometer
+11557,2512,864,16768,"2018-10-19 17:42:58",100,0,0,0,,alexey,accelerometer
+11558,2528,816,16656,"2018-10-19 17:42:58",100,0,0,0,,alexey,accelerometer
+11559,2528,784,16688,"2018-10-19 17:42:58",100,0,0,0,,alexey,accelerometer
+11560,2576,752,16656,"2018-10-19 17:42:58",100,0,0,0,,alexey,accelerometer
+11561,2640,736,16768,"2018-10-19 17:42:58",100,0,0,0,,alexey,accelerometer
+11562,2624,768,16672,"2018-10-19 17:42:58",100,0,0,0,,alexey,accelerometer
+11563,2576,736,16688,"2018-10-19 17:42:59",100,0,0,0,,alexey,accelerometer
+11564,2576,688,16688,"2018-10-19 17:42:59",100,0,0,0,,alexey,accelerometer
+11565,2560,768,16688,"2018-10-19 17:42:59",100,0,0,0,,alexey,accelerometer
+11566,2544,784,16688,"2018-10-19 17:42:59",100,0,0,0,,alexey,accelerometer
+11567,2512,832,16768,"2018-10-19 17:42:59",100,0,0,0,,alexey,accelerometer
+11568,2464,864,16656,"2018-10-19 17:42:59",100,0,0,0,,alexey,accelerometer
+11569,2512,784,16656,"2018-10-19 17:42:59",100,0,0,0,,alexey,accelerometer
+11570,2480,832,16688,"2018-10-19 17:42:59",100,0,0,0,,alexey,accelerometer
+11571,2528,848,16720,"2018-10-19 17:42:59",100,0,0,0,,alexey,accelerometer
+11572,2512,752,16672,"2018-10-19 17:42:59",100,0,0,0,,alexey,accelerometer
+11573,2624,784,16656,"2018-10-19 17:43:00",100,0,0,0,,alexey,accelerometer
+11574,2608,752,16688,"2018-10-19 17:43:00",100,0,0,0,,alexey,accelerometer
+11575,2576,768,16688,"2018-10-19 17:43:00",100,0,0,0,,alexey,accelerometer
+11576,2608,784,16672,"2018-10-19 17:43:00",100,0,0,0,,alexey,accelerometer
+11577,2576,800,16688,"2018-10-19 17:43:00",100,0,0,0,,alexey,accelerometer
+11578,2512,784,16704,"2018-10-19 17:43:00",100,0,0,0,,alexey,accelerometer
+11579,2496,800,16656,"2018-10-19 17:43:00",100,0,0,0,,alexey,accelerometer
+11580,2528,880,16720,"2018-10-19 17:43:00",100,0,0,0,,alexey,accelerometer
