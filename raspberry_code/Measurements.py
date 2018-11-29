@@ -8,6 +8,9 @@ import argparse
 import FaBo9Axis_MPU9250
 import time
 import sys
+import joblib
+import os
+
 
 sys.path.append('../')
 
@@ -74,14 +77,16 @@ class SimpleRequest:
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--timestep_detect', type=float, default=0.5)
+    parser.add_argument('--timestep_detect', type=float, default=0.01)
     parser.add_argument('--timestep_send', type=float, default=10)
     parser.add_argument('--max_time', type=float, default=60)
     parser.add_argument('--verbose', type=bool, default=True)
     parser.add_argument('--send_data', type=bool, default=True)
+    parser.add_argument('--save_data', type=bool, default=True)
     parser.add_argument('--label', type=str, default='')
     parser.add_argument('--meta', type=str, default='')
     parser.add_argument('--peopleId', type=str, default='')
+    parser.add_argument('--folder', type=str, default=None)
     return parser.parse_args()
 
 
@@ -96,13 +101,25 @@ if __name__ == '__main__':
     peopleId = args.peopleId
     meta = args.meta
     send_data = args.send_data
+    save_data = args.save_data
+    folder = args.folder
 
     batch_size = int(timestep_send / timestep_detect)  # Количество измерений в одной отправке
     n_batches = int(max_time / timestep_send) # Количество отправок
 
     # simple_request = SimpleRequest(url="http://smart-chair-iot-dev.us-east-1.elasticbeanstalk.com")
 
+    time_start = datetime.now().strftime(TIME_FORMAT)
+
+    if folder is None:
+        folder = time_start
+
+    os.mkdir(folder)
+    prefix = folder + '/'
+
     for n_batch in range(n_batches):
+
+        results_list = []
 
         for n_measurement in range(batch_size):
             accel = mpu9250.readAccel()
@@ -114,6 +131,19 @@ if __name__ == '__main__':
                 print('gyro: ', gyro)
                 print('mag: ', mag)
 
+            result = {
+                'datetime_now': datetime.now(),
+                'accel_x': accel['x'],
+                'accel_y': accel['y'],
+                'accel_z': accel['z'],
+                'gyro_x': gyro['x'],
+                'gyro_y': gyro['y'],
+                'gyro_z': gyro['z'],
+                'mag_x': gyro['x'],
+                'mag_y': gyro['y'],
+                'mag_z': gyro['z'],
+            }
+
             # if send_data:
             #     ax, ay, az = data_magnetometer
             #     simple_request.collectMagnetometer(ax, ay, az, label, meta, peopleId, 'magnetometer')
@@ -121,9 +151,13 @@ if __name__ == '__main__':
             #     ax, ay, az = data_accelerometer
             #     simple_request.collectAccelerometer(ax, ay, az, label, meta, peopleId, 'accelerometer')
 
+            results_list.append(result)
+
             time.sleep(timestep_detect)
 
+        joblib.dump(results_list, prefix +  '' + str(n_batch))
         # simple_request.sendData()
+
 
     print('---------------------------')
     print('----End of measurements----')
