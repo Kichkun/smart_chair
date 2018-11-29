@@ -124,10 +124,10 @@ if __name__ == '__main__':
             gyro = mpu9250.readGyro()
             mag = mpu9250.readMagnet()
 
-            if verbose:
-                print('accel: ', accel)
-                print('gyro: ', gyro)
-                print('mag: ', mag)
+            # if verbose:
+            #     print('accel: ', accel)
+            #     print('gyro: ', gyro)
+            #     print('mag: ', mag)
 
             result = {
                 'datetime_now': datetime.now(),
@@ -137,9 +137,9 @@ if __name__ == '__main__':
                 'gyro_x': gyro['x'],
                 'gyro_y': gyro['y'],
                 'gyro_z': gyro['z'],
-                'mag_x': gyro['x'],
-                'mag_y': gyro['y'],
-                'mag_z': gyro['z'],
+                'mag_x': mag['x'],
+                'mag_y': mag['y'],
+                'mag_z': mag['z'],
             }
 
             # if send_data:
