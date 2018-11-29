@@ -11,69 +11,67 @@ import sys
 import joblib
 import os
 
-
 sys.path.append('../')
 
 TIME_FORMAT = '%H:%M:%S'
 
 mpu9250 = FaBo9Axis_MPU9250.MPU9250()
 
-class SimpleRequest:
-
-    url = ""
-    dataAccelerometer = []
-    dataMagnetometer = []
-
-    def __init__(self, url="http://localhost:8080"):
-        self.url = url
-
-    def collectAccelerometer(self, ax, ay, az, label, metainfo, peopleId, typeSensor):
-        req = {
-            'dateCreated':datetime.now().isoformat(),
-            'label':label,
-            'metaInfo':metainfo,
-            'peopleId':peopleId,
-            'typeSensor':typeSensor,
-            'ax':ax,
-            'ay':ay,
-            'az':az,
-            # 'time': datetime.now().time().strftime(TIME_FORMAT),
-            # 'timestep_detect': timestep_detect
-        }
-        self.dataAccelerometer.append(req)
-
-    def collectMagnetometer(self, x, y, z, label, metainfo, peopleId, typeSensor):
-        req = {
-            'x':x,
-            'y':y,
-            'z':z,
-            'dateCreated':datetime.now().isoformat(),
-            'label':label,
-            'metaInfo':metainfo,
-            'peopleId':peopleId,
-            'typeSensor':typeSensor,
-            # 'time': datetime.now().time().strftime(TIME_FORMAT),
-        }
-        self.dataMagnetometer.append(req)
-
-    def sendData(self):
-        response = requests.post(url=self.url + "/api/accelerometer", data=json.dumps(self.dataAccelerometer), headers={'content-type': 'application/json', 'Accept-Charset': 'UTF-8'})
-        print("Acc Responce: " + response.content.decode("utf-8"))
-        if (response.ok == False):
-            print("an error occupied by you")
-
-        # self.dataAccelerometer.clear()
-        self.dataAccelerometer = []
-
-        response = requests.post(url=self.url + "/api/magnetometer", data=json.dumps(self.dataMagnetometer), headers={'content-type': 'application/json', 'Accept-Charset': 'UTF-8'})
-        print(json.dumps(self.dataMagnetometer))
-        print("Mag Responce: " + response.content.decode("utf-8"))
-        if (response.ok == False):
-            print("an error occurred in you")
-
-        # self.dataMagnetometer.clear()
-        self.dataMagnetometer = []
-
+# class SimpleRequest:
+#
+#     url = ""
+#     dataAccelerometer = []
+#     dataMagnetometer = []
+#
+#     def __init__(self, url="http://localhost:8080"):
+#         self.url = url
+#
+#     def collectAccelerometer(self, ax, ay, az, label, metainfo, peopleId, typeSensor):
+#         req = {
+#             'dateCreated':datetime.now().isoformat(),
+#             'label':label,
+#             'metaInfo':metainfo,
+#             'peopleId':peopleId,
+#             'typeSensor':typeSensor,
+#             'ax':ax,
+#             'ay':ay,
+#             'az':az,
+#             # 'time': datetime.now().time().strftime(TIME_FORMAT),
+#             # 'timestep_detect': timestep_detect
+#         }
+#         self.dataAccelerometer.append(req)
+#
+#     def collectMagnetometer(self, x, y, z, label, metainfo, peopleId, typeSensor):
+#         req = {
+#             'x':x,
+#             'y':y,
+#             'z':z,
+#             'dateCreated':datetime.now().isoformat(),
+#             'label':label,
+#             'metaInfo':metainfo,
+#             'peopleId':peopleId,
+#             'typeSensor':typeSensor,
+#             # 'time': datetime.now().time().strftime(TIME_FORMAT),
+#         }
+#         self.dataMagnetometer.append(req)
+#
+#     def sendData(self):
+#         response = requests.post(url=self.url + "/api/accelerometer", data=json.dumps(self.dataAccelerometer), headers={'content-type': 'application/json', 'Accept-Charset': 'UTF-8'})
+#         print("Acc Responce: " + response.content.decode("utf-8"))
+#         if (response.ok == False):
+#             print("an error occupied by you")
+#
+#         # self.dataAccelerometer.clear()
+#         self.dataAccelerometer = []
+#
+#         response = requests.post(url=self.url + "/api/magnetometer", data=json.dumps(self.dataMagnetometer), headers={'content-type': 'application/json', 'Accept-Charset': 'UTF-8'})
+#         print(json.dumps(self.dataMagnetometer))
+#         print("Mag Responce: " + response.content.decode("utf-8"))
+#         if (response.ok == False):
+#             print("an error occurred in you")
+#
+#         # self.dataMagnetometer.clear()
+#         self.dataMagnetometer = []
 
 def parse_args():
     parser = argparse.ArgumentParser()
