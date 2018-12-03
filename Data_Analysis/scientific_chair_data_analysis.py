@@ -7,7 +7,6 @@ import sys
 import itertools
 from scipy.interpolate import splev, splrep
 
-
 plt.interactive(True)
 pd.options.display.max_columns = 15
 pic_prefix = '../pic/'
@@ -71,10 +70,10 @@ class ChairAnalyser:
 
     # df_total = get_df_total(folder='ivan_0')
     def plot_measurements_timeline(
-        self,
-        sensors=('accel', 'gyro', 'mag'),
-        axes=('x', 'y', 'z'),
-        # filename='measurements_timeline',
+            self,
+            sensors=('accel', 'gyro', 'mag'),
+            axes=('x', 'y', 'z'),
+            # filename='measurements_timeline',
     ):
         df = self.df_total
         name = self.name
@@ -114,8 +113,7 @@ class ChairAnalyser:
         plt.savefig(pic_prefix + f'measurements_timeline_{name}.png')
         plt.close()
 
-
-    # TODO: create means_stds
+    # create means_stds ?
 
     # def get_lean_back_portion(acc_z, means_stds=means_stds, n_sigma=5):
     def get_lean_back_portion(self, acc_z, acc_z_mean=-15910, acc_z_std=30, n_sigma=3):
@@ -257,7 +255,7 @@ class ChairAnalyser:
         # time_passed_truncated = time_passed.drop(index2drop, axis=0)
 
         time_between_batches_array = time_passed[measurements_per_batch::measurements_per_batch].values - \
-            time_passed[measurements_per_batch-1:-1:measurements_per_batch].values
+                                     time_passed[measurements_per_batch - 1:-1:measurements_per_batch].values
         time_between_batches = time_between_batches_array.mean()
 
         timediff_total = time_passed.iloc[-1]
@@ -270,9 +268,9 @@ class ChairAnalyser:
         plt.plot(time_passed)
         plt.xlabel('n_step')
         plt.ylabel('Time passed, s')
-        title = f'Measurement interval = {round(measurement_interval, 3)}, ' +\
-            f'Time Between Measurements = {round(time_between_measurements, 3)}, ' +\
-            f'Time Between Batches = {round(time_between_batches, 3)}'
+        title = f'Measurement interval = {round(measurement_interval, 3)}, ' + \
+                f'Time Between Measurements = {round(time_between_measurements, 3)}, ' + \
+                f'Time Between Batches = {round(time_between_batches, 3)}'
         plt.title(title, fontsize=16)
         plt.tight_layout()
         # plt.savefig(pic_prefix + filename)
@@ -283,6 +281,7 @@ class ChairAnalyser:
         zeros_portions = (df == 0).mean(axis=0)
 
         return zeros_portions
+
 
 # folder = '../data/17-44-21'
 # folder = '../data/07-18-40'
@@ -307,7 +306,3 @@ for data in data_list:
     chair_analyser = ChairAnalyser(**data)
     chair_analyser.plot_measurements_timeline()
     chair_analyser.plot_measurement_times()
-
-
-
-
