@@ -13,8 +13,7 @@ import os
 
 sys.path.append('../')
 
-# TIME_FORMAT = '%H:%M:%S'
-TIME_FORMAT = '%H-%M-%S'
+TIME_FORMAT = '%Y-%m-%d-%H:%M:%S'
 
 mpu9250 = FaBo9Axis_MPU9250.MPU9250()
 
@@ -38,8 +37,6 @@ class SimpleRequest:
             'ax': ax,
             'ay': ay,
             'az': az,
-            # 'time': datetime.now().time().strftime(TIME_FORMAT),
-            # 'timestep_detect': timestep_detect
         }
         self.dataAccelerometer.append(req)
 
@@ -53,7 +50,6 @@ class SimpleRequest:
             'metaInfo': metainfo,
             'peopleId': peopleId,
             'typeSensor': typeSensor,
-            # 'time': datetime.now().time().strftime(TIME_FORMAT),
         }
         self.dataMagnetometer.append(req)
 
@@ -67,7 +63,6 @@ class SimpleRequest:
             'metaInfo': metainfo,
             'peopleId': peopleId,
             'typeSensor': typeSensor,
-            # 'time': datetime.now().time().strftime(TIME_FORMAT),
         }
         self.dataGyroscope.append(req)
 
@@ -80,7 +75,6 @@ class SimpleRequest:
             print("an error occupied by you")
 
         self.dataAccelerometer.clear()
-        # self.dataAccelerometer = []
 
         # Magnetometer
         response = requests.post(url=self.url + "/api/magnetometer", data=json.dumps(self.dataMagnetometer),
@@ -91,14 +85,13 @@ class SimpleRequest:
             print("an error occurred in you")
 
         self.dataMagnetometer.clear()
-        # self.dataMagnetometer = []
 
         # Gyroscope
         response = requests.post(url=self.url + "/api/gyroscope", data=json.dumps(self.dataAccelerometer),
                                  headers={'content-type': 'application/json', 'Accept-Charset': 'UTF-8'})
         print("Acc Responce: " + response.content.decode("utf-8"))
         if (response.ok == False):
-            print("an error occupied by you")
+            print("You is the error")
 
         self.dataAccelerometer.clear()
 
@@ -118,6 +111,11 @@ def parse_args():
     parser.add_argument('--synchronize-time', type=bool, default=False)
     return parser.parse_args()
 
+def get_sleep_time():
+    current_time = time.time()
+    time2sleep = timestep_detect - current_time % timestep_detect
+
+    return time2sleep
 
 if __name__ == '__main__':
     args = parse_args()
@@ -148,13 +146,15 @@ if __name__ == '__main__':
     prefix = '../data/' + folder + '/'
 
     # It's time to synchronize time!
-    # Meybe you should use 'sudo python' instead of 'python' when running the script because of this command
+    # Maybe you should use 'sudo python' instead of 'python' when running the script because of this command
     if synchronize_time:
         os.system('sudo ntpdate ntp1.stratum1.ru')
 
     for n_batch in range(n_batches):
 
         results_list = []
+        filename = prefix + str(n_batch)
+        file = open(filename, 'w')
 
         for n_measurement in range(batch_size):
             accel = mpu9250.readAccel()
@@ -167,7 +167,7 @@ if __name__ == '__main__':
                 print('mag: ', mag)
 
             result = {
-                'datetime_now': datetime.now(),
+                'datetime_now': datetime.now().isoformat(),
                 'accel_x': accel['x'],
                 'accel_y': accel['y'],
                 'accel_z': accel['z'],
@@ -179,6 +179,9 @@ if __name__ == '__main__':
                 'mag_z': mag['z'],
             }
 
+            data2write = json.dumps(result) + '\n'
+            file.write(data2write)
+
             # if send_data:
             #     ax, ay, az = data_magnetometer
             #     simple_request.collectMagnetometer(ax, ay, az, label, meta, person_id, 'magnetometer')
@@ -186,13 +189,45 @@ if __name__ == '__main__':
             #     ax, ay, az = data_accelerometer
             #     simple_request.collectAccelerometer(ax, ay, az, label, meta, person_id, 'accelerometer')
 
-            results_list.append(result)
+            # results_list.append(result)
 
-            time.sleep(timestep_detect)
+            # current_time = time.time()
+            # time2sleep = timestep_detect - current_time % timestep_detect
+            if n_measurement != batch_size - 1:  # Because if n_measurement != batch_size - 1 we need to consider time for file.close()
+                time2sleep = get_sleep_time()
+                time.sleep(time2sleep)
 
-        joblib.dump(results_list, prefix + str(n_batch))
+        file.close()
+        time2sleep = get_sleep_time()
+        time.sleep(time2sleep)
+
+        # joblib.dump(results_list, filename)
         # simple_request.sendData()
 
     print('---------------------------')
     print('----End of measurements----')
     print('---------------------------')
+
+    ### Possible variant to deal with file saving delay
+    ### 1. Use open(...)
+    ### 2. json.dump()
+    ### 3. Use joblib.dump() to other data structure
+    ### 4. numpy
+    ###
+    ###
+
+
+# tmp = dict(zip(range(5), range(5, 10)))
+#
+# import json
+#
+# json.dumps(tmp)
+# json.dump(tmp, open('tmp', 'w'))
+
+
+
+
+
+
+
+

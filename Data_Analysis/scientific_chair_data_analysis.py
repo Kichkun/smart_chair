@@ -6,11 +6,13 @@ import os
 import sys
 import itertools
 from scipy.interpolate import splev, splrep
+import json
+from datetime import datetime
+import dateutil.parser
 
 plt.interactive(True)
 pd.options.display.max_columns = 15
 pic_prefix = '../pic/'
-
 
 class ChairAnalyser:
 
@@ -42,7 +44,17 @@ class ChairAnalyser:
         df_total = None
 
         for filename in filenames_list:
-            dicts_list = joblib.load(folder + '/' + filename)
+            print(filename)
+
+            # dicts_list = joblib.load(folder + '/' + filename)
+            dicts_list = []
+            with open(folder + '/' + filename) as f:
+                lines = f.readlines()
+                for line in lines:
+                    new_dict = json.loads(line)
+                    new_dict['datetime_now'] = self.parse_string_iso_format(new_dict['datetime_now'])
+                    dicts_list.append(new_dict)
+
             df2append = pd.DataFrame(dicts_list)
 
             if df_total is None:
@@ -282,20 +294,32 @@ class ChairAnalyser:
 
         return zeros_portions
 
+    @staticmethod
+    def parse_string_iso_format(s):
+        d = dateutil.parser.parse(s)
+        return d
 
 # folder = '../data/17-44-21'
 # folder = '../data/07-18-40'
-folder = '../data/07-21-40'
+# folder = '../data/07-21-40'
 # folder = '../data/07-35-13'
+# folder = '../data/one'
+# folder = '../data/two'
+folder = '../data/five'
 
 data_list = [
+    # {
+    #     'folder': '../data/07-21-40',
+    #     'measurement_interval': 0.1,
+    #     'measurements_per_batch': 100,
+    # },
+    # {
+    #     'folder': '../data/07-35-13',
+    #     'measurement_interval': 0.01,
+    #     'measurements_per_batch': 1000,
+    # },
     {
-        'folder': '../data/07-21-40',
-        'measurement_interval': 0.1,
-        'measurements_per_batch': 100,
-    },
-    {
-        'folder': '../data/07-35-13',
+        'folder': folder,
         'measurement_interval': 0.01,
         'measurements_per_batch': 1000,
     },
@@ -306,3 +330,26 @@ for data in data_list:
     chair_analyser = ChairAnalyser(**data)
     chair_analyser.plot_measurements_timeline()
     chair_analyser.plot_measurement_times()
+
+chair_analyser.df_total.shape
+
+
+with open(folder + '/0') as f:
+    lines = f.readlines()
+
+len(lines)
+
+dict_new = json.loads(lines[0])
+lines
+
+dict_new['datetime_now']
+
+datetime
+
+
+
+parse_string_iso_format(dict_new['datetime_now'])
+
+
+chair_analyser.df_total['datetime_now']
+
