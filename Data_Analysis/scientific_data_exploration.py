@@ -13,17 +13,112 @@ import dateutil.parser
 plt.interactive(True)
 pd.options.display.max_columns = 15
 pic_prefix = '../pic/'
+data_path = '../CSV'
+
+folders = os.listdir(data_path)
+folders = [f"{data_path}/{folder}" for folder in folders if not folder.startswith('.')]
+
+def normalize_MPU9250_data(df, coefs_dict=None):
+    df = df.copy()
+
+    if coefs_dict is None:
+        coefs_dict = {
+            'gyro_coef': 250.0/32768.0,
+            'acc_coef': 2.0/32768.0,
+            'mag_coef': 4912.0/32760.0,  # Actually it depends on x, y, z
+        }
+
+    acc_columns = [column for column in df.columns if column.startswith('acc')]
+    gyro_columns = [column for column in df.columns if column.startswith('gyro')]
+    mag_columns = [column for column in df.columns if column.startswith('mag')]
+
+    df.loc[:, acc_columns] = df.loc[:, acc_columns] * coefs_dict['acc_coef']
+    df.loc[:, gyro_columns] = df.loc[:, gyro_columns] * coefs_dict['gyro_coef']
+    df.loc[:, mag_columns] = df.loc[:, mag_columns] * coefs_dict['mag_coef']  # Actually it depends on x, y, z
+
+    return df
+
+data_dict_dict = {}
+
+chair_data_columns = ['time', 'acc_x', 'acc_y', 'acc_z', 'gyro_x', 'gyro_y', 'gyro_z', 'mag_x', 'mag_y', 'mag_z']
+
+for folder in folders:
+    data_dict = {}
+    name = folder.split('/')[-1]
+
+    files = os.listdir(folder)
+    files_shortnames = [file.split('_')[0] for file in files]  # There are might be repetitions
+
+    for file, file_shortname in zip(files, files_shortnames):
+        try:
+            df = pd.read_csv(folder + '/' + file)
+
+            if file_shortname in data_dict:  # If already in dict it's appended
+                new_df = pd.concat([data_dict[file_shortname], df], axis=0).reset_index(drop=True)
+                data_dict[file_shortname] = new_df
+            else:
+                data_dict[file_shortname] = df
+        except:
+            pass
+
+    ### It was about processing data to the same format
+    # if ('schairlog' in data_dict):
+    #     acc_columns = [column for column in data_dict['schairlog'].columns if column.startswith('acc')]
+    #     acc_columns = sorted(acc_columns, key=lambda x: x[-1])
+    #     gyro_columns = [column for column in data_dict['schairlog'].columns if column.startswith('gyro')]
+    #     gyro_columns = sorted(gyro_columns, key=lambda x: x[-1])
+    #     mag_columns = [column for column in data_dict['schairlog'].columns if column.startswith('mag')]
+    #     mag_columns = sorted(mag_columns, key=lambda x: x[-1])
+    #
+    #     all_columns = acc_columns + gyro_columns + mag_columns# + [time_column]
+    #     rename_dict = dict(zip(all_columns, chair_data_columns[1:]))
+    #     data_dict['schairlog'].rename(columns=rename_dict, inplace=True)
+    #
+    #     if (data_dict['schairlog']['acc_x'].dtype == int):
+    #         data_dict['schairlog'] = normalize_MPU9250_data(data_dict['schairlog'])
+    #         time_column = 'time'
+    #     else: # if (data_dict['schairlog']['acc_x'].dtype == float):
+    #         # data_dict['schairlog'] = normalize_MPU9250_data(data_dict['schairlog'])
+    #         time_column = 'datetime_now'
+    #
+    #     data_dict['schairlog'].rename(columns={time_column: 'time'}, inplace=True)
+    #     data_dict['schairlog']['time'] = pd.to_datetime(data_dict['schairlog']['time']).apply(lambda x: x.isoformat())
+    #     data_dict['schairlog'] = data_dict['schairlog'].loc[:, chair_data_columns]
+    #
+    #     folder_new = folder.replace('CSV', 'NEW')
+    #     os.mkdir(folder_new)
+    #
+    #     datetime_str = '99'
+    #
+    #     for file in files:
+    #         if file.split('_')[0] == 'schairlog':
+    #             datetime_str_candidate = '_'.join(file.split('_')[1:3])[:-4]
+    #             if datetime_str_candidate < datetime_str:
+    #                 datetime_str = datetime_str_candidate
+    #
+    #     data_dict['schairlog'].to_csv(folder_new + f'/schairlog_{datetime_str}.csv', index=False)
+
+    data_dict_dict[name] = data_dict
+
+chair_data_dict = {}
+
+for key, value in data_dict_dict.items():
+    key = key.replace('\t', ' ')
+    if 'schairlog' in value:
+        df_chair = value['schairlog']
+        chair_data_dict[key] = df_chair
+        print(len(df_chair))
 
 class ChairAnalyser:
 
     def __init__(self,
-                 folder,
+                 df,
                  measurement_interval,
                  pic_prefix,
                  measurements_per_batch=1000,
                  name=None,
                  ):
-        self.folder = folder
+        self.df_total = df
         self.measurement_interval = measurement_interval
         self.pic_prefix = pic_prefix
         self.measurements_per_batch = measurements_per_batch
@@ -32,69 +127,13 @@ class ChairAnalyser:
         else:
             self.name = folder.split('/')[-1]
 
-        self.get_df_total()
+        self.means, self.stds = self.create_mean_stds()
 
-    def get_df_total(self):
-        folder = self.folder
 
-        filenames_list = os.listdir(folder)
-        filenames_list = sorted([int(x) for x in filenames_list])
-        filenames_list = [str(x) for x in filenames_list]
-
-        df_total = None
-
-        for filename in filenames_list:
-            print(filename)
-
-            # dicts_list = joblib.load(folder + '/' + filename)
-            dicts_list = []
-            with open(folder + '/' + filename) as f:
-                lines = f.readlines()
-                # print(len(lines))
-                if len(lines) == 0:
-                    continue
-
-                for line in lines:
-                    try:
-                        new_dict = json.loads(line)
-                        new_dict['datetime_now'] = self.parse_string_iso_format(new_dict['datetime_now'])
-                        dicts_list.append(new_dict)
-                    except:
-                        break
-
-            df2append = pd.DataFrame(dicts_list)
-
-            if df_total is None:
-                df_total = df2append
-            else:
-                df_total = pd.concat([df_total, df2append], axis=0)
-
-        rename_dict = {
-            'accelerometer_x': 'Acc_x',
-            'accelerometer_y': 'Acc_y',
-            'accelerometer_z': 'Acc_z',
-            'magnetometer_x': 'Mag_x',
-            'magnetometer_y': 'Mag_y',
-            'magnetometer_z': 'Mag_z',
-            b'accelerometer_x': 'Acc_x',
-            b'accelerometer_y': 'Acc_y',
-            b'accelerometer_z': 'Acc_z',
-            b'magnetometer_x': 'Mag_x',
-            b'magnetometer_y': 'Mag_y',
-            b'magnetometer_z': 'Mag_z',
-        }
-        if df_total is not None:
-            df_total.rename(columns=rename_dict, inplace=True)
-            df_total.reset_index(inplace=True, drop=True)
-
-        self.df_total = df_total
-
-    # df_total = get_df_total(folder='ivan_0')
     def plot_measurements_timeline(
             self,
-            sensors=('accel', 'gyro', 'mag'),
+            sensors=('acc', 'gyro', 'mag'),
             axes=('x', 'y', 'z'),
-            # filename='measurements_timeline',
     ):
         df = self.df_total
         name = self.name
@@ -121,20 +160,45 @@ class ChairAnalyser:
                 title = axes[n_row]
                 ax_instance.set_ylabel(title)
 
-        zeros_portions = self.get_zeros_portion()
-        mag_zeros_portion = zeros_portions[['mag_x', 'mag_y', 'mag_z']].mean()
-        mag_zeros_string = f'Mag zeros portion = {round(mag_zeros_portion, 3)}'
+        suptitle = f'measurement_interval = {measurement_interval}'
 
-        suptitle = f'measurement_interval = {measurement_interval}, ' + mag_zeros_string
+        if 'mag' in sensors:
+            zeros_portions = self.get_zeros_portion()
+            mag_zeros_portion = zeros_portions[['mag_x', 'mag_y', 'mag_z']].mean()
+            mag_zeros_string = f'Mag zeros portion = {round(mag_zeros_portion, 3)}'
+            suptitle = suptitle + ', ' + mag_zeros_string
+
         plt.suptitle(suptitle)
-        # plt.tight_layout(rect=[0, 0, 1, 0.5])
         fig.tight_layout(rect=[0, 0.00, 1, 0.97])
-        # fig.subplots_adjust(top=0.85)
-        # plt.savefig(pic_prefix + filename)
         plt.savefig(pic_prefix + f'measurements_timeline_{name}.png')
         plt.close()
 
-    # create means_stds ?
+    def create_mean_stds(self, columns=('acc_x', 'acc_y', 'acc_z', 'gyro_x', 'gyro_y', 'gyro_z')):
+        df_chair = self.df_total.loc[:, columns]
+        # df_chair = df_chair.loc[:, columns]
+        # medians, lower_bounds, upper_bounds = np.percentile(df_chair, [50, percentile2crop, 100 - percentile2crop], axis=0)
+
+        means = df_chair.mean(axis=0)
+        stds = df_chair.std(axis=0)
+
+        return means, stds
+
+    def get_nonstationary_values_portion(self, n_sigma=3):
+        means = self.means
+        stds = self.stds
+
+        columns = stds.index
+
+        lower_bounds = means - n_sigma * stds
+        upper_bounds = means + n_sigma * stds
+
+        low_values_means = (df_chair[columns] < lower_bounds).mean()
+        high_values_means = (df_chair[columns] > upper_bounds).mean()
+
+        nonstationary_values_portion = low_values_means + high_values_means
+        nonstationary_values_portion.index = [colname + '__nonstationary_portion' for colname in nonstationary_values_portion.index]
+
+        return nonstationary_values_portion
 
     # def get_lean_back_portion(acc_z, means_stds=means_stds, n_sigma=5):
     def get_lean_back_portion(self, acc_z, acc_z_mean=-15910, acc_z_std=30, n_sigma=3):
@@ -269,8 +333,8 @@ class ChairAnalyser:
         n_batches = n_measurements // self.measurements_per_batch
         name = self.name
 
-        timestamp_start = df['datetime_now'].min().timestamp()
-        time_passed = df['datetime_now'].apply(lambda x: x.timestamp() - timestamp_start)
+        timestamp_start = df['time'].min().timestamp()
+        time_passed = df['time'].apply(lambda x: x.timestamp() - timestamp_start)
 
         # index2drop = range(measurements_per_batch, n_measurements, measurements_per_batch)
         # time_passed_truncated = time_passed.drop(index2drop, axis=0)
@@ -298,7 +362,7 @@ class ChairAnalyser:
         plt.savefig(pic_prefix + f'time_wrt_step_{name}.png')
 
     def get_zeros_portion(self):
-        df = self.df_total.drop('datetime_now', axis=1)
+        df = self.df_total.drop('time', axis=1)
         zeros_portions = (df == 0).mean(axis=0)
 
         return zeros_portions
@@ -308,133 +372,59 @@ class ChairAnalyser:
         d = dateutil.parser.parse(s)
         return d
 
-# folder = '../data/17-44-21'
-# folder = '../data/07-18-40'
-# folder = '../data/07-21-40'
-# folder = '../data/07-35-13'
-# folder = '../data/one'
-# folder = '../data/two'
-# folder = '../data/five'
-# folder = '../data/data_export_2018-12-06_12-20-00/chair_2018-12-05_16-48-41'
+pic_prefix = '../pic/'
 
-main_folder = '../data/data_export_2018-12-06_13-30-00'
-folders = os.listdir(main_folder)
-folders = [f'{main_folder}/{folder}' for folder in folders if not folder.startswith('.')]
+nonstationary_values_portion_list = []
+for name, df_chair in chair_data_dict.items():
+    chair_analyser = ChairAnalyser(df_chair, 0.01, pic_prefix)
+    nonstationary_values_portion = chair_analyser.get_nonstationary_values_portion()
+    nonstationary_values_portion.name = name
+    nonstationary_values_portion_list.append(nonstationary_values_portion)
 
-default_params = {
-    'measurement_interval': 0.01,
-    'measurements_per_batch': 1000,
-    'pic_prefix': pic_prefix,
-}
+df_nonstationary_values_portion = pd.DataFrame(nonstationary_values_portion_list)
+df_nonstationary_values_portion.reset_index(inplace=True)
+df_nonstationary_values_portion.rename(columns={'index': 'player_name'}, inplace=True)
 
-params_list = []
+df_players = pd.read_csv('../data/participants2_fixed.csv', sep=';')
 
-for folder in folders:
-    params = default_params.copy()
-    params.update({'folder': folder})
-    params_list.append(params)
+df_players['player_name'] = df_players[['First Name', 'Last Name']].apply(lambda x: ' '.join(x), axis=1)
 
-df_list = []
+df_players.rename(columns={
+    ' What experience do u have in shooter games (Counter-Strike, Doom, Battlefield, etc.)?': 'Skill'
+    },
+    inplace=True,
+)
 
-for params in params_list:
-    chair_analyser = ChairAnalyser(**params)
-    df = chair_analyser.df_total
-    df_list.append(df)
-    # chair_analyser.plot_measurements_timeline()
-    # chair_analyser.plot_measurement_times()
-
-len(df_list)
+df_players = df_players[['player_name', 'Skill']]
+skill_is_none = df_players['Skill'] == 'None'
+df_players.loc[skill_is_none, 'Skill'] = 'Small'
+df_players['Skill'].value_counts()
 
 
-df = pd.concat(df_list)
+df_players.to_csv('../data/clean/df_players.csv', index=False)
+df_nonstationary_values_portion.to_csv('../data/clean/df_nonstationary_values_portion.csv', index=False)
 
-df.reset_index(inplace=True, drop=True)
-df.sort_values(['datetime_now'], inplace=True)
+pd.read_csv('../data/clean/df_nonstationary_values_portion.csv')
 
-plt.plot(df['datetime_now'].values)
-plt.close()
 
-timestamps = df['datetime_now'].apply(lambda x: x.timestamp())
-timestamps_diffs = np.diff(timestamps)
-timestamps_diffs = np.append(0, timestamps_diffs)
-
-border_value = 60 * 2
-mask_new_experiment = timestamps_diffs > border_value
-mask_new_experiment.sum()
-
-indexes_nonzero = mask_new_experiment.nonzero()[0]
-new_experiment_index_starts = [0] + list(indexes_nonzero)
-new_experiment_index_ends = new_experiment_index_starts[1:] + [len(timestamps)]
-
-DATETIME_FORMAT = '%Y-%m-%d_%H-%M-%S'
-n_record = 0
-for index_start, index_end in zip(new_experiment_index_starts, new_experiment_index_ends):
-    df_slice = df.iloc[index_start:index_end, :].copy()
-    df_slice.reset_index(inplace=True, drop=True)
-    time_start = df_slice.loc[0, 'datetime_now'].strftime(DATETIME_FORMAT)
-    df_slice.to_csv(f'../data/records/chair_{n_record}__{time_start}.csv', index=False)
-
-    n_record += 1
+df_merged = df_players.merge(df_nonstationary_values_portion, how='inner', on='player_name')
+df_merged.to_csv('../data/clean/df_merged.csv', index=False)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-plt.hist(timestamps_diffs.ravel())
-plt.
-plt.close()
-
-timestamps_diffs.max()
-
-
-df_list[1]
-
-
-df = chair_analyser.df_total.copy()
-
-df.head()
-df.tail()
-
-df_sample = df.iloc[2000:, :] #.to_csv('../data_processed/data.csv', sep='\t')
-
-df_sample = df.iloc[2000:12000, :]
-df_sample.to_csv('../data_processed/data_sample.csv', index=False)
-
-
-pd.read_csv('../data_processed/data_sample.csv')
-
-
-with open(folder + '/0') as f:
-    lines = f.readlines()
-
-len(lines)
-
-dict_new = json.loads(lines[0])
-lines
-
-dict_new['datetime_now']
-
-datetime
-
-
-
-parse_string_iso_format(dict_new['datetime_now'])
-
-
-chair_analyser.df_total['datetime_now']
+# data_dict['key']['key'].unique()  # Keyboard
+#
+# data_dict['envibox']['als']  # Enviroment params
+#
+# data_dict['schairlog']  # Chair. Why int, not float?
+#
+# data_dict['datalog']  # What is it?
+#
+# data_dict['mxy']  # Mouse scroll
+#
+# data_dict['mkey']['mouse_key'].value_counts()  # Mouse keys
+#
+# data_dict['hrm']  # Heart rate
+#
+# data_dict['imulog']  # What is it?
 
