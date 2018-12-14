@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8edf2038-62ba-4d88-9dae-f7b92f1f28ef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/raspberry_code/multimeasure.py" beforeDir="false" afterPath="$PROJECT_DIR$/raspberry_code/multimeasure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raspberry_code/simpleRequest.py" beforeDir="false" afterPath="$PROJECT_DIR$/raspberry_code/simpleRequest.py" afterDir="false" />
-    </list>
+    <list default="true" id="8edf2038-62ba-4d88-9dae-f7b92f1f28ef" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +14,8 @@
       <file leaf-file-name="scientific_chair_data_analysis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Analysis/scientific_chair_data_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="242">
+              <caret line="420" selection-start-line="420" selection-end-line="420" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -28,8 +26,8 @@
       <file leaf-file-name="scientific_data_exploration.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data_Analysis/scientific_data_exploration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="389" column="62" selection-start-line="389" selection-start-column="62" selection-end-line="389" selection-end-column="62" />
+            <state relative-caret-position="-282">
+              <caret line="375" column="26" selection-start-line="375" selection-start-column="26" selection-end-line="375" selection-end-column="26" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -61,6 +59,8 @@
         <option value="$PROJECT_DIR$/raspberry_code/measurements.py" />
         <option value="$PROJECT_DIR$/raspberry_code/simpleRequest.py" />
         <option value="$PROJECT_DIR$/raspberry_code/multimeasure.py" />
+        <option value="$PROJECT_DIR$/Data_Analysis/scientific_data_exploration.py" />
+        <option value="$PROJECT_DIR$/Data_Analysis/scientific_chair_data_analysis.py" />
       </list>
     </option>
   </component>
@@ -225,16 +225,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="732" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -352,7 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Analysis/scientific_chair_data_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="242">
+          <caret line="420" selection-start-line="420" selection-end-line="420" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -361,8 +361,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Analysis/scientific_data_exploration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="389" column="62" selection-start-line="389" selection-start-column="62" selection-end-line="389" selection-end-column="62" />
+        <state relative-caret-position="-282">
+          <caret line="375" column="26" selection-start-line="375" selection-start-column="26" selection-end-line="375" selection-end-column="26" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
