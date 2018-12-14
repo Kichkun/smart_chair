@@ -50,10 +50,17 @@ class ChairAnalyser:
             dicts_list = []
             with open(folder + '/' + filename) as f:
                 lines = f.readlines()
+                # print(len(lines))
+                if len(lines) == 0:
+                    continue
+
                 for line in lines:
-                    new_dict = json.loads(line)
-                    new_dict['datetime_now'] = self.parse_string_iso_format(new_dict['datetime_now'])
-                    dicts_list.append(new_dict)
+                    try:
+                        new_dict = json.loads(line)
+                        new_dict['datetime_now'] = self.parse_string_iso_format(new_dict['datetime_now'])
+                        dicts_list.append(new_dict)
+                    except:
+                        break
 
             df2append = pd.DataFrame(dicts_list)
 
@@ -76,8 +83,10 @@ class ChairAnalyser:
             b'magnetometer_y': 'Mag_y',
             b'magnetometer_z': 'Mag_z',
         }
-        df_total.rename(columns=rename_dict, inplace=True)
-        df_total.reset_index(inplace=True, drop=True)
+        if df_total is not None:
+            df_total.rename(columns=rename_dict, inplace=True)
+            df_total.reset_index(inplace=True, drop=True)
+
         self.df_total = df_total
 
     # df_total = get_df_total(folder='ivan_0')
@@ -305,33 +314,109 @@ class ChairAnalyser:
 # folder = '../data/07-35-13'
 # folder = '../data/one'
 # folder = '../data/two'
-folder = '../data/five'
+# folder = '../data/five'
+# folder = '../data/data_export_2018-12-06_12-20-00/chair_2018-12-05_16-48-41'
 
-data_list = [
-    # {
-    #     'folder': '../data/07-21-40',
-    #     'measurement_interval': 0.1,
-    #     'measurements_per_batch': 100,
-    # },
-    # {
-    #     'folder': '../data/07-35-13',
-    #     'measurement_interval': 0.01,
-    #     'measurements_per_batch': 1000,
-    # },
-    {
-        'folder': folder,
-        'measurement_interval': 0.01,
-        'measurements_per_batch': 1000,
-    },
-]
+main_folder = '../data/data_export_2018-12-06_13-30-00'
+folders = os.listdir(main_folder)
+folders = [f'{main_folder}/{folder}' for folder in folders if not folder.startswith('.')]
 
-for data in data_list:
-    data.update({'pic_prefix': pic_prefix})
-    chair_analyser = ChairAnalyser(**data)
-    chair_analyser.plot_measurements_timeline()
-    chair_analyser.plot_measurement_times()
+default_params = {
+    'measurement_interval': 0.01,
+    'measurements_per_batch': 1000,
+    'pic_prefix': pic_prefix,
+}
 
-chair_analyser.df_total.shape
+params_list = []
+
+for folder in folders:
+    params = default_params.copy()
+    params.update({'folder': folder})
+    params_list.append(params)
+
+df_list = []
+
+for params in params_list:
+    chair_analyser = ChairAnalyser(**params)
+    df = chair_analyser.df_total
+    df_list.append(df)
+    # chair_analyser.plot_measurements_timeline()
+    # chair_analyser.plot_measurement_times()
+
+len(df_list)
+
+
+df = pd.concat(df_list)
+
+df.reset_index(inplace=True, drop=True)
+df.sort_values(['datetime_now'], inplace=True)
+
+plt.plot(df['datetime_now'].values)
+plt.close()
+
+timestamps = df['datetime_now'].apply(lambda x: x.timestamp())
+timestamps_diffs = np.diff(timestamps)
+timestamps_diffs = np.append(0, timestamps_diffs)
+
+border_value = 60 * 2
+mask_new_experiment = timestamps_diffs > border_value
+mask_new_experiment.sum()
+
+indexes_nonzero = mask_new_experiment.nonzero()[0]
+new_experiment_index_starts = [0] + list(indexes_nonzero)
+new_experiment_index_ends = new_experiment_index_starts[1:] + [len(timestamps)]
+
+DATETIME_FORMAT = '%Y-%m-%d_%H-%M-%S'
+n_record = 0
+for index_start, index_end in zip(new_experiment_index_starts, new_experiment_index_ends):
+    df_slice = df.iloc[index_start:index_end, :].copy()
+    df_slice.reset_index(inplace=True, drop=True)
+    time_start = df_slice.loc[0, 'datetime_now'].strftime(DATETIME_FORMAT)
+    df_slice.to_csv(f'../data/records/chair_{n_record}__{time_start}.csv', index=False)
+
+    n_record += 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+plt.hist(timestamps_diffs.ravel())
+plt.
+plt.close()
+
+timestamps_diffs.max()
+
+
+df_list[1]
+
+
+df = chair_analyser.df_total.copy()
+
+df.head()
+df.tail()
+
+df_sample = df.iloc[2000:, :] #.to_csv('../data_processed/data.csv', sep='\t')
+
+df_sample = df.iloc[2000:12000, :]
+df_sample.to_csv('../data_processed/data_sample.csv', index=False)
+
+
+pd.read_csv('../data_processed/data_sample.csv')
 
 
 with open(folder + '/0') as f:
