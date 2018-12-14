@@ -23,11 +23,16 @@ class SimpleRequest:
     url = ""
     dataAccelerometer = []
     dataMagnetometer = []
+    dataGyro = []
+    # For synchronization
+    canRead = True
 
     def __init__(self, url="http://localhost:8080"):
         self.url = url
 
     def collectAccelerometer(self, ax, ay, az, label, metainfo, peopleId, typeSensor):
+        while (self.canRead):
+            a = 1
         req = {
             'dateCreated':datetime.now().isoformat(),
             'label':label,
@@ -37,12 +42,13 @@ class SimpleRequest:
             'ax':ax,
             'ay':ay,
             'az':az,
-            # 'time': datetime.now().time().strftime(TIME_FORMAT),
-            # 'timestep_detect': timestep_detect
+            'time': datetime.now().date().isoformat(),
         }
         self.dataAccelerometer.append(req)
 
     def collectMagnetometer(self, x, y, z, label, metainfo, peopleId, typeSensor):
+        while (self.canRead):
+            a = 1
         req = {
             'x':x,
             'y':y,
@@ -52,27 +58,61 @@ class SimpleRequest:
             'metaInfo':metainfo,
             'peopleId':peopleId,
             'typeSensor':typeSensor,
-            # 'time': datetime.now().time().strftime(TIME_FORMAT),
+            'time': datetime.now().date().isoformat(),
         }
         self.dataMagnetometer.append(req)
 
+    def collectGyro(self, x, y, z, label, metainfo, peopleId, typeSensor):
+        while(self.canRead):
+            a = 1
+        req = {
+            'x': x,
+            'y': y,
+            'z': z,
+            'dateCreated': datetime.now().isoformat(),
+            'label': label,
+            'metaInfo': metainfo,
+            'peopleId': peopleId,
+            'typeSensor': typeSensor,
+            'time': datetime.now().date().isoformat(),
+        }
+        self.dataGyro.append(req)
+
     def sendData(self):
+        # If we copy information about that
+        while(self.canRead == False):
+            a = 1
+        self.canRead = False
+        dataAcc = self.dataAccelerometer.copy()
+        self.dataAccelerometer.clear()
+        dataMag = self.dataMagnetometer.copy()
+        self.dataMagnetometer.clear()
+        dataGyro = self.dataGyro.copy()
+        self.dataGyro.clear()
+        self.canRead = True
         response = requests.post(url=self.url + "/api/accelerometer", data=json.dumps(self.dataAccelerometer), headers={'content-type': 'application/json', 'Accept-Charset': 'UTF-8'})
         print("Acc Responce: " + response.content.decode("utf-8"))
         if (response.ok == False):
             print("an error occupied by you")
 
-        # self.dataAccelerometer.clear()
-        self.dataAccelerometer = []
+        # Do not change
+        self.dataAccelerometer.clear()
 
         response = requests.post(url=self.url + "/api/magnetometer", data=json.dumps(self.dataMagnetometer), headers={'content-type': 'application/json', 'Accept-Charset': 'UTF-8'})
         print(json.dumps(self.dataMagnetometer))
         print("Mag Responce: " + response.content.decode("utf-8"))
         if (response.ok == False):
             print("an error occurred in you")
+        # Do not change
+        self.dataMagnetometer.clear()
 
-        # self.dataMagnetometer.clear()
-        self.dataMagnetometer = []
+        response = requests.post(url=self.url + "/api/magnetometer", data=json.dumps(self.dataGyro),
+                                 headers={'content-type': 'application/json', 'Accept-Charset': 'UTF-8'})
+        print(json.dumps(self.dataGyro))
+        print("Mag Responce: " + response.content.decode("utf-8"))
+        if (response.ok == False):
+            print("an error occurred in you")
+        self.dataGyro.clear();
 
 
 def parse_args():

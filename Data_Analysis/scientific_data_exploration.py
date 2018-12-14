@@ -372,43 +372,44 @@ class ChairAnalyser:
         d = dateutil.parser.parse(s)
         return d
 
-pic_prefix = '../pic/'
+if __name__ == "__main__":
+    pic_prefix = '../pic/'
 
-nonstationary_values_portion_list = []
-for name, df_chair in chair_data_dict.items():
-    chair_analyser = ChairAnalyser(df_chair, 0.01, pic_prefix)
-    nonstationary_values_portion = chair_analyser.get_nonstationary_values_portion()
-    nonstationary_values_portion.name = name
-    nonstationary_values_portion_list.append(nonstationary_values_portion)
+    nonstationary_values_portion_list = []
+    for name, df_chair in chair_data_dict.items():
+        chair_analyser = ChairAnalyser(df_chair, 0.01, pic_prefix)
+        nonstationary_values_portion = chair_analyser.get_nonstationary_values_portion()
+        nonstationary_values_portion.name = name
+        nonstationary_values_portion_list.append(nonstationary_values_portion)
 
-df_nonstationary_values_portion = pd.DataFrame(nonstationary_values_portion_list)
-df_nonstationary_values_portion.reset_index(inplace=True)
-df_nonstationary_values_portion.rename(columns={'index': 'player_name'}, inplace=True)
+    df_nonstationary_values_portion = pd.DataFrame(nonstationary_values_portion_list)
+    df_nonstationary_values_portion.reset_index(inplace=True)
+    df_nonstationary_values_portion.rename(columns={'index': 'player_name'}, inplace=True)
 
-df_players = pd.read_csv('../data/participants2_fixed.csv', sep=';')
+    df_players = pd.read_csv('../data/participants2_fixed.csv', sep=';')
 
-df_players['player_name'] = df_players[['First Name', 'Last Name']].apply(lambda x: ' '.join(x), axis=1)
+    df_players['player_name'] = df_players[['First Name', 'Last Name']].apply(lambda x: ' '.join(x), axis=1)
 
-df_players.rename(columns={
-    ' What experience do u have in shooter games (Counter-Strike, Doom, Battlefield, etc.)?': 'Skill'
-    },
-    inplace=True,
-)
+    df_players.rename(columns={
+        ' What experience do u have in shooter games (Counter-Strike, Doom, Battlefield, etc.)?': 'Skill'
+        },
+        inplace=True,
+    )
 
-df_players = df_players[['player_name', 'Skill']]
-skill_is_none = df_players['Skill'] == 'None'
-df_players.loc[skill_is_none, 'Skill'] = 'Small'
-df_players['Skill'].value_counts()
-
-
-df_players.to_csv('../data/clean/df_players.csv', index=False)
-df_nonstationary_values_portion.to_csv('../data/clean/df_nonstationary_values_portion.csv', index=False)
-
-pd.read_csv('../data/clean/df_nonstationary_values_portion.csv')
+    df_players = df_players[['player_name', 'Skill']]
+    skill_is_none = df_players['Skill'] == 'None'
+    df_players.loc[skill_is_none, 'Skill'] = 'Small'
+    df_players['Skill'].value_counts()
 
 
-df_merged = df_players.merge(df_nonstationary_values_portion, how='inner', on='player_name')
-df_merged.to_csv('../data/clean/df_merged.csv', index=False)
+    df_players.to_csv('../data/clean/df_players.csv', index=False)
+    df_nonstationary_values_portion.to_csv('../data/clean/df_nonstationary_values_portion.csv', index=False)
+
+    pd.read_csv('../data/clean/df_nonstationary_values_portion.csv')
+
+
+    df_merged = df_players.merge(df_nonstationary_values_portion, how='inner', on='player_name')
+    df_merged.to_csv('../data/clean/df_merged.csv', index=False)
 
 
 

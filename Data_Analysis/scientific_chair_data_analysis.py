@@ -317,124 +317,105 @@ class ChairAnalyser:
 # folder = '../data/five'
 # folder = '../data/data_export_2018-12-06_12-20-00/chair_2018-12-05_16-48-41'
 
-main_folder = '../data/data_export_2018-12-06_13-30-00'
-folders = os.listdir(main_folder)
-folders = [f'{main_folder}/{folder}' for folder in folders if not folder.startswith('.')]
+if __name__ == "__main__":
+    main_folder = '../data/data_export_2018-12-06_13-30-00'
+    folders = os.listdir(main_folder)
+    folders = [f'{main_folder}/{folder}' for folder in folders if not folder.startswith('.')]
 
-default_params = {
-    'measurement_interval': 0.01,
-    'measurements_per_batch': 1000,
-    'pic_prefix': pic_prefix,
-}
+    default_params = {
+        'measurement_interval': 0.01,
+        'measurements_per_batch': 1000,
+        'pic_prefix': pic_prefix,
+    }
 
-params_list = []
+    params_list = []
 
-for folder in folders:
-    params = default_params.copy()
-    params.update({'folder': folder})
-    params_list.append(params)
+    for folder in folders:
+        params = default_params.copy()
+        params.update({'folder': folder})
+        params_list.append(params)
 
-df_list = []
+    df_list = []
 
-for params in params_list:
-    chair_analyser = ChairAnalyser(**params)
-    df = chair_analyser.df_total
-    df_list.append(df)
-    # chair_analyser.plot_measurements_timeline()
-    # chair_analyser.plot_measurement_times()
+    for params in params_list:
+        chair_analyser = ChairAnalyser(**params)
+        df = chair_analyser.df_total
+        df_list.append(df)
+        # chair_analyser.plot_measurements_timeline()
+        # chair_analyser.plot_measurement_times()
 
-len(df_list)
-
-
-df = pd.concat(df_list)
-
-df.reset_index(inplace=True, drop=True)
-df.sort_values(['datetime_now'], inplace=True)
-
-plt.plot(df['datetime_now'].values)
-plt.close()
-
-timestamps = df['datetime_now'].apply(lambda x: x.timestamp())
-timestamps_diffs = np.diff(timestamps)
-timestamps_diffs = np.append(0, timestamps_diffs)
-
-border_value = 60 * 2
-mask_new_experiment = timestamps_diffs > border_value
-mask_new_experiment.sum()
-
-indexes_nonzero = mask_new_experiment.nonzero()[0]
-new_experiment_index_starts = [0] + list(indexes_nonzero)
-new_experiment_index_ends = new_experiment_index_starts[1:] + [len(timestamps)]
-
-DATETIME_FORMAT = '%Y-%m-%d_%H-%M-%S'
-n_record = 0
-for index_start, index_end in zip(new_experiment_index_starts, new_experiment_index_ends):
-    df_slice = df.iloc[index_start:index_end, :].copy()
-    df_slice.reset_index(inplace=True, drop=True)
-    time_start = df_slice.loc[0, 'datetime_now'].strftime(DATETIME_FORMAT)
-    df_slice.to_csv(f'../data/records/chair_{n_record}__{time_start}.csv', index=False)
-
-    n_record += 1
+    len(df_list)
 
 
+    df = pd.concat(df_list)
+
+    df.reset_index(inplace=True, drop=True)
+    df.sort_values(['datetime_now'], inplace=True)
+
+    plt.plot(df['datetime_now'].values)
+    plt.close()
+
+    timestamps = df['datetime_now'].apply(lambda x: x.timestamp())
+    timestamps_diffs = np.diff(timestamps)
+    timestamps_diffs = np.append(0, timestamps_diffs)
+
+    border_value = 60 * 2
+    mask_new_experiment = timestamps_diffs > border_value
+    mask_new_experiment.sum()
+
+    indexes_nonzero = mask_new_experiment.nonzero()[0]
+    new_experiment_index_starts = [0] + list(indexes_nonzero)
+    new_experiment_index_ends = new_experiment_index_starts[1:] + [len(timestamps)]
+
+    DATETIME_FORMAT = '%Y-%m-%d_%H-%M-%S'
+    n_record = 0
+    for index_start, index_end in zip(new_experiment_index_starts, new_experiment_index_ends):
+        df_slice = df.iloc[index_start:index_end, :].copy()
+        df_slice.reset_index(inplace=True, drop=True)
+        time_start = df_slice.loc[0, 'datetime_now'].strftime(DATETIME_FORMAT)
+        df_slice.to_csv(f'../data/records/chair_{n_record}__{time_start}.csv', index=False)
+
+        n_record += 1
+
+    plt.hist(timestamps_diffs.ravel())
+    plt.close()
+
+    timestamps_diffs.max()
 
 
+    df_list[1]
 
 
+    df = chair_analyser.df_total.copy()
+
+    df.head()
+    df.tail()
+
+    df_sample = df.iloc[2000:, :] #.to_csv('../data_processed/data.csv', sep='\t')
+
+    df_sample = df.iloc[2000:12000, :]
+    df_sample.to_csv('../data_processed/data_sample.csv', index=False)
 
 
+    pd.read_csv('../data_processed/data_sample.csv')
 
 
+    with open(folder + '/0') as f:
+        lines = f.readlines()
 
+    len(lines)
 
+    dict_new = json.loads(lines[0])
+    lines
 
+    dict_new['datetime_now']
 
-
-
-
-
-
-
-plt.hist(timestamps_diffs.ravel())
-plt.
-plt.close()
-
-timestamps_diffs.max()
-
-
-df_list[1]
-
-
-df = chair_analyser.df_total.copy()
-
-df.head()
-df.tail()
-
-df_sample = df.iloc[2000:, :] #.to_csv('../data_processed/data.csv', sep='\t')
-
-df_sample = df.iloc[2000:12000, :]
-df_sample.to_csv('../data_processed/data_sample.csv', index=False)
-
-
-pd.read_csv('../data_processed/data_sample.csv')
-
-
-with open(folder + '/0') as f:
-    lines = f.readlines()
-
-len(lines)
-
-dict_new = json.loads(lines[0])
-lines
-
-dict_new['datetime_now']
-
-datetime
+    datetime
 
 
 
-parse_string_iso_format(dict_new['datetime_now'])
+    parse_string_iso_format(dict_new['datetime_now'])
 
 
-chair_analyser.df_total['datetime_now']
+    chair_analyser.df_total['datetime_now']
 
